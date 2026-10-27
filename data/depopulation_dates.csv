@@ -1,0 +1,309 @@
+id,name,county,site_type,depop_text,depop_intervals,depop_rule,depop_start,depop_end,depop_period
+2,Cainhoe,Bedfordshire,DMV,1350-1400,1350-1400,years,1350.0,1400.0,1348 to 1449
+3,Landwade,Cambridgeshire,DMV,1560-1700,1560-1700,years,1560.0,1700.0,1550 to 1699
+6,Colworth,Bedfordshire,DMH,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+8,Faldo,Bedfordshire,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+9,Lower Gravenhurst,Bedfordshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+10,Higham Gobion,Bedfordshire,Shrunken,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+11,Holcot,Bedfordshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+14,Priestley,Bedfordshire,DMH,1500-1800,1500-1800,years,1500.0,1800.0,1550 to 1699
+15,Segenhoe,Bedfordshire,DMV,1500-1800,1500-1800,years,1500.0,1800.0,1550 to 1699
+17,Stratton,Bedfordshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+21,Avington,Berkshire,Shrunken,Medieval (14th century) and Post-Medieval decline (final stage post-1761),1300-1399;1761-1810,centuries+open-ended (start + 49 years),1300.0,1810.0,1550 to 1699
+22,Barcote,Berkshire,DMV,c. 1450-1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+24,Baulking,Berkshire,Shrunken,19th century?,1800-1899,centuries,1800.0,1899.0,1700 onwards
+25,Beckett,Berkshire,DMV,"early 16th century, then 17th-18th century",1500-1539;1600-1799,centuries,1500.0,1799.0,1550 to 1699
+26,Benham Burslot,Berkshire,Doubtful,Post 1960,1960-2009,open-ended (start + 49 years),1960.0,2009.0,1700 onwards
+27,Bessels Leigh,Berkshire,DMV,late 18th to early 19th century,1760-1839,centuries,1760.0,1839.0,1700 onwards
+28,East Betterton,Berkshire,DMV,c. 1450- c. 1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+29,West Betterton,Berkshire,DMV,c. 1450-c.1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+31,Bockhampton,Berkshire,DMV,"15th-16th cenury, final stage between 1761 and early 19th century",1400-1599;1761-1839,centuries,1400.0,1839.0,1550 to 1699
+33,Buscot,Berkshire,Shrunken,15th century,1400-1499,centuries,1400.0,1499.0,Before 1348
+34,Calcot,Berkshire,DMV,c.1450-c.1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+35,Carswell,Berkshire,DMV,17th-18th century,1600-1799,centuries,1600.0,1799.0,Before 1348
+36,Catmore,Berkshire,DMV,15th-17th century,1400-1699,centuries,1400.0,1699.0,Before 1348
+39,Charlton,Berkshire,Shrunken,Medieval or Post-medieval,,vague,,,No usable date
+40,Charlton (Charnham Street),Berkshire,Migrated,14th century migration,1300-1399,centuries,1300.0,1399.0,1348 to 1449
+41,Chieveley,Berkshire,Shrunken,Medieval or Post-Medieval,,vague,,,No usable date
+42,Cholsey,Berkshire,Shrunken,14th century,1300-1399,centuries,1300.0,1399.0,1348 to 1449
+43,Clapcot,Berkshire,DMV,c. 1450 - c.1750,1450-1750,years,1450.0,1750.0,1550 to 1699
+47,Compton Beauchamp,Berkshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+49,Cruchfield,Berkshire,DMV,c.1450 - c. 1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+53,Eaton Hastings,Berkshire,DMV,1350-1700,1350-1700,years,1350.0,1700.0,1450 to 1549
+56,"Frenches, nr Sulham",Berkshire,Doubtful,c.1885-1900,1885-1900,years,1885.0,1900.0,1700 onwards
+57,Fulscot,Berkshire,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+61,Goosey,Berkshire,Shrunken,Late medieval and post-medieval,,vague,,,No usable date
+62,Hamstead Marshall,Berkshire,DMV,17th century,1600-1699,centuries,1600.0,1699.0,1550 to 1699
+64,Hardwell Farm in Compton Beauchamp,Berkshire,DMV,14th-early 16th century,1300-1539,centuries,1300.0,1539.0,1348 to 1449
+69,Henwick,Berkshire,DMV,c. 1350-1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+70,Hillend,Berkshire,DMV,17th - 18th century,1600-1799,centuries,1600.0,1799.0,Before 1348
+72,Hodcott,Berkshire,DMV,c. 1350 - c. 1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+75,Inglewood,Berkshire,DMV,c. 1450-c. 1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+76,Langley,Berkshire,DMV,c. 1350-c. 1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+78,Little Town,Berkshire,Doubtful,early 19th century,1800-1839,centuries,1800.0,1839.0,1700 onwards
+83,Longmoor,Berkshire,Doubtful,Later 19th-early 20th century,1860-1939,centuries,1860.0,1939.0,1700 onwards
+84,Maidencourt,Berkshire,DMV,c. 1450-c.1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+85,Marlston,Berkshire,DMV,c. 1450-c. 1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+86,Newton,Berkshire,DMV,c.1450-c.1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+89,Oare,Berkshire,Shrunken,Medieval or Post-Medieval,,vague,,,No usable date
+90,Odstone,Berkshire,DMV,c. 1450 - c.1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+91,Peasemore,Berkshire,Shrunken,Late Medieval,,vague,,,No usable date
+93,Pingewood,Berkshire,DMV,Final stages post 1761,1761-1810,open-ended (start + 49 years),1761.0,1810.0,1700 onwards
+95,Pusey,Berkshire,Shrunken,"pre 1740s (emparkment), further  between 1761 and 1876-7",1761-1877,years,1761.0,1877.0,1700 onwards
+96,Radley,Berkshire,Migrated,Medieval?,,vague,,,No usable date
+98,Seacourt,Berkshire,DMV,c. 1350-1400,1350-1400,years,1350.0,1400.0,1348 to 1449
+99,Shalford,Berkshire,Doubtful,c. 1450-1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+100,Shaw,Berkshire,Shrunken,"Possibly medieval, plus post-medieval decline between 1761 and 1808",1761-1808,years,1761.0,1808.0,1700 onwards
+102,Malton,Cambridgeshire,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+103,Nosterfield,Cambridgeshire,DMH,1200-1300,1200-1300,years,1200.0,1300.0,Before 1348
+104,Shingay,Cambridgeshire,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+105,Werateworde (Wratworth),Cambridgeshire,DMV,1300-1400,1300-1400,years,1300.0,1400.0,1348 to 1449
+106,Whitwell,Cambridgeshire,DMH,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+107,Wimpole,Cambridgeshire,DMV,1800-1900,1800-1900,years,1800.0,1900.0,1700 onwards
+108,Brereton,Cheshire,DMV,1600 onwards,1600-1649,open-ended (start + 49 years),1600.0,1649.0,1550 to 1699
+109,Cholmondeley,Cheshire,DMV,1680-1800,1680-1800,years,1680.0,1800.0,1700 onwards
+112,Garrow,Cornwall,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+113,Lanyon,Cornwall,DMH,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+117,Treworld,Cornwall,DMH,1300-1400,1300-1400,years,1300.0,1400.0,1348 to 1449
+120,Carlatton,Cumberland,DMH,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+124,Easton,Cumberland,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+125,Edmond Castle,Cumberland,Doubtful,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+126,Liddel,Cumberland,DMH,1360-1400,1360-1400,years,1360.0,1400.0,1348 to 1449
+127,Alkmonton,Derbyshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+131,Barton Blount,Derbyshire,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+135,Catton,Derbyshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+136,Chatsworth,Derbyshire,DMH,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+137,Derwent,Derbyshire,DMV,1940-1945,1940-1945,years,1940.0,1945.0,1700 onwards
+143,Nether Haddon,Derbyshire,DMV,1300-1400,1300-1400,years,1300.0,1400.0,1348 to 1449
+144,Harthill,Derbyshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+145,Hazlebadge,Derbyshire,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+148,Ireton Parva,Derbyshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+149,Kedleston,Derbyshire,Migrated,1750-1800,1750-1800,years,1750.0,1800.0,1700 onwards
+150,Kidsley,Derbyshire,DMV,1350-1400,1350-1400,years,1350.0,1400.0,1348 to 1449
+151,Lee,Derbyshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+152,Mercaston,Derbyshire,DMV,1800-1900,1800-1900,years,1800.0,1900.0,1700 onwards
+157,Badgworthy,Devon,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+159,Blackaton,Devon,DMV,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+162,Little Cordonford,Devon,DMH,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+167,Hound Tor,Devon,DMV,1350-1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+168,North Rowden,Devon,Doubtful,19th Century,1800-1899,centuries,1800.0,1899.0,1700 onwards
+169,"Rowden, South (Hutholes)",Devon,DMH,1350-1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+170,North Thorne,Devon,DMV,1300-1400,1300-1400,years,1300.0,1400.0,1348 to 1449
+172,Afflington,Dorset,DMV,1700-1750,1700-1750,years,1700.0,1750.0,1700 onwards
+173,West Bexington,Dorset,DMV,1440-1620,1440-1620,years,1440.0,1620.0,1450 to 1549
+175,Brockington,Dorset,DMV,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+176,Bryanston,Dorset,DMV,1660-1760,1660-1760,years,1660.0,1760.0,1700 onwards
+178,Frome Belet,Dorset,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+179,Fryer Mayne,Dorset,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+181,Hanford,Dorset,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+182,Hemsworth,Dorset,DMV,1340-1500,1340-1500,years,1340.0,1500.0,1348 to 1449
+183,Holnest,Dorset,DMV,1750-1880,1750-1880,years,1750.0,1880.0,1700 onwards
+184,Holworth,Dorset,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+185,Knowlton,Dorset,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+186,Lazerton,Dorset,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+188,Little Mayne,Dorset,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+189,Melcombe Horsey,Dorset,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+190,"Melcombe, Bingham",Dorset,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+192,Milton Abbas,Dorset,Migrated,1770-1800,1770-1800,years,1770.0,1800.0,1700 onwards
+194,Polingston (Pulston),Dorset,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+195,"Puddle, Little (Little Piddle)",Dorset,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+196,Ringstead (West),Dorset,DMV,1450-1550,1450-1550,years,1450.0,1550.0,1450 to 1549
+197,East Shilvinghampton,Dorset,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+198,West Shilvinghampton,Dorset,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+199,Stanton St. Gabriel,Dorset,DMV,1400-1500 then 1700-1800,1400-1500;1700-1800,years,1400.0,1800.0,1550 to 1699
+200,Steepleton Iwerne,Dorset,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+303,Shottesbrooke,Berkshire,DMV,17th-18th century,1600-1799,centuries,1600.0,1799.0,Before 1348
+304,Southcote,Berkshire,DMV,c. 1450 - c. 1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+305,"Sparkmoor Cottage, nr Tidmarsh",Berkshire,Doubtful,Mid 20th century,1930-1969,centuries,1930.0,1969.0,1700 onwards
+308,Steventon,Berkshire,Shrunken,c.1430 - c. 1560,1430-1560,years,1430.0,1560.0,1450 to 1549
+314,Thrupp,Berkshire,DMV,Mid 14th century,1330-1369,centuries,1330.0,1369.0,1348 to 1449
+316,Tubney,Berkshire,DMV,15th century,1400-1499,centuries,1400.0,1499.0,Before 1348
+317,Tulwick,Berkshire,DMV,early 16th century?,1500-1539,centuries,1500.0,1539.0,1450 to 1549
+323,Whatcombe,Berkshire,DMV,later 15th-17th century,1460-1699,centuries,1460.0,1699.0,1550 to 1699
+325,Whitley,Berkshire,DMV,c. 1350-c. 1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+329,Old Windsor,Berkshire,DMV,12th century,1100-1199,centuries,1100.0,1199.0,Before 1348
+331,Woolley,Berkshire,DMV,Late 15th-early 16th century,1460-1539,centuries,1460.0,1539.0,1450 to 1549
+332,Woolstone,Berkshire,Shrunken,1761 and 1877-8,1761-1761;1877-1878,years,1761.0,1878.0,1700 onwards
+333,Wyld Court,Berkshire,DMV,15th - early 16th century,1400-1539,centuries,1400.0,1539.0,1450 to 1549
+334,Wytham,Berkshire,Shrunken,1761 and Late 19th century,1761-1761;1860-1899,centuries+years,1761.0,1899.0,1700 onwards
+337,Addingrove,Buckinghamshire,DMV,1350-1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+338,Aston Mullins,Buckinghamshire,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards
+340,Boarstall,Buckinghamshire,DMV,1640-1660,1640-1660,years,1640.0,1660.0,1550 to 1699
+342,Burston,Buckinghamshire,DMV,1480-1530,1480-1530,years,1480.0,1530.0,1450 to 1549
+348,Creslow,Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+349,Cublington,Buckinghamshire,Shifted,1340-1400,1340-1400,years,1340.0,1400.0,1348 to 1449
+350,Denham,Buckinghamshire,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+351,Doddershall,Buckinghamshire,DMV,1490-1600,1490-1600,years,1490.0,1600.0,1450 to 1549
+352,Evershaw,Buckinghamshire,DMH,1750-1850,1750-1850,years,1750.0,1850.0,1700 onwards
+353,Eythrope,Buckinghamshire,DMV,1650-1750,1650-1750,years,1650.0,1750.0,1700 onwards
+354,Fleet Marston,Buckinghamshire,DMV,1510-1600,1510-1600,years,1510.0,1600.0,1550 to 1699
+355,Foxcote,Buckinghamshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+356,Fulbrook,Buckinghamshire,DMV,1450-1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+357,Gayhurst,Buckinghamshire,Migrated,1720-1750,1720-1750,years,1720.0,1750.0,1700 onwards
+359,Hallinges,Buckinghamshire,DMH,1800-1900,1800-1900,years,1800.0,1900.0,1700 onwards
+361,Hardmead I (North End),Buckinghamshire,DMV,1800-1900,1800-1900,years,1800.0,1900.0,1700 onwards
+362,Hardmead II (South End),Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+365,Hogshaw,Buckinghamshire,DMV,1450-1700,1450-1700,years,1450.0,1700.0,1550 to 1699
+367,Lenborough,Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+368,Lillingstone Dayrell,Buckinghamshire,DMV,1490-1550,1490-1550,years,1490.0,1550.0,1450 to 1549
+369,Linslade,Buckinghamshire,Shifted,1300-1500,1300-1500,years,1300.0,1500.0,1348 to 1449
+370,Liscombe,Buckinghamshire,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+371,Littlecote,Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+372,Moreton,Buckinghamshire,DMV,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+373,Okeney,Buckinghamshire,DMH,1340-1460,1340-1460,years,1340.0,1460.0,1348 to 1449
+374,Olney Hyde,Buckinghamshire,DMV,1450-1550,1450-1550,years,1450.0,1550.0,1450 to 1549
+375,Petsoe,Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+377,Quarrendon I,Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+378,Quarrendon II,Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+379,Quarrendon III,Buckinghamshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+380,Saunderton,Buckinghamshire,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards
+381,Shipton Lee,Buckinghamshire,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards
+382,Stantonbury,Buckinghamshire,DMV,1500-1550,1500-1550,years,1500.0,1550.0,1450 to 1549
+384,Stowe,Buckinghamshire,DMV,1640-1700,1640-1700,years,1640.0,1700.0,1550 to 1699
+385,Tattenhoe,Buckinghamshire,DMV,1520-1600,1520-1600,years,1520.0,1600.0,1550 to 1699
+387,Tyringham,Buckinghamshire,DMV,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+389,Waldridge,Buckinghamshire,DMV,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+391,Wotton Underwood,Buckinghamshire,DMV,1700-1750,1700-1750,years,1700.0,1750.0,1700 onwards
+393,Badlingham,Cambridgeshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+394,Barham,Cambridgeshire,DMV,1300-1400,1300-1400,years,1300.0,1400.0,1348 to 1449
+395,Castle Camps,Cambridgeshire,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+396,Caxton,Cambridgeshire,Shifted,1250-1300,1250-1300,years,1250.0,1300.0,Before 1348
+397,"Childerley, Great and Little",Cambridgeshire,DMV,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+399,Clopton,Cambridgeshire,DMV,1500-1520,1500-1520,years,1500.0,1520.0,1450 to 1549
+404,Stowell,Gloucestershire,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+406,Taynton Parva,Gloucestershire,DMV,1285-1485,1285-1485,years,1285.0,1485.0,1348 to 1449
+409,Upton,Gloucestershire,DMV,1350-1390,1350-1390,years,1350.0,1390.0,1348 to 1449
+601,Stinsford,Dorset,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+602,Whitcombe,Dorset,Shrunken,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+603,Wimborne All Saints,Dorset,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+604,Winterbourne Came,Dorset,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+605,Winterbourne Farringdon,Dorset,DMV,1400-1700,1400-1700,years,1400.0,1700.0,1550 to 1699
+606,Winterbourne Herringstone,Dorset,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+608,Witherston,Dorset,DMV,1500-1700,1500-1700,years,1500.0,1700.0,1550 to 1699
+609,Wolfeton,Dorset,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+618,Coxhoe,Durham,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+629,Layton,Durham,DMV,1530-1600,1530-1600,years,1530.0,1600.0,1550 to 1699
+633,Shotton,Durham,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+637,Thrislington,Durham,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+638,Ulnaby,Durham,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+639,Walworth,Durham,DMV,1620-1880,1620-1880,years,1620.0,1880.0,1700 onwards
+641,Yoden,Durham,DMV,1430-1500,1430-1500,years,1430.0,1500.0,1450 to 1549
+643,Little Birch,Essex,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards
+644,Great Braxted,Essex,DMV,1800-1850,1800-1850,years,1800.0,1850.0,1700 onwards
+648,Thunderley,Essex,DMV,1350-1450,1350-1450,years,1350.0,1450.0,1348 to 1449
+650,Abloads Court,Gloucestershire,DMV,1350-1550,1350-1550,years,1350.0,1550.0,1450 to 1549
+653,Aston,Gloucestershire,DMV,1400-1700,1400-1700,years,1400.0,1700.0,1550 to 1699
+654,Aylworth,Gloucestershire,DMH,1320-1380,1320-1380,years,1320.0,1380.0,1348 to 1449
+655,Bidfield,Gloucestershire,DMH,1370-1390,1370-1390,years,1370.0,1390.0,1348 to 1449
+658,Castlett Farm,Gloucestershire,DMH,1380-1500,1380-1500,years,1380.0,1500.0,1348 to 1449
+659,Charlton,Gloucestershire,DMV,1700-1820,1700-1820,years,1700.0,1820.0,1700 onwards
+663,Didcot,Gloucestershire,DMV,1490-1550,1490-1550,years,1490.0,1550.0,1450 to 1549
+664,Lower Ditchford,Gloucestershire,DMV,1470-1550,1470-1550,years,1470.0,1550.0,1450 to 1549
+665,Upper Ditchford,Gloucestershire,DMV,1470-1500,1470-1500,years,1470.0,1500.0,1450 to 1549
+666,Elmstree,Gloucestershire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+667,Eyford,Gloucestershire,DMV,1320-1380,1320-1380,years,1320.0,1380.0,1348 to 1449
+669,Frampton,Gloucestershire,DMV,1440-1480,1440-1480,years,1440.0,1480.0,1450 to 1549
+671,Gawcombe,Gloucestershire,DMV,1250-1300,1250-1300,years,1250.0,1300.0,Before 1348
+672,Harford,Gloucestershire,DMV,1340-1380,1340-1380,years,1340.0,1380.0,1348 to 1449
+673,Hilcot,Gloucestershire,DMH,1370-1380,1370-1380,years,1370.0,1380.0,1348 to 1449
+674,Hullasey,Gloucestershire,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+675,Lancaut,Gloucestershire,DMV,1600-1750,1600-1750,years,1600.0,1750.0,1550 to 1699
+676,Lark Stoke,Gloucestershire,DMV,1450-1500,1450-1500,years,1450.0,1500.0,1450 to 1549
+677,Lasborough,Gloucestershire,DMV,1370-1390,1370-1390,years,1370.0,1390.0,1348 to 1449
+679,Lowsmoor,Gloucestershire,DMV,1370-1390,1370-1390,years,1370.0,1390.0,1348 to 1449
+680,Manless Town,Gloucestershire,DMV,1200-1500,1200-1500,years,1200.0,1500.0,1348 to 1449
+681,Naunton,Gloucestershire,DMV,1400-1550,1400-1550,years,1400.0,1550.0,1450 to 1549
+685,Lower Norton,Gloucestershire,DMV,1440-1600,1440-1600,years,1440.0,1600.0,1450 to 1549
+688,Owdeswell,Gloucestershire,DMV,1340-1380,1340-1380,years,1340.0,1380.0,1348 to 1449
+692,Pinnock,Gloucestershire,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+696,Roel,Gloucestershire,DMV,1380-1470,1380-1470,years,1380.0,1470.0,1348 to 1449
+698,Sezincote,Gloucestershire,DMV,1480-1580,1480-1580,years,1480.0,1580.0,1450 to 1549
+701,Stockwell,Gloucestershire,DMV,1780-1800,1780-1800,years,1780.0,1800.0,1700 onwards
+1849,Argam,Yorkshire,DMV,15th or 16th century,1400-1599,centuries,1400.0,1599.0,1450 to 1549
+1850,Arram,Yorkshire,DMV,Between late 14th and mid 18th century,1360-1769,centuries,1360.0,1769.0,1550 to 1699
+1851,Arras,Yorkshire,DMV,16th century,1500-1599,centuries,1500.0,1599.0,Before 1348
+1852,Old Arras,Yorkshire,DMV,Medieval,,vague,,,No usable date
+1853,Auburn,Yorkshire,DMV,15th or early 16th century,1400-1539,centuries,1400.0,1539.0,1450 to 1549
+1855,Bartindale,Yorkshire,DMV,Late 14th to early 17th century,1360-1639,centuries,1360.0,1639.0,1450 to 1549
+1859,East Benningholme,Yorkshire,DMV,Late 14th to early 16th century?,1360-1539,centuries,1360.0,1539.0,Before 1348
+1860,West Benningholme,Yorkshire,DMV,Late 14th to early 16th century?,1360-1539,centuries,1360.0,1539.0,Before 1348
+1862,Birdsall,Yorkshire,DMV,Late 16th or early 17th century,1560-1639,centuries,1560.0,1639.0,1550 to 1699
+1864,Bracken,Yorkshire,DMV,late 15th to mid 16th century,1460-1569,centuries,1460.0,1569.0,1450 to 1549
+1866,Buckton,Yorkshire,DMV,Later 14th to 16th century,1360-1599,centuries,1360.0,1599.0,1450 to 1549
+1867,Burdale,Yorkshire,DMV,15th-16th century,1400-1599,centuries,1400.0,1599.0,1450 to 1549
+1869,Burton Constable,Yorkshire,DMV,Early 16th century,1500-1539,centuries,1500.0,1539.0,1450 to 1549
+1871,Cavil,Yorkshire,DMV,15th or early 16th century?,1400-1539,centuries,1400.0,1539.0,1450 to 1549
+1872,Caythorpe,Yorkshire,DMV,late 14th to early 17th century,1360-1639,centuries,1360.0,1639.0,1450 to 1549
+1873,Cleaving,Yorkshire,DMV,Medieval?,,vague,,,No usable date
+1874,Cleeton,Yorkshire,DMV,13th century?,1200-1299,centuries,1200.0,1299.0,Before 1348
+1875,Cotness,Yorkshire,DMV,late 14th to early 15th century?,1360-1439,centuries,1360.0,1439.0,1348 to 1449
+1876,Cottam,Yorkshire,DMV,14th to 18th century,1300-1799,centuries,1300.0,1799.0,Before 1348
+1877,Little Cowden,Yorkshire,DMV,Late 15th or early 16th century?,1460-1539,centuries,1460.0,1539.0,1450 to 1549
+1878,Cowlam,Yorkshire,DMV,1674-1680,1674-1680,years,1674.0,1680.0,1550 to 1699
+1879,Croom,Yorkshire,DMV,mid 14th century to early 16th century,1330-1539,centuries,1330.0,1539.0,1348 to 1449
+2110,Drewton,Yorkshire,DMV,14th to 17th century,1300-1699,centuries,1300.0,1699.0,1450 to 1549
+2112,Eastburn,Yorkshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+2113,Easthorpe,Yorkshire,DMV,15th to late 17th century,1400-1699,centuries,1400.0,1699.0,Before 1348
+2114,Easton,Yorkshire,DMV,15th or early 16th century,1400-1539,centuries,1400.0,1539.0,1450 to 1549
+2117,Eske,Yorkshire,DMV,"1370-1450, 1600-1780",1370-1450;1600-1780,years,1370.0,1780.0,1550 to 1699
+2122,Gardham,Yorkshire,DMV,Mid 14th century?,1330-1369,centuries,1330.0,1369.0,1348 to 1449
+2125,Goxhill,Yorkshire,Shrunken,15th-16th century?,1400-1599,centuries,1400.0,1599.0,1450 to 1549
+2126,Greenoak,Yorkshire,DMV,15th-16th century?,1400-1599,centuries,1400.0,1599.0,1450 to 1549
+2127,Grimston in Garton,Yorkshire,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+2128,"Grimston, Hanging",Yorkshire,DMV,15th-16th centuries,1400-1599,centuries,1400.0,1599.0,1450 to 1549
+2131,Hartburn,Yorkshire,DMV,15th century or earlier,1400-1499,centuries,1400.0,1499.0,Before 1348
+2132,Hilderthorpe,Yorkshire,DMV,15th - 18th century,1400-1799,centuries,1400.0,1799.0,1550 to 1699
+2133,Holm Archiepiscopi,Yorkshire,DMV,14th-15th century,1300-1499,centuries,1300.0,1499.0,1348 to 1449
+2140,Kilnwick Percy,Yorkshire,DMV,16th century or earlier,1500-1599,centuries,1500.0,1599.0,Before 1348
+2141,Kiplingcotes,Yorkshire,DMV,Pre 17th century,,vague,,,No usable date
+2142,Kirkham,Yorkshire,DMV,Post 1650?,1650-1699,open-ended (start + 49 years),1650.0,1699.0,1550 to 1699
+2144,East Linton,Yorkshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+2145,West Linton,Yorkshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+2147,Meaux,Yorkshire,DMV,1100-1200,1100-1200,years,1100.0,1200.0,Before 1348
+2148,Menethorpe,Yorkshire,DMV,1860-1880,1860-1880,years,1860.0,1880.0,1700 onwards
+2149,Metham,Yorkshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+2150,Monkwith,Yorkshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+2151,Moreby,Yorkshire,DMV,1550-1750,1550-1750,years,1550.0,1750.0,1550 to 1699
+2152,Mowthorpe,Yorkshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+2153,Neswick,Yorkshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+2154,Newsham,Yorkshire,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+2155,Newsome Mowthorne,Yorkshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+2156,Newton in Cottingham,Yorkshire,DMV,1325-1400,1325-1400,years,1325.0,1400.0,1348 to 1449
+2157,Newton in Paull,Yorkshire,DMV,1170-1200,1170-1200,years,1170.0,1200.0,Before 1348
+2158,"Newton, Place",Yorkshire,DMV,1300-1400,1300-1400,years,1300.0,1400.0,1348 to 1449
+2159,Nuthill,Yorkshire,DMH,1200-1300,1200-1300,years,1200.0,1300.0,Before 1348
+2161,Ousethorpe,Yorkshire,DMH,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+2162,Owsthorpe,Yorkshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+2163,Penisthorpe,Yorkshire,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards
+2164,Pockthorpe,Yorkshire,DMV,1750-1800,1750-1800,years,1750.0,1800.0,1700 onwards
+2165,Raisthorpe,Yorkshire,DMV,1650-1750,1650-1750,years,1650.0,1750.0,1700 onwards
+2166,Ravenserod,Yorkshire,DMV,1370-1370,1370-1370,years,1370.0,1370.0,1348 to 1449
+2167,Ravensthorpe,Yorkshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+2168,Ringborough,Yorkshire,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards
+2169,Riplingham,Yorkshire,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards
+2170,Risby,Yorkshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+2171,Rotsea,Yorkshire,DMV,1500-1800,1500-1800,years,1500.0,1800.0,1550 to 1699
+2173,Rowton,Yorkshire,DMV,1700-1800,1700-1800,years,1700.0,1800.0,1700 onwards
+2175,Scoreby,Yorkshire,DMV,1500-1600,1500-1600,years,1500.0,1600.0,1550 to 1699
+2176,Sewerby,Yorkshire,Shifted,1800-1900,1800-1900,years,1800.0,1900.0,1700 onwards
+2178,High Skirlington,Yorkshire,DMH,1300-1500,1300-1500,years,1300.0,1500.0,1348 to 1449
+2179,Sledmere,Yorkshire,Migrated,1740-1780,1740-1780,years,1740.0,1780.0,1700 onwards
+2180,Southorpe,Yorkshire,DMV,1600-1650,1600-1650,years,1600.0,1650.0,1550 to 1699
+2182,Sunderlandwick,Yorkshire,DMV,1800-1900,1800-1900,years,1800.0,1900.0,1700 onwards
+2183,Sutton,Yorkshire,DMV,1350-1400,1350-1400,years,1350.0,1400.0,1348 to 1449
+2184,Swaythorpe,Yorkshire,DMV,1400-1500,1400-1500,years,1400.0,1500.0,1450 to 1549
+2185,Tansterne,Yorkshire,DMH,1300-1400,1300-1400,years,1300.0,1400.0,1348 to 1449
+2186,Thirkleby,Yorkshire,DMV,1650-1700,1650-1700,years,1650.0,1700.0,1550 to 1699
+2188,Thoralby in Kirby Grindalythe,Yorkshire,DMH,1150-1250,1150-1250,years,1150.0,1250.0,Before 1348
+2190,Thorpe in Rudston,Yorkshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+2192,Thorpe Lidget,Yorkshire,DMV,1600-1700,1600-1700,years,1600.0,1700.0,1550 to 1699
+2194,Towthorpe in Londesborough,Yorkshire,DMH,1350-1400,1350-1400,years,1350.0,1400.0,1348 to 1449
+2195,Towthorpe in Wharram Percy,Yorkshire,DMV,1660-1710,1660-1710,years,1660.0,1710.0,1550 to 1699
+2198,Wauldby,Yorkshire,DMV,1650-1750,1650-1750,years,1650.0,1750.0,1700 onwards
+2199,Weedley,Yorkshire,DMV,1370-1470,1370-1470,years,1370.0,1470.0,1348 to 1449
+2200,Welham,Yorkshire,DMV,1300-1500,1300-1500,years,1300.0,1500.0,1348 to 1449
+2201,Wharram Percy,Yorkshire,DMV,1400-1550,1400-1550,years,1400.0,1550.0,1450 to 1549
+2202,Willerby,Yorkshire,DMV,1670-1770,1670-1770,years,1670.0,1770.0,1700 onwards
+2203,Wilsthorpe,Yorkshire,DMV,1400-1600,1400-1600,years,1400.0,1600.0,1450 to 1549
+2204,Winkton,Yorkshire,DMV,1430-1550,1430-1550,years,1430.0,1550.0,1450 to 1549
+2205,Wolfreton,Yorkshire,DMV,1600-1800,1600-1800,years,1600.0,1800.0,1700 onwards

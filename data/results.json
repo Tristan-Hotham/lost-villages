@@ -1,0 +1,1280 @@
+{
+ "n_sites": 2222,
+ "types": {
+  "DMV": 2000,
+  "DMH": 74,
+  "Shrunken": 52,
+  "Shifted": 13,
+  "Migrated": 13,
+  "Doubtful": 70
+ },
+ "n_deserted": 2074,
+ "n_counties": 37,
+ "n_full_counties": 14,
+ "n_full_sites": 540,
+ "full_counties": [
+  "Bedfordshire",
+  "Berkshire",
+  "Buckinghamshire",
+  "Cambridgeshire",
+  "Cheshire",
+  "Cornwall",
+  "Cumberland",
+  "Derbyshire",
+  "Devon",
+  "Dorset",
+  "Durham",
+  "Essex",
+  "Gloucestershire",
+  "Yorkshire East Riding"
+ ],
+ "n_with_description": 542,
+ "position_fixed": 25,
+ "position_far": 20,
+ "by_county": [
+  {
+   "county": "Yorkshire",
+   "n": 374
+  },
+  {
+   "county": "Lincolnshire",
+   "n": 220
+  },
+  {
+   "county": "Northumberland",
+   "n": 165
+  },
+  {
+   "county": "Hampshire",
+   "n": 135
+  },
+  {
+   "county": "Warwickshire",
+   "n": 127
+  },
+  {
+   "county": "Norfolk",
+   "n": 126
+  },
+  {
+   "county": "Berkshire",
+   "n": 118
+  },
+  {
+   "county": "Wiltshire",
+   "n": 103
+  },
+  {
+   "county": "Oxfordshire",
+   "n": 99
+  },
+  {
+   "county": "Northamptonshire",
+   "n": 80
+  },
+  {
+   "county": "Nottinghamshire",
+   "n": 67
+  },
+  {
+   "county": "Gloucestershire",
+   "n": 63
+  },
+  {
+   "county": "Leicestershire",
+   "n": 63
+  },
+  {
+   "county": "Buckinghamshire",
+   "n": 56
+  },
+  {
+   "county": "Kent",
+   "n": 52
+  },
+  {
+   "county": "Dorset",
+   "n": 40
+  },
+  {
+   "county": "Hertfordshire",
+   "n": 39
+  },
+  {
+   "county": "Sussex",
+   "n": 37
+  },
+  {
+   "county": "Derbyshire",
+   "n": 30
+  },
+  {
+   "county": "Durham",
+   "n": 29
+  },
+  {
+   "county": "Suffolk",
+   "n": 23
+  },
+  {
+   "county": "Somerset",
+   "n": 23
+  },
+  {
+   "county": "Staffordshire",
+   "n": 19
+  },
+  {
+   "county": "Huntingdonshire",
+   "n": 18
+  },
+  {
+   "county": "Bedfordshire",
+   "n": 17
+  },
+  {
+   "county": "Cambridgeshire",
+   "n": 16
+  },
+  {
+   "county": "Devon",
+   "n": 15
+  },
+  {
+   "county": "Rutland",
+   "n": 13
+  },
+  {
+   "county": "Herefordshire",
+   "n": 11
+  },
+  {
+   "county": "Cornwall",
+   "n": 8
+  },
+  {
+   "county": "Cumberland",
+   "n": 8
+  },
+  {
+   "county": "Essex",
+   "n": 8
+  },
+  {
+   "county": "Worcestershire",
+   "n": 7
+  },
+  {
+   "county": "Surrey",
+   "n": 5
+  },
+  {
+   "county": "Cheshire",
+   "n": 3
+  },
+  {
+   "county": "Shropshire",
+   "n": 3
+  },
+  {
+   "county": "Westmorland",
+   "n": 2
+  }
+ ],
+ "top_counties": [
+  {
+   "county": "Yorkshire",
+   "n": 374
+  },
+  {
+   "county": "Lincolnshire",
+   "n": 220
+  },
+  {
+   "county": "Northumberland",
+   "n": 165
+  },
+  {
+   "county": "Hampshire",
+   "n": 135
+  },
+  {
+   "county": "Warwickshire",
+   "n": 127
+  },
+  {
+   "county": "Norfolk",
+   "n": 126
+  }
+ ],
+ "sched_known": 540,
+ "sched_n": 119,
+ "sched_share": 0.2204,
+ "beresford_in_domesday": 1301,
+ "beresford_not_in_domesday": 730,
+ "beresford_dom_value_n": 1249,
+ "beresford_dom_median": 14.0,
+ "beresford_dom_zero": 154,
+ "matched_sites": 1271,
+ "matched_places": 1249,
+ "matched_by_ref_rule": 38,
+ "check_both_n": 898,
+ "check_spearman": 0.778,
+ "check_within1": 0.7806,
+ "match_km_median": 0.5,
+ "qualifier_mismatch_sites": 73,
+ "dom_places_located": 13068,
+ "dom_lost": 1110,
+ "dom_other_matched": 139,
+ "dom_survivors": 11819,
+ "dom_lost_share": 0.0859,
+ "hh_lost_n": 853,
+ "hh_surv_n": 9227,
+ "hh_lost_median": 13.0,
+ "hh_surv_median": 17.0,
+ "hh_lost_mean": 16.2,
+ "hh_surv_mean": 26.0,
+ "hh_lost_q25": 8.0,
+ "hh_lost_q75": 21.0,
+ "hh_surv_q25": 8.0,
+ "hh_surv_q75": 32.0,
+ "hh_mwu_p": 1.1e-16,
+ "hh_lost_county_pct_median": 0.331,
+ "hh_lost_below_county_median": 0.7151,
+ "loss_by_size": [
+  {
+   "band": "1 to 5",
+   "n": 1667,
+   "lost": 146,
+   "share": 0.0876,
+   "lost_dist": 0.1712,
+   "surv_dist": 0.1648
+  },
+  {
+   "band": "6 to 10",
+   "n": 1775,
+   "lost": 195,
+   "share": 0.1099,
+   "lost_dist": 0.2286,
+   "surv_dist": 0.1712
+  },
+  {
+   "band": "11 to 20",
+   "n": 2467,
+   "lost": 284,
+   "share": 0.1151,
+   "lost_dist": 0.3329,
+   "surv_dist": 0.2366
+  },
+  {
+   "band": "21 to 40",
+   "n": 2572,
+   "lost": 188,
+   "share": 0.0731,
+   "lost_dist": 0.2204,
+   "surv_dist": 0.2584
+  },
+  {
+   "band": "Over 40",
+   "n": 1599,
+   "lost": 40,
+   "share": 0.025,
+   "lost_dist": 0.0469,
+   "surv_dist": 0.169
+  }
+ ],
+ "loss_mid_share": 0.1129,
+ "pt_lost_median": 4.0,
+ "pt_surv_median": 5.5,
+ "val_lost_median": 516.0,
+ "val_surv_median": 720.0,
+ "mill_lost_share": 0.227,
+ "mill_surv_share": 0.2624,
+ "ptph_lost_median": 0.29,
+ "ptph_surv_median": 0.3,
+ "destiny_flag_overlap": 346,
+ "dom_county_share": [
+  {
+   "county": "Lincolnshire",
+   "n": 775,
+   "lost": 155,
+   "share": 0.2
+  },
+  {
+   "county": "Hampshire",
+   "n": 423,
+   "lost": 80,
+   "share": 0.1891
+  },
+  {
+   "county": "Hertfordshire",
+   "n": 161,
+   "lost": 30,
+   "share": 0.1863
+  },
+  {
+   "county": "Warwickshire",
+   "n": 274,
+   "lost": 48,
+   "share": 0.1752
+  },
+  {
+   "county": "Nottinghamshire",
+   "n": 290,
+   "lost": 50,
+   "share": 0.1724
+  },
+  {
+   "county": "Berkshire",
+   "n": 174,
+   "lost": 28,
+   "share": 0.1609
+  },
+  {
+   "county": "Oxfordshire",
+   "n": 254,
+   "lost": 39,
+   "share": 0.1535
+  },
+  {
+   "county": "Leicestershire",
+   "n": 286,
+   "lost": 42,
+   "share": 0.1469
+  },
+  {
+   "county": "Northamptonshire",
+   "n": 316,
+   "lost": 45,
+   "share": 0.1424
+  },
+  {
+   "county": "Wiltshire",
+   "n": 311,
+   "lost": 39,
+   "share": 0.1254
+  },
+  {
+   "county": "Norfolk",
+   "n": 670,
+   "lost": 84,
+   "share": 0.1254
+  },
+  {
+   "county": "Yorkshire",
+   "n": 2005,
+   "lost": 243,
+   "share": 0.1212
+  },
+  {
+   "county": "Buckinghamshire",
+   "n": 201,
+   "lost": 23,
+   "share": 0.1144
+  },
+  {
+   "county": "Sussex",
+   "n": 316,
+   "lost": 21,
+   "share": 0.0665
+  },
+  {
+   "county": "Derbyshire",
+   "n": 316,
+   "lost": 20,
+   "share": 0.0633
+  },
+  {
+   "county": "Kent",
+   "n": 345,
+   "lost": 21,
+   "share": 0.0609
+  },
+  {
+   "county": "Cambridgeshire",
+   "n": 137,
+   "lost": 8,
+   "share": 0.0584
+  },
+  {
+   "county": "Gloucestershire",
+   "n": 458,
+   "lost": 25,
+   "share": 0.0546
+  },
+  {
+   "county": "Dorset",
+   "n": 319,
+   "lost": 16,
+   "share": 0.0502
+  },
+  {
+   "county": "Bedfordshire",
+   "n": 141,
+   "lost": 7,
+   "share": 0.0496
+  },
+  {
+   "county": "Staffordshire",
+   "n": 325,
+   "lost": 14,
+   "share": 0.0431
+  },
+  {
+   "county": "Surrey",
+   "n": 142,
+   "lost": 5,
+   "share": 0.0352
+  },
+  {
+   "county": "Suffolk",
+   "n": 548,
+   "lost": 18,
+   "share": 0.0328
+  },
+  {
+   "county": "Somerset",
+   "n": 575,
+   "lost": 12,
+   "share": 0.0209
+  },
+  {
+   "county": "Worcestershire",
+   "n": 251,
+   "lost": 5,
+   "share": 0.0199
+  },
+  {
+   "county": "Herefordshire",
+   "n": 299,
+   "lost": 5,
+   "share": 0.0167
+  },
+  {
+   "county": "Essex",
+   "n": 395,
+   "lost": 4,
+   "share": 0.0101
+  },
+  {
+   "county": "Cheshire",
+   "n": 394,
+   "lost": 3,
+   "share": 0.0076
+  },
+  {
+   "county": "Shropshire",
+   "n": 428,
+   "lost": 1,
+   "share": 0.0023
+  },
+  {
+   "county": "Devon",
+   "n": 901,
+   "lost": 2,
+   "share": 0.0022
+  },
+  {
+   "county": "Cornwall",
+   "n": 316,
+   "lost": 0,
+   "share": 0.0
+  }
+ ],
+ "dom_counties_over10": 13,
+ "dom_counties_under3": 8,
+ "dom_counties_n": 31,
+ "env": {
+  "elev_m": {
+   "lost": 63.2,
+   "surv": 67.5,
+   "p": 0.036,
+   "lost_county_pct": 0.548
+  },
+  "relief_m": {
+   "lost": 30.6,
+   "surv": 34.7,
+   "p": 1.8e-10,
+   "lost_county_pct": 0.512
+  },
+  "river_m": {
+   "lost": 541.5,
+   "surv": 490.0,
+   "p": 0.0017,
+   "lost_county_pct": 0.523
+  },
+  "roman_m": {
+   "lost": 3441.0,
+   "surv": 4039.0,
+   "p": 0.00015,
+   "lost_county_pct": 0.5
+  },
+  "nn_dom_km": {
+   "lost": 1.4,
+   "surv": 1.4,
+   "p": 0.0026,
+   "lost_county_pct": 0.458
+  }
+ },
+ "lv_elev_median": 70.0,
+ "lv_river_median": 411.0,
+ "lv_over_200m": 82,
+ "fade": [
+  {
+   "key": "dom1086",
+   "year": "1086",
+   "source": "Domesday Book",
+   "recorded": 1274,
+   "absent": 730,
+   "share": 0.6357,
+   "median": 14.0,
+   "n_value": 1249
+  },
+  {
+   "key": "sub1334",
+   "year": "1334",
+   "source": "Lay subsidy",
+   "recorded": 1311,
+   "absent": 779,
+   "share": 0.6273,
+   "median": 348.0,
+   "n_value": 934
+  },
+  {
+   "key": "poll1377n",
+   "year": "1377",
+   "source": "Poll tax",
+   "recorded": 628,
+   "absent": 336,
+   "share": 0.6515,
+   "median": 34.0,
+   "n_value": 462
+  },
+  {
+   "key": "sub1524n",
+   "year": "1524",
+   "source": "Lay subsidy",
+   "recorded": 604,
+   "absent": 580,
+   "share": 0.5101,
+   "median": 10.0,
+   "n_value": 452
+  },
+  {
+   "key": "sub1543n",
+   "year": "1543",
+   "source": "Lay subsidy",
+   "recorded": 331,
+   "absent": 247,
+   "share": 0.5727,
+   "median": 10.0,
+   "n_value": 243
+  },
+  {
+   "key": "dio1563",
+   "year": "1563",
+   "source": "Diocesan returns",
+   "recorded": 260,
+   "absent": 714,
+   "share": 0.2669,
+   "median": 10.5,
+   "n_value": 218
+  },
+  {
+   "key": "cen1801",
+   "year": "1801",
+   "source": "Census",
+   "recorded": 857,
+   "absent": 1269,
+   "share": 0.4031,
+   "median": 81.0,
+   "n_value": 714
+  },
+  {
+   "key": "cen1841",
+   "year": "1841",
+   "source": "Census",
+   "recorded": 1049,
+   "absent": 1080,
+   "share": 0.4927,
+   "median": 76.0,
+   "n_value": 867
+  }
+ ],
+ "tax1291_recorded": 580,
+ "tax1291_absent": 1563,
+ "p1377_then_1524_n": 357,
+ "p1377_absent_1524": 107,
+ "p1377_absent_1524_share": 0.2997,
+ "s1334_then_1524_n": 803,
+ "s1334_absent_1524_share": 0.3761,
+ "pair_1377_1524_n": 147,
+ "pair_1377_median": 46.0,
+ "pair_1524_median": 7.0,
+ "poll1377_median": 34.0,
+ "poll1377_n": 462,
+ "poll1377_under20": 0.2165,
+ "sub1524_le5": 0.3053,
+ "sub1524_n": 452,
+ "sub1524_median": 10.0,
+ "e179_n": 1622,
+ "e179_median": 1678,
+ "e179_after1600": 0.9291,
+ "dated_n": 308,
+ "dated_full_n": 308,
+ "dated_parsed": 299,
+ "dated_vague": 9,
+ "periods": [
+  {
+   "label": "Before 1348",
+   "a": 1100,
+   "b": 1347,
+   "mass": 18.6,
+   "share": 0.0623
+  },
+  {
+   "label": "1348 to 1449",
+   "a": 1348,
+   "b": 1449,
+   "mass": 59.2,
+   "share": 0.1982
+  },
+  {
+   "label": "1450 to 1549",
+   "a": 1450,
+   "b": 1549,
+   "mass": 77.8,
+   "share": 0.2604
+  },
+  {
+   "label": "1550 to 1699",
+   "a": 1550,
+   "b": 1699,
+   "mass": 82.7,
+   "share": 0.2769
+  },
+  {
+   "label": "1700 onwards",
+   "a": 1700,
+   "b": 1999,
+   "mass": 60.4,
+   "share": 0.2022
+  }
+ ],
+ "share_after_1450": 0.7395,
+ "decades": [
+  [
+   1100,
+   0.2
+  ],
+  [
+   1110,
+   0.2
+  ],
+  [
+   1120,
+   0.2
+  ],
+  [
+   1130,
+   0.2
+  ],
+  [
+   1140,
+   0.2
+  ],
+  [
+   1150,
+   0.3
+  ],
+  [
+   1160,
+   0.3
+  ],
+  [
+   1170,
+   0.62
+  ],
+  [
+   1180,
+   0.62
+  ],
+  [
+   1190,
+   0.62
+  ],
+  [
+   1200,
+   0.47
+  ],
+  [
+   1210,
+   0.43
+  ],
+  [
+   1220,
+   0.43
+  ],
+  [
+   1230,
+   0.43
+  ],
+  [
+   1240,
+   0.43
+  ],
+  [
+   1250,
+   0.73
+  ],
+  [
+   1260,
+   0.72
+  ],
+  [
+   1270,
+   0.72
+  ],
+  [
+   1280,
+   0.75
+  ],
+  [
+   1290,
+   0.77
+  ],
+  [
+   1300,
+   1.39
+  ],
+  [
+   1310,
+   1.33
+  ],
+  [
+   1320,
+   1.72
+  ],
+  [
+   1330,
+   2.34
+  ],
+  [
+   1340,
+   3.13
+  ],
+  [
+   1350,
+   5.23
+  ],
+  [
+   1360,
+   5.84
+  ],
+  [
+   1370,
+   8.82
+  ],
+  [
+   1380,
+   6.46
+  ],
+  [
+   1390,
+   4.78
+  ],
+  [
+   1400,
+   5.5
+  ],
+  [
+   1410,
+   5.28
+  ],
+  [
+   1420,
+   5.28
+  ],
+  [
+   1430,
+   5.58
+  ],
+  [
+   1440,
+   5.82
+  ],
+  [
+   1450,
+   6.05
+  ],
+  [
+   1460,
+   6.28
+  ],
+  [
+   1470,
+   6.53
+  ],
+  [
+   1480,
+   6.56
+  ],
+  [
+   1490,
+   6.93
+  ],
+  [
+   1500,
+   9.68
+  ],
+  [
+   1510,
+   9.54
+  ],
+  [
+   1520,
+   9.24
+  ],
+  [
+   1530,
+   9.15
+  ],
+  [
+   1540,
+   7.86
+  ],
+  [
+   1550,
+   6.91
+  ],
+  [
+   1560,
+   6.92
+  ],
+  [
+   1570,
+   6.83
+  ],
+  [
+   1580,
+   6.74
+  ],
+  [
+   1590,
+   6.73
+  ],
+  [
+   1600,
+   4.78
+  ],
+  [
+   1610,
+   4.33
+  ],
+  [
+   1620,
+   4.32
+  ],
+  [
+   1630,
+   4.32
+  ],
+  [
+   1640,
+   4.76
+  ],
+  [
+   1650,
+   5.08
+  ],
+  [
+   1660,
+   4.93
+  ],
+  [
+   1670,
+   5.83
+  ],
+  [
+   1680,
+   5.2
+  ],
+  [
+   1690,
+   5.06
+  ],
+  [
+   1700,
+   3.86
+  ],
+  [
+   1710,
+   3.39
+  ],
+  [
+   1720,
+   3.7
+  ],
+  [
+   1730,
+   3.7
+  ],
+  [
+   1740,
+   3.94
+  ],
+  [
+   1750,
+   3.46
+  ],
+  [
+   1760,
+   4.28
+  ],
+  [
+   1770,
+   4.18
+  ],
+  [
+   1780,
+   4.39
+  ],
+  [
+   1790,
+   4.36
+  ],
+  [
+   1800,
+   2.55
+  ],
+  [
+   1810,
+   1.81
+  ],
+  [
+   1820,
+   1.71
+  ],
+  [
+   1830,
+   1.7
+  ],
+  [
+   1840,
+   1.29
+  ],
+  [
+   1850,
+   1.02
+  ],
+  [
+   1860,
+   1.84
+  ],
+  [
+   1870,
+   2.49
+  ],
+  [
+   1880,
+   1.53
+  ],
+  [
+   1890,
+   1.79
+  ],
+  [
+   1900,
+   0.25
+  ],
+  [
+   1910,
+   0.12
+  ],
+  [
+   1920,
+   0.12
+  ],
+  [
+   1930,
+   0.38
+  ],
+  [
+   1940,
+   1.25
+  ],
+  [
+   1950,
+   0.25
+  ],
+  [
+   1960,
+   0.45
+  ],
+  [
+   1970,
+   0.2
+  ],
+  [
+   1980,
+   0.2
+  ],
+  [
+   1990,
+   0.2
+  ]
+ ],
+ "peak_decade": 1500,
+ "period_counts_mid": {
+  "No date given": 1914,
+  "1550 to 1699": 100,
+  "1450 to 1549": 65,
+  "1700 onwards": 61,
+  "1348 to 1449": 51,
+  "Before 1348": 22,
+  "No usable date": 9
+ },
+ "dated_ranges_touch_bd": 115,
+ "dated_ranges_touch_enc": 169,
+ "dated_ranges_after1700": 121,
+ "dated_width_median": 100,
+ "desc_n": 542,
+ "causes": [
+  {
+   "key": "enclosure",
+   "label": "Enclosure or conversion to pasture",
+   "n": 68,
+   "share": 0.1255
+  },
+  {
+   "key": "park",
+   "label": "Emparking or a country house",
+   "n": 63,
+   "share": 0.1162
+  },
+  {
+   "key": "plague",
+   "label": "Black Death or plague",
+   "n": 38,
+   "share": 0.0701
+  },
+  {
+   "key": "monastic",
+   "label": "A monastic grange or landholder",
+   "n": 53,
+   "share": 0.0978
+  },
+  {
+   "key": "water",
+   "label": "Sea, erosion or flooding",
+   "n": 11,
+   "share": 0.0203
+  }
+ ],
+ "desc_any_cause": 192,
+ "examples": {
+  "Wharram Percy": {
+   "name": "Wharram Percy",
+   "county": "Yorkshire",
+   "type": "DMV",
+   "dom1086": 0.0,
+   "poll1377": 30.0,
+   "sub1334": 216.0,
+   "sub1524": null,
+   "depop": "1400-1550",
+   "hh1086": null
+  },
+  "Caythorpe": {
+   "name": "Caythorpe",
+   "county": "Yorkshire",
+   "type": "DMV",
+   "dom1086": 0.0,
+   "poll1377": null,
+   "sub1334": null,
+   "sub1524": null,
+   "depop": "late 14th to early 17th century",
+   "hh1086": null
+  },
+  "Ravenserod": {
+   "name": "Ravenserod",
+   "county": "Yorkshire",
+   "type": "DMV",
+   "dom1086": null,
+   "poll1377": null,
+   "sub1334": 3600.0,
+   "sub1524": null,
+   "depop": "1370-1370",
+   "hh1086": null
+  },
+  "Creslow": {
+   "name": "Creslow",
+   "county": "Buckinghamshire",
+   "type": "DMV",
+   "dom1086": 12.0,
+   "poll1377": null,
+   "sub1334": null,
+   "sub1524": null,
+   "depop": "1500-1600",
+   "hh1086": 12.0
+  }
+ },
+ "traj_n": 113,
+ "traj_examples": [
+  {
+   "name": "Saltfleetby",
+   "county": "Lincolnshire",
+   "d1086": 53.0,
+   "p1377": 320.0,
+   "s1524": 69.0,
+   "c1801": 148.0,
+   "depop": ""
+  },
+  {
+   "name": "Bingham",
+   "county": "Nottinghamshire",
+   "d1086": 55.0,
+   "p1377": 284.0,
+   "s1524": 21.0,
+   "c1801": 1082.0,
+   "depop": ""
+  },
+  {
+   "name": "Chartley",
+   "county": "Staffordshire",
+   "d1086": 15.0,
+   "p1377": 198.0,
+   "s1524": 31.0,
+   "c1801": null,
+   "depop": ""
+  },
+  {
+   "name": "Newsam, Temple",
+   "county": "Yorkshire",
+   "d1086": 10.0,
+   "p1377": 181.0,
+   "s1524": 39.0,
+   "c1801": null,
+   "depop": ""
+  },
+  {
+   "name": "Ebberston",
+   "county": "Yorkshire",
+   "d1086": 30.0,
+   "p1377": 181.0,
+   "s1524": 7.0,
+   "c1801": 365.0,
+   "depop": ""
+  },
+  {
+   "name": "Wimpole",
+   "county": "Cambridgeshire",
+   "d1086": 13.0,
+   "p1377": 173.0,
+   "s1524": 41.0,
+   "c1801": 324.0,
+   "depop": "1800-1900"
+  },
+  {
+   "name": "Holme Pierrepoint",
+   "county": "Nottinghamshire",
+   "d1086": 16.0,
+   "p1377": 170.0,
+   "s1524": 12.0,
+   "c1801": 171.0,
+   "depop": ""
+  },
+  {
+   "name": "Riby",
+   "county": "Lincolnshire",
+   "d1086": 70.0,
+   "p1377": 157.0,
+   "s1524": 27.0,
+   "c1801": 158.0,
+   "depop": ""
+  },
+  {
+   "name": "Stapleford",
+   "county": "Leicestershire",
+   "d1086": 54.0,
+   "p1377": 152.0,
+   "s1524": 25.0,
+   "c1801": 179.0,
+   "depop": ""
+  },
+  {
+   "name": "Harewood",
+   "county": "Yorkshire",
+   "d1086": 0.0,
+   "p1377": 140.0,
+   "s1524": 19.0,
+   "c1801": 707.0,
+   "depop": ""
+  }
+ ],
+ "stories": [
+  {
+   "name": "Wharram Percy",
+   "county": "Yorkshire",
+   "kind": "pasture",
+   "quotes": [
+    "A record of tenant holdings from 1368 also records 30 farmhouses and cottages in the village.",
+    "By 1435 only 16 are recorded showing the decline of the settlement had begun.",
+    "It has been well established that the fate of Wharram was the conversion to pasture.",
+    "A legal case that was heard in 1555 helps date the final stage of conversion to 1527."
+   ],
+   "type": "DMV",
+   "depop": "1400-1550",
+   "poll1377": 30.0,
+   "sub1334": 216.0,
+   "scheduled": "scheduled",
+   "lat": 54.066605,
+   "lon": -0.690469
+  },
+  {
+   "name": "Caythorpe",
+   "county": "Yorkshire",
+   "kind": "enclosure",
+   "quotes": [
+    "Depopulation at the site was reported in 1517 with 20 residents and five houses removed as a result of the enclosure of 300 acres for sheep pasture."
+   ],
+   "type": "DMV",
+   "depop": "late 14th to early 17th century",
+   "poll1377": null,
+   "sub1334": null,
+   "scheduled": "scheduled",
+   "lat": 54.093924,
+   "lon": -0.288977
+  },
+  {
+   "name": "Ravenserod",
+   "county": "Yorkshire",
+   "kind": "sea",
+   "quotes": [
+    "By 1346 two thirds of the town was destroyed.",
+    "The residents had moved to Hull and taken up residence in the town."
+   ],
+   "type": "DMV",
+   "depop": "1370-1370",
+   "poll1377": null,
+   "sub1334": 3600.0,
+   "scheduled": "not scheduled",
+   "lat": 53.567935,
+   "lon": 0.112566
+  },
+  {
+   "name": "Derwent",
+   "county": "Derbyshire",
+   "kind": "water",
+   "quotes": [
+    "In essence this is not a truly deserted medieval village as it was not abandoned until the 1940s, when the settlement was flooded with the creation of Lady Bower Reservoir."
+   ],
+   "type": "DMV",
+   "depop": "1940-1945",
+   "poll1377": null,
+   "sub1334": null,
+   "scheduled": "not scheduled",
+   "lat": 53.393014,
+   "lon": -1.723274
+  }
+ ]
+}

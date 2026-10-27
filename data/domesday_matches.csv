@@ -1,0 +1,2223 @@
+id,name,beresford_dom1086,beresford_dom_status,beresford_ref_entries,placeId,dom_name,dom_county,name_score,shared_refs,km,households1086,ploughTeams1086,value1086,mills1086,slaves1086,openDomesdayPath,rule,qualifier_mismatch
+1,Astwick,12.0,value,4,3226,Astwick,Bedfordshire,1.0,4.0,0.2,12.0,3.5,792.0,2.0,,TL2138/astwick,name,False
+2,Cainhoe,15.0,value,2,12521,Cainhoe,Bedfordshire,1.0,2.0,1.13,15.0,5.0,960.0,1.0,5.0,TL1036/cainhoe,name,False
+3,Landwade,,absent,0,,,,,,,,,,,,,,
+4,Chalgrave,23.0,value,2,13921,Chalgrave,Bedfordshire,1.0,1.0,0.53,23.0,10.0,1704.0,,6.0,TL0027/chalgrave,name,False
+5,Chellington,23.0,value,1,14481,Chellington,Bedfordshire,1.0,1.0,1.07,23.0,5.0,1200.0,,4.0,SP9555/chellington,name,False
+6,Colworth,,absent,0,,,,,,,,,,,,,,
+7,Etonbury,,absent,0,,,,,,,,,,,,,,
+8,Faldo,,absent,0,,,,,,,,,,,,,,
+9,Lower Gravenhurst,11.0,value,1,,,,,,,,,,,,,,
+10,Higham Gobion,21.0,value,1,31681,Higham [Gobion],Bedfordshire,1.0,1.0,0.31,21.0,11.0,1920.0,,5.0,TL1032/higham-gobion,name,False
+11,Holcot,16.0,value,2,32396,Holcot,Bedfordshire,1.0,2.0,0.3,16.0,3.0,900.0,1.0,3.0,SP9438/holcot,name,False
+12,Holme,15.0,value,8,32566,Holme,Bedfordshire,1.0,4.0,0.28,15.0,,1572.0,,,TL1942/holme,name,False
+13,Kinwick,6.0,value,1,36531,`Kinwick',Bedfordshire,1.0,1.0,2.54,6.0,4.0,720.0,1.0,,TL1849/kinwick,name,False
+14,Priestley,6.0,value,2,50316,Priestley,Bedfordshire,1.0,1.0,0.58,6.0,,300.0,,,TL0133/priestley,name,False
+15,Segenhoe,31.0,value,1,54661,Segenhoe,Bedfordshire,1.0,1.0,0.5,31.0,8.0,1440.0,,3.0,SP9835/segenhoe,name,False
+16,Upper Stondon,5.0,value,2,,,,,,,,,,,,,,
+17,Stratton,27.0,value,4,59851,Stratton,Bedfordshire,1.0,4.0,0.4,28.0,3.0,4056.0,,1.0,TL2044/stratton,name,False
+18,Sudbury,6.0,value,2,60346,`Sudbury',Bedfordshire,1.0,1.0,0.51,6.0,3.0,480.0,,1.0,TL1761/sudbury,name,False
+19,Arborfield,,absent,0,,,,,,,,,,,,,,
+20,Ardington Wick,,absent,0,,,,,,,,,,,,,,
+21,Avington,17.0,value,1,3471,Avington,Berkshire,1.0,1.0,0.63,17.0,6.0,1200.0,1.0,4.0,SU3768/avington,name,False
+22,Barcote,15.0,value,1,4116,Barcote,Berkshire,1.0,1.0,0.63,15.0,3.0,1200.0,,5.0,SU3197/barcote,name,False
+23,Basildon,56.0,value,1,4991,Basildon,Berkshire,1.0,1.0,0.56,56.0,21.0,6000.0,1.0,13.0,SU6078/basildon,name,False
+24,Baulking,,absent,0,,,,,,,,,,,,,,
+25,Beckett,15.0,value,1,5486,Beckett,Berkshire,1.0,1.0,1.36,15.0,3.5,,,,SU2388/beckett,name,False
+26,Benham Burslot,,absent,0,,,,,,,,,,,,,,
+27,Bessels Leigh,12.0,value,1,38676,[Bessels] Leigh,Berkshire,1.0,1.0,0.4,12.0,5.0,960.0,,,SP4501/bessels-leigh,name,False
+28,East Betterton,17.0,value,2,6466,Betterton,Berkshire,1.0,2.0,0.1,17.0,4.0,1920.0,1.0,2.0,SU4386/betterton,name,True
+29,West Betterton,17.0,value,2,6466,Betterton,Berkshire,1.0,2.0,0.49,17.0,4.0,1920.0,1.0,2.0,SU4386/betterton,name,True
+30,Binfield,,absent,0,,,,,,,,,,,,,,
+31,Bockhampton,18.0,value,2,7806,Bockhampton,Berkshire,1.0,2.0,0.31,18.0,4.5,2160.0,1.0,1.0,SU3378/bockhampton,name,False
+32,"Borough Farm, Sonning",,absent,0,,,,,,,,,,,,,,
+33,Buscot,64.0,value,1,12201,Buscot,Berkshire,1.0,1.0,0.49,64.0,14.0,6240.0,,6.0,SU2297/buscot,name,False
+34,Calcot,7.0,value,1,12556,`Calcot',Berkshire,1.0,1.0,0.85,7.0,2.0,240.0,1.0,,SU3370/calcot,name,False
+35,Carswell,19.0,value,1,13291,`Carswell',Berkshire,1.0,1.0,0.7,19.0,3.0,960.0,,9.0,SU3298/carswell,name,False
+36,Catmore,17.0,value,1,13471,Catmore,Berkshire,1.0,1.0,0.31,17.0,4.0,840.0,,,SU4580/catmore,name,False
+37,West Challow,20.0,value,1,13961,[West] Challow,Berkshire,1.0,1.0,0.49,20.0,4.0,1680.0,,2.0,SU3688/west-challow,name,False
+38,Chapelwick,,absent,0,,,,,,,,,,,,,,
+39,Charlton,18.0,value,3,14111,Charlton,Berkshire,1.0,2.0,0.39,41.0,7.5,4560.0,2.5,3.0,SU4088/charlton,name,False
+40,Charlton (Charnham Street),9.0,value,1,14161,`Charlton',Berkshire,1.0,1.0,1.88,9.0,1.5,1200.0,2.0,,SU3267/charlton,name,False
+41,Chieveley,46.0,value,1,14891,Chieveley,Berkshire,1.0,1.0,0.5,46.0,22.0,2400.0,,3.0,SU4773/chieveley,name,False
+42,Cholsey,137.0,value,2,15381,Cholsey,Berkshire,1.0,1.0,0.53,137.0,26.5,11280.0,3.0,15.0,SU5886/cholsey,name,False
+43,Clapcot,17.0,value,2,15601,Clapcot,Berkshire,1.0,2.0,0.36,17.0,8.0,2400.0,1.0,,SU6089/clapcot,name,False
+44,Coleridge,,absent,0,,,,,,,,,,,,,,
+45,Combe,28.0,value,1,17001,Combe,Berkshire,1.0,1.0,0.57,28.0,10.0,1440.0,,6.0,SU3760/combe,name,False
+46,Compton,39.0,value,2,17131,Compton,Berkshire,1.0,2.0,1.0,39.0,15.0,3120.0,,8.0,SU5179/compton,name,False
+47,Compton Beauchamp,10.0,value,1,17201,Compton [Beauchamp],Berkshire,1.0,1.0,0.79,10.0,3.0,1440.0,,,SU2887/compton-beauchamp,name,False
+48,"Cox's Farm, Cholsey",,absent,0,,,,,,,,,,,,,,
+49,Cruchfield,,absent,0,,,,,,,,,,,,,,
+50,North Denchworth,10.0,value,1,19956,[North] Denchworth,Berkshire,1.0,1.0,0.49,10.0,2.0,720.0,,2.0,SU3892/north-denchworth,name,False
+51,Draycott,20.0,value,1,21071,Draycott [Moor],Berkshire,1.0,1.0,0.5,20.0,7.0,1440.0,,2.0,SU4099/draycott-moor,name,False
+52,Drayton,10.0,value,2,21086,Drayton,Berkshire,1.0,2.0,0.31,10.0,2.0,840.0,,2.0,SU4794/drayton,name,False
+53,Eaton Hastings,29.0,value,1,22256,Eaton [Hastings],Berkshire,1.0,1.0,0.1,29.0,7.0,2160.0,,7.0,SU2698/eaton-hastings,name,False
+54,Egrove,,absent,0,,,,,,,,,,,,,,
+55,Farnborough,19.0,value,1,24366,Farnborough,Berkshire,1.0,1.0,0.41,19.0,8.0,1920.0,,1.0,SU4381/farnborough,name,False
+56,"Frenches, nr Sulham",,absent,0,,,,,,,,,,,,,,
+57,Fulscot,9.0,value,1,26206,Fulscot,Berkshire,1.0,1.0,0.31,9.0,2.0,960.0,,,SU5488/fulscot,name,False
+58,Gainfield in Buckland,,absent,0,,,,,,,,,,,,,,
+59,East Ginge,12.0,value,1,26766,[East] Ginge,Berkshire,1.0,1.0,0.31,12.0,6.0,720.0,1.0,4.0,SU4486/east-ginge,name,False
+60,West Ginge,29.0,value,0,26766,[East] Ginge,Berkshire,1.0,0.0,0.22,12.0,6.0,720.0,1.0,4.0,SU4486/east-ginge,name,True
+61,Goosey,17.0,value,1,27221,Goosey,Berkshire,1.0,1.0,0.41,16.0,5.5,,,,SU3591/goosey,name,False
+62,Hamstead Marshall,22.0,value,2,29026,Hamstead [Marshall],Berkshire,1.0,1.0,1.29,22.0,5.0,960.0,1.0,10.0,SU4165/hamstead-marshall,name,False
+63,East Hanney,56.0,value,2,29201,[East] Hanney,Berkshire,1.0,1.0,0.51,23.0,2.5,,1.0,4.0,SU4192/east-hanney,name,False
+64,Hardwell Farm in Compton Beauchamp,,absent,0,,,,,,,,,,,,,,
+65,Hartridge,7.0,value,1,29911,Hartridge,Berkshire,1.0,1.0,0.57,7.0,2.0,360.0,,3.0,SU5777/hartridge,name,False
+66,Hatford,17.0,value,1,30176,Hatford,Berkshire,1.0,1.0,0.36,17.0,4.0,2400.0,,3.0,SU3394/hatford,name,False
+67,Old Hayward Bottom,,absent,0,,,,,,,,,,,,,,
+68,Henley,,absent,0,,,,,,,,,,,,,,
+69,Henwick,,absent,0,,,,,,,,,,,,,,
+70,Hillend,,absent,0,,,,,,,,,,,,,,
+71,"Hillgreen, Cholsey",,absent,0,,,,,,,,,,,,,,
+72,Hodcott,8.0,value,2,32266,Hodcott,Berkshire,1.0,2.0,0.36,8.0,3.5,1680.0,,,SU4781/hodcott,name,False
+73,Holt,,absent,0,,,,,,,,,,,,,,
+74,Hurst,,absent,0,,,,,,,,,,,,,,
+75,Inglewood,18.0,value,3,34871,Inglewood,Berkshire,1.0,3.0,0.1,21.0,5.0,276.0,,2.0,SU3666/inglewood,name,False
+76,Langley,,absent,0,,,,,,,,,,,,,,
+77,Leckhampstead,,qualified,1,38391,Leckhampstead,Berkshire,1.0,1.0,1.42,14.0,2.0,800.0,,2.0,SU4375/leckhampstead,name,False
+78,Little Town,,absent,0,,,,,,,,,,,,,,
+79,East Lockinge,23.0,value,1,39781,[East] Lockinge,Berkshire,1.0,1.0,0.1,23.0,6.0,1680.0,1.0,3.0,SU4287/east-lockinge,name,False
+80,West Lockinge,18.0,value,1,39786,[West] Lockinge,Berkshire,1.0,1.0,0.35,18.0,4.0,1920.0,,1.0,SU4287/west-lockinge,name,False
+81,Lollingdon,6.0,value,1,39876,Lollingdon,Berkshire,1.0,1.0,0.5,6.0,2.0,720.0,,,SU5785/lollingdon,name,False
+82,Longcot,,absent,0,,,,,,,,,,,,,,
+83,Longmoor,,absent,0,,,,,,,,,,,,,,
+84,Maidencourt,,absent,0,,,,,,,,,,,,,,
+85,Marlston,,absent,0,,,,,,,,,,,,,,
+86,Newton,6.0,value,1,45351,Newton,Berkshire,1.0,1.0,0.99,6.0,1.0,360.0,,2.0,SU3698/newton,name,False
+87,"nr Lamb's Farm, Swallowfield",,absent,0,,,,,,,,,,,,,,
+88,nr Thrupp in Littleworth,,absent,0,,,,,,,,,,,,,,
+89,Oare,,absent,0,,,,,,,,,,,,,,
+90,Odstone,23.0,value,1,46836,Odstone,Berkshire,1.0,1.0,0.66,23.0,5.0,2400.0,,5.0,SU2786/odstone,name,False
+91,Peasemore,23.0,value,3,48441,Peasemore,Berkshire,1.0,3.0,0.84,23.0,7.5,2280.0,,,SU4577/peasemore,name,False
+92,Petwick,,absent,0,,,,,,,,,,,,,,
+93,Pingewood,,absent,0,,,,,,,,,,,,,,
+94,Purley Parva,4.0,value,1,50491,Purley,Berkshire,0.706,1.0,0.41,16.0,7.0,1800.0,,,SU6576/purley,reference+name,True
+95,Pusey,21.0,value,4,50526,Pusey,Berkshire,1.0,4.0,0.49,21.0,6.0,2425.0,,6.0,SU3596/pusey,name,False
+96,Radley,,absent,0,,,,,,,,,,,,,,
+97,Rockley,,absent,0,,,,,,,,,,,,,,
+98,Seacourt,27.0,value,1,54496,Seacourt,Berkshire,1.0,1.0,0.14,27.0,7.0,1920.0,,,SP4807/seacourt,name,False
+99,Shalford,,absent,0,,,,,,,,,,,,,,
+100,Shaw,19.0,value,1,55026,Shaw,Berkshire,1.0,1.0,0.36,19.0,5.0,1440.0,1.0,3.0,SU4768/shaw,name,False
+101,Sheffield,14.0,value,1,55096,Sheffield,Berkshire,1.0,1.0,1.26,14.0,5.0,480.0,1.0,4.0,SU6569/sheffield,name,False
+102,Malton,,absent,0,,,,,,,,,,,,,,
+103,Nosterfield,,absent,0,46366,Nosterfield [End],Cambridgeshire,1.0,0.0,0.53,,,,,,TL6344/nosterfield-end,name,False
+104,Shingay,18.0,value,3,55546,Shingay,Cambridgeshire,1.0,1.0,0.53,18.0,6.0,1680.0,1.0,,TL3047/shingay,name,False
+105,Werateworde (Wratworth),32.0,value,5,73061,Wratworth,Cambridgeshire,1.0,5.0,2.98,32.0,3.0,1152.0,,2.0,TL3448/wratworth,name,False
+106,Whitwell,11.0,value,4,69896,Whitwell,Cambridgeshire,1.0,3.0,0.2,11.0,3.5,864.0,,,TL4058/whitwell,name,False
+107,Wimpole,13.0,value,2,70911,Wimpole,Cambridgeshire,1.0,2.0,0.53,13.0,4.5,2880.0,,3.0,TL3350/wimpole,name,False
+108,Brereton,15.0,value,1,9731,Brereton,Cheshire,1.0,1.0,0.5,15.0,2.0,,1.0,2.0,SJ7864/brereton,name,False
+109,Cholmondeley,11.0,value,1,15371,Cholmondeley,Cheshire,1.0,1.0,1.05,10.0,2.0,75.0,,5.0,SJ5351/cholmondeley,name,False
+110,Shocklach,4.0,value,1,55786,Shocklach,Cheshire,1.0,1.0,1.72,4.0,3.0,144.0,,,SJ4348/shocklach,name,False
+111,Carwether,,absent,0,,,,,,,,,,,,,,
+112,Garrow,,absent,0,,,,,,,,,,,,,,
+113,Lanyon,,absent,0,,,,,,,,,,,,,,
+114,Porthillie,,absent,0,,,,,,,,,,,,,,
+115,Temple,,absent,0,,,,,,,,,,,,,,
+116,Tresibbet,,absent,0,,,,,,,,,,,,,,
+117,Treworld,,absent,0,,,,,,,,,,,,,,
+118,Trewortha,,absent,0,,,,,,,,,,,,,,
+119,Little Brampton,,no_source,0,,,,,,,,,,,,,,
+120,Carlatton,,no_source,0,,,,,,,,,,,,,,
+121,Nether Denton,,no_source,0,,,,,,,,,,,,,,
+122,Great Easby,,no_source,0,,,,,,,,,,,,,,
+123,Little Easby,,no_source,0,,,,,,,,,,,,,,
+124,Easton,,no_source,0,,,,,,,,,,,,,,
+125,Edmond Castle,,no_source,0,,,,,,,,,,,,,,
+126,Liddel,,no_source,0,,,,,,,,,,,,,,
+127,Alkmonton,15.0,value,1,1036,Alkmonton,Derbyshire,1.0,1.0,1.28,15.0,4.0,480.0,,,SK1838/alkmonton,name,False
+128,Arleston,7.0,value,1,2106,Arleston,Derbyshire,1.0,1.0,1.28,7.0,3.0,480.0,,,SK3429/arleston,name,False
+129,Ashe,7.0,value,1,2316,Ash,Derbyshire,0.857,1.0,1.13,7.0,3.0,,,,SK2632/ashe,name,False
+130,Ault Hucknall,,absent,0,,,,,,,,,,,,,,
+131,Barton Blount,31.0,value,1,4791,Barton [Blount],Derbyshire,1.0,1.0,0.61,31.0,10.0,960.0,2.0,,SK2034/barton-blount,name,False
+132,Birchill,18.0,value,1,7111,Birchill,Derbyshire,1.0,0.0,1.21,,,,,,SK2270/birchills,name,False
+133,Bupton,26.0,value,3,11441,Bupton,Derbyshire,1.0,2.0,0.71,20.0,9.5,1200.0,1.0,1.0,SK2237/bupton,name,False
+134,Callow,49.0,value,1,12706,Callow,Derbyshire,1.0,0.0,0.95,,,,,,SK2652/callow,name,False
+135,Catton,16.0,value,1,13531,Catton,Derbyshire,1.0,1.0,0.2,16.0,7.0,720.0,,,SK2015/catton,name,False
+136,Chatsworth,7.0,value,1,14306,Chatsworth,Derbyshire,1.0,0.0,0.71,,,,,,SK2670/chatsworth,name,False
+137,Derwent,,absent,0,,,,,,,,,,,,,,
+138,Drakelow,6.0,value,1,21011,Drakelow,Derbyshire,1.0,1.0,0.71,6.0,7.0,480.0,1.0,,SK2420/drakelowe,name,False
+139,Eaton on Dove,10.0,value,1,22251,Eaton [Dovedale],Derbyshire,0.75,1.0,1.61,10.0,3.0,360.0,1.0,,SK1037/eaton-dovedale,reference+name,False
+140,"Eaton, Cold",8.0,value,1,16681,[Cold]eaton,Derbyshire,1.0,0.0,0.74,,,,,,SK1456/cold-eaton,name,False
+141,Foremark,8.0,value,2,25441,Foremark,Derbyshire,1.0,1.0,0.5,8.0,2.0,180.0,1.0,,SK3326/foremark,name,False
+142,Gratton,6.0,value,1,27521,Gratton,Derbyshire,1.0,1.0,1.99,6.0,3.0,,,,SK2061/gratton,name,False
+143,Nether Haddon,,qualified,1,28296,[Nether] Haddon,Derbyshire,1.0,0.0,0.54,,,,,,,name,False
+144,Harthill,8.0,value,2,29846,Harthill,Derbyshire,1.0,1.0,0.64,8.0,3.0,144.0,,,SK2264/harthill,name,False
+145,Hazlebadge,,absent,0,30571,Hazelbadge,Derbyshire,0.9,0.0,0.64,3.0,1.5,48.0,,,SK1780/hazelbadge,name,False
+146,Hoon,46.0,value,2,32981,Hoon,Derbyshire,1.0,0.0,1.49,,,,,,SK2231/hoon,name,False
+147,Hungrey Bentley,0.0,value,1,6151,[Hungry] Bentley,Derbyshire,0.963,0.0,0.86,,,132.0,,,SK1738/bentley,name,False
+148,Ireton Parva,12.0,value,1,35046,Ireton,Derbyshire,0.706,1.0,0.22,12.0,3.0,240.0,1.0,,SK3141/ireton,reference+name,True
+149,Kedleston,10.0,value,1,35311,Kedleston,Derbyshire,1.0,1.0,1.98,10.0,3.0,240.0,1.0,,SK3041/kedleston,name,False
+150,Kidsley,,qualified,1,35946,Kidsley,Derbyshire,1.0,0.0,0.6,,,,,,,name,False
+151,Lee,,absent,0,,,,,,,,,,,,,,
+152,Mercaston,10.0,value,1,42536,Mercaston,Derbyshire,1.0,1.0,0.71,10.0,2.0,360.0,1.0,,SK2643/mercaston,name,False
+153,Sapperton,5.0,value,1,53901,Sapperton,Derbyshire,1.0,1.0,0.1,5.0,1.0,240.0,,,SK1834/sapperton,name,False
+154,Sedsall,10.0,value,1,54646,Sedsall,Derbyshire,1.0,0.0,0.42,,,,,,SK1137/sedsall,name,False
+155,Sinfin,2.0,value,1,56216,Sinfin,Derbyshire,1.0,1.0,0.42,2.0,2.0,120.0,,,SK3431/sinfin,name,False
+156,Underwood,,absent,0,,,,,,,,,,,,,,
+157,Badgworthy,2.0,value,1,3781,`Badgworthy',Devon,1.0,1.0,1.07,2.0,,120.0,,1.0,SS7943/badgworthy,name,False
+158,Great Beere,,qualified,1,,,,,,,,,,,,,,
+159,Blackaton,,absent,0,,,,,,,,,,,,,,
+160,Bolt Head,,absent,0,,,,,,,,,,,,,,
+161,Challacombe,,absent,0,,,,,,,,,,,,,,
+162,Little Cordonford,,absent,0,,,,,,,,,,,,,,
+163,Corndonford,,absent,0,,,,,,,,,,,,,,
+164,Cripdon,,absent,0,,,,,,,,,,,,,,
+165,Ford,,absent,0,,,,,,,,,,,,,,
+166,Hayne,,absent,0,,,,,,,,,,,,,,
+167,Hound Tor,6.0,value,1,33671,Houndtor,Devon,1.0,1.0,1.11,6.0,2.0,240.0,,2.0,SX7579/houndtor,name,False
+168,North Rowden,,absent,0,,,,,,,,,,,,,,
+169,"Rowden, South (Hutholes)",,absent,0,,,,,,,,,,,,,,
+170,North Thorne,,absent,0,,,,,,,,,,,,,,
+171,Treable,,absent,0,,,,,,,,,,,,,,
+172,Afflington,10.0,value,5,461,Afflington,Dorset,1.0,4.0,0.49,10.0,2.0,1554.0,,1.0,SY9780/afflington,name,False
+173,West Bexington,20.0,value,1,,,,,,,,,,,,,,
+174,Blackmanston,0.0,value,2,7416,Blackmanston,Dorset,1.0,0.0,0.22,,,240.0,,,SY9180/blackmanston,name,False
+175,Brockington,0.0,value,1,10336,Brockington,Dorset,1.0,0.0,0.43,,,240.0,,,SU0110/brockington,name,False
+176,Bryanston,28.0,value,2,10941,Bryanston,Dorset,1.0,2.0,0.5,28.0,5.0,2760.0,1.0,8.0,ST8706/bryanston,name,False
+177,Frampton,57.0,value,2,25716,Frampton,Dorset,1.0,1.0,0.96,57.0,21.0,,2.0,27.0,SY6295/frampton,name,False
+178,Frome Belet,9.0,value,1,26026,`Frome [Billet]',Dorset,0.857,1.0,0.66,9.0,,1440.0,1.0,6.0,SY7290/frome-billet,name,False
+179,Fryer Mayne,,absent,0,,,,,,,,,,,,,,
+180,Gotowre,,absent,0,,,,,,,,,,,,,,
+181,Hanford,8.0,value,1,29116,Hanford,Dorset,1.0,1.0,0.31,8.0,3.0,1200.0,2.0,4.0,ST8411/hanford,name,False
+182,Hemsworth,8.0,value,2,31121,Hemsworth,Dorset,1.0,2.0,0.57,8.0,,300.0,,2.0,ST9605/hemsworth,name,False
+183,Holnest,,absent,0,,,,,,,,,,,,,,
+184,Holworth,13.0,value,1,32806,Holworth,Dorset,1.0,1.0,0.52,13.0,4.0,720.0,,4.0,SY7683/holworth,name,False
+185,Knowlton,71.0,value,2,37121,Knowlton,Dorset,1.0,1.0,0.22,2.0,,300.0,1.0,1.0,SU0210/knowlton,name,False
+186,Lazerton,7.0,value,1,38216,Lazerton,Dorset,1.0,1.0,0.14,7.0,,360.0,1.0,3.0,ST8610/lazerton,name,False
+187,Lewcombe,,absent,0,,,,,,,,,,,,,,
+188,Little Mayne,16.0,value,2,42141,Mayne,Dorset,1.0,2.0,0.6,16.0,3.0,960.0,,4.0,SY7286/mayne,name,True
+189,Melcombe Horsey,36.0,value,2,42291,Melcombe [Horsey],Dorset,1.0,1.0,1.64,36.0,9.0,3840.0,,4.0,ST7602/melcombe-horsey,name,False
+190,"Melcombe, Bingham",36.0,value,2,42291,Melcombe [Horsey],Dorset,1.0,1.0,1.04,36.0,9.0,3840.0,,4.0,ST7602/melcombe-horsey,name,False
+191,Milborne Symondeston,,absent,0,,,,,,,,,,,,,,
+192,Milton Abbas,53.0,value,1,43241,Milton [Abbas],Dorset,1.0,1.0,0.98,53.0,15.0,4800.0,1.0,6.0,ST8001/milton-abbas,name,False
+193,Orchard (Rew),,absent,0,,,,,,,,,,,,,,
+194,Polingston (Pulston),,absent,0,,,,,,,,,,,,,,
+195,"Puddle, Little (Little Piddle)",12.0,value,3,50376,[Little] Puddle,Dorset,1.0,0.0,0.4,19.0,4.0,2400.0,,10.0,SY7196/little-puddle,name,False
+196,Ringstead (West),14.0,value,4,51926,Ringstead,Dorset,1.0,3.0,0.77,14.0,4.5,1560.0,0.5,,SY7581/ringstead,name,True
+197,East Shilvinghampton,9.0,value,3,55526,Shilvinghampton,Dorset,1.0,3.0,0.4,9.0,1.5,846.0,,6.0,SY6284/shilvinghampton,name,True
+198,West Shilvinghampton,9.0,value,3,55526,Shilvinghampton,Dorset,1.0,3.0,0.1,9.0,1.5,846.0,,6.0,SY6284/shilvinghampton,name,True
+199,Stanton St. Gabriel,16.0,value,1,58261,`Stanton [St Gabriel]',Dorset,1.0,1.0,0.3,16.0,6.0,720.0,,5.0,SY4092/stanton-st-gabriel,name,False
+200,Steepleton Iwerne,14.0,value,1,35236,Iwerne [Stepleton],Dorset,0.581,1.0,0.41,14.0,3.0,960.0,,2.0,ST8611/iwerne-stepleton,reference+name,False
+201,Brackenborough,15.0,value,2,8801,Brackenborough,Lincolnshire,1.0,2.0,0.52,15.0,3.5,480.0,1.0,,TF3390/brackenborough,name,False
+202,Bullington,27.0,value,4,11366,Bullington,Lincolnshire,1.0,3.0,0.54,27.0,5.0,360.0,,,TF0977/bullington,name,False
+203,Burgh,,absent,0,11511,{Burg},Lincolnshire,0.889,0.0,1.49,9.0,1.0,516.0,1.0,,TF0947/burg,name,False
+204,Burnham,8.0,value,2,11761,Burnham,Lincolnshire,1.0,0.0,0.57,,,,,,TA0517/burnham,name,False
+205,Burreth,15.0,value,3,11841,`Burreth',Lincolnshire,1.0,3.0,0.36,10.5,1.5,,,,TF1569/burreth,name,False
+206,"Burton, Gate",48.0,value,5,12021,[Gate] Burton,Lincolnshire,1.0,0.0,0.36,10.0,4.0,360.0,,,SK8383/gate-burton,name,False
+207,Buslingthorpe,14.0,value,1,62816,[Busling]thorpe,Lincolnshire,1.0,1.0,0.51,14.0,4.5,120.0,,,TF0885/buslingthorpe,name,False
+208,Butyate,,absent,0,12321,`Butyate',Lincolnshire,1.0,0.0,0.32,15.0,4.0,600.0,,,,name,False
+209,North Cadeby,,absent,0,12461,[North] Cadeby,Lincolnshire,1.0,0.0,0.71,14.0,3.0,,,,TF2695/cadeby,name,False
+210,South Cadeby,16.0,value,10,12466,`[South] Cadeby',Lincolnshire,1.0,4.0,0.22,14.0,5.0,876.0,,,TF2487/south-cadeby,name,False
+211,Calceby,179.0,value,3,12551,Calceby,Lincolnshire,1.0,2.0,0.22,36.95,5.325,,,,TF3975/calceby,name,False
+212,Calcethorpe,4.0,value,2,62836,[Calce]thorpe,Lincolnshire,1.0,1.0,0.43,2.0,0.5,360.0,,,TF2488/calcethorpe,name,False
+213,"Carlton, Castle",,absent,0,13206,[Little] Carlton,Lincolnshire,1.0,0.0,1.83,13.0,3.0,240.0,1.0,,TF3985/little-carlton,name,False
+214,Middle Carlton,17.0,value,2,13216,`[Middle] Carlton',Lincolnshire,1.0,2.0,0.71,17.0,1.0,240.0,,,SK9577/middle-carlton,name,False
+215,Cauthorpe,,absent,0,,,,,,,,,,,,,,
+216,Cawkwell,25.0,value,2,13656,Cawkwell,Lincolnshire,1.0,2.0,0.58,25.0,4.0,720.0,,,TF2879/cawkwell,name,False
+217,Cawthorpe,,other,0,,,,,,,,,,,,,,
+218,Claxby Pluckacre,183.0,value,3,15771,Claxby [Pluckacre],Lincolnshire,1.0,1.0,0.72,124.857,27.857,,1.286,,TF3065/claxby-pluckacre,name,False
+219,Cleatham,14.0,value,6,15886,Cleatham,Lincolnshire,1.0,5.0,0.54,14.0,5.5,1080.0,,,SE9300/cleatham,name,False
+220,Coates by Stow,6.0,value,5,16451,Coates,Lincolnshire,0.667,2.0,0.1,6.0,2.0,420.0,,,SK9083/coates,reference+name,False
+221,Coatham,,absent,0,,,,,,,,,,,,,,
+222,North Cockerington,57.0,value,7,,,,,,,,,,,,,,
+223,Collow,6.0,value,1,,,,,,,,,,,,,,
+224,Great Conesby,39.0,value,2,17306,`[Great] Conesby',Lincolnshire,1.0,1.0,0.31,17.5,3.0,,,,SE8913/great-and-little-conesby,name,False
+225,Little Conesby,39.0,value,2,17311,`[Little] Conesby',Lincolnshire,1.0,1.0,0.14,2.0,0.5,,,,,name,False
+226,Little Corringham,55.0,value,4,17676,Corringham,Lincolnshire,1.0,3.0,0.65,34.0,9.5,360.0,,,SK8791/corringham,name,True
+227,Crossholme,,absent,0,,,,,,,,,,,,,,
+228,Dalby,66.0,value,1,19421,Dalby,Lincolnshire,1.0,1.0,0.64,22.0,4.333,,,,TF4070/dalby,name,False
+229,Dalderby,,absent,0,,,,,,,,,,,,,,
+230,Darby,0.0,value,1,,,,,,,,,,,,,,
+231,Dexthorpe,67.0,value,2,20221,Dexthorpe,Lincolnshire,1.0,2.0,0.22,23.0,4.333,96.0,,,TF4071/dexthorpe,name,False
+232,Draycote,,absent,0,,,,,,,,,,,,,,
+233,Driby,15.0,value,1,21191,Driby,Lincolnshire,1.0,1.0,0.51,15.0,7.0,1200.0,1.0,,TF3874/driby,name,False
+234,Dunstall,17.0,value,2,21536,`Dunstall',Lincolnshire,1.0,2.0,0.52,17.0,4.5,960.0,1.0,,SK8893/dunstall,name,False
+235,"Dunsthorpe, Hameringham",,absent,0,,,,,,,,,,,,,,
+236,Farforth,18.0,value,2,24251,Farforth,Lincolnshire,1.0,1.0,0.31,18.0,3.0,,1.0,,TF3178/farforth,name,False
+237,Fenby,17.0,value,1,24701,Fenby,Lincolnshire,1.0,1.0,0.55,17.0,3.5,,,,TF2699/fenby,name,False
+238,East Firsby,22.0,value,2,,,,,,,,,,,,,,
+239,West Firsby,22.0,value,2,,,,,,,,,,,,,,
+240,Fonaby,18.0,value,1,25331,Fonaby,Lincolnshire,1.0,1.0,0.79,18.0,3.0,,,,TA1002/fonaby,name,False
+241,Fordington,97.0,value,1,25421,Fordington,Lincolnshire,1.0,1.0,0.54,24.25,4.5,,,,TF4171/fordington,name,False
+242,Frunthorpe,,absent,0,,,,,,,,,,,,,,
+243,Fultnetby,,absent,0,26196,Fulnetby,Lincolnshire,0.941,0.0,0.31,12.0,3.0,,,,TF0979/fulnetby,name,False
+244,Gainsthorpe,0.0,value,1,26316,`Gainsthorpe',Lincolnshire,1.0,0.0,0.41,,,60.0,,,SE9501/gainsthorpe,name,False
+245,Gayton le Wold,22.0,value,1,26581,Gayton [le Wold],Lincolnshire,1.0,1.0,0.54,22.0,7.5,10800.0,,,TF2386/gayton-le-wold,name,False
+246,Gilby,,absent,0,,,,,,,,,,,,,,
+247,Girsby,36.0,value,2,26786,Girsby,Lincolnshire,1.0,2.0,0.58,34.5,7.25,240.0,,,TF2187/girsby,name,False
+248,Goltho,,absent,0,,,,,,,,,,,,,,
+249,Grebby,,no_source,1,27616,Grebby,Lincolnshire,1.0,0.0,0.36,,,,,,TF4368/grebby,name,False
+250,Little Greetham,56.0,value,2,27686,Greetham,Lincolnshire,1.0,1.0,0.43,56.0,12.0,14400.0,1.0,,TF3070/greetham,name,True
+251,Greetwell,22.0,value,1,27701,`Greetwell',Lincolnshire,1.0,1.0,0.1,22.0,7.0,,1.0,,TF0171/greetwell,name,False
+252,Grimblethorpe,,absent,0,,,,,,,,,,,,,,
+253,Little Grimsby,19.0,value,3,27836,[Little] Grimsby,Lincolnshire,1.0,2.0,0.22,19.0,4.0,300.0,,,TF3291/little-grimsby,name,False
+254,Gunby,2.0,value,1,28096,Gunby,Lincolnshire,1.0,0.0,0.36,,,,,,TF4766/gunby,name,False
+255,Gunnerby,11.0,value,1,28111,Gunnerby,Lincolnshire,1.0,1.0,0.5,11.0,4.0,,1.0,,TF2199/gunnerby,name,False
+256,Hanby,,no_source,2,29041,Hanby,Lincolnshire,1.0,0.0,0.3,,,,,,TF4769/hanby,name,False
+257,Hardwick,6.0,value,2,29431,`Hardwick',Lincolnshire,1.0,1.0,0.5,6.0,1.0,36.0,,,TF1779/hardwick,name,False
+258,"Hardwick, Caistor",,absent,0,,,,,,,,,,,,,,
+259,Harrington,,absent,0,,,,,,,,,,,,,,
+260,Havercroft,,absent,0,,,,,,,,,,,,,,
+261,Hawerby,16.0,value,1,30396,Hawerby,Lincolnshire,1.0,1.0,2.9,16.0,3.0,,,,TF2697/hawerby,name,False
+262,Haythby,13.0,value,4,30551,`Haythby',Lincolnshire,1.0,4.0,0.29,13.0,2.0,,,,,name,False
+263,Holme,6.0,value,1,,,,,,,,,,,,,,
+264,Holme in Sudbrook,48.0,value,2,60341,Sudbrooke,Lincolnshire,0.667,1.0,1.07,12.333,3.0,60.0,0.333,,TF0376/sudbrooke,reference+name,False
+265,Holtham,,absent,0,,,,,,,,,,,,,,
+266,Houflet,,absent,0,,,,,,,,,,,,,,
+267,Hundon,53.0,value,1,34006,Hundon,Lincolnshire,1.0,0.0,0.0,,,,,,TA1102/hundon,name,False
+268,Ingleby,48.0,value,3,34826,Ingleby,Lincolnshire,1.0,3.0,0.36,38.0,9.0,3300.0,,,SK8977/ingleby,name,False
+269,Ketsby,18.0,value,1,35766,Ketsby,Lincolnshire,1.0,1.0,0.3,18.0,5.5,1200.0,1.0,,TF3676/ketsby,name,False
+270,Kettleby,36.0,value,3,35791,`Kettleby',Lincolnshire,1.0,3.0,0.41,24.5,3.5,600.0,,,TA0307/kettleby,name,False
+271,Kettleby Thorpe,19.0,value,1,62941,`[Kettleby] Thorpe',Lincolnshire,1.0,1.0,0.5,19.0,3.0,600.0,,,TA0407/kettleby-thorpe,name,False
+272,Kingersby (Kingerby),,absent,0,36236,Kingerby,Lincolnshire,1.0,0.0,0.45,34.0,6.0,960.0,1.0,,TF0592/kingerby,name,False
+273,Knaith,3.0,value,1,36886,Knaith,Lincolnshire,1.0,1.0,0.59,3.0,2.0,,,,SK8384/knaith,name,False
+274,East Langworth,,absent,0,,,,,,,,,,,,,,
+275,Laythorpe,25.5,value,2,,,,,,,,,,,,,,
+276,Little Limber,8.0,value,3,39231,[Little] Limber,Lincolnshire,1.0,3.0,0.1,8.0,3.5,840.0,,,TA1210/little-limber,name,False
+277,Linwood,33.0,value,2,39411,Linwood,Lincolnshire,1.0,2.0,1.04,33.0,10.5,840.0,2.0,,TF1086/linwood,name,False
+278,Lobingham,5.0,value,5,39761,{Lobingeham},Lincolnshire,0.947,5.0,0.29,28.333,4.667,504.0,0.5,,TA1418/lopingheham,name,False
+279,Luddington,24.0,value,2,40391,Luddington,Lincolnshire,1.0,2.0,0.22,9.0,1.5,27.0,,,SE8316/luddington,name,False
+280,Maidenwell,10.0,value,1,68246,[Maiden]well,Lincolnshire,1.0,1.0,0.3,10.0,4.0,960.0,,,TF3279/maidenwell,name,False
+281,Maltby,61.0,value,1,41086,Maltby,Lincolnshire,1.0,1.0,0.9,15.25,1.5,,,,TF3184/maltby,name,False
+282,Manby,,absent,1,41146,`Manby',Lincolnshire,1.0,0.0,0.32,,,,,,SE9308/manby,name,False
+283,Marae,,absent,0,,,,,,,,,,,,,,
+284,Mare,,no_source,0,41451,`Mare',Lincolnshire,1.0,0.0,4.34,,,,,,TF4395/mare,name,False
+285,Mareham on the Hill,1.0,value,1,41476,Mareham [on the Hill],Lincolnshire,1.0,1.0,0.51,1.0,,,,,TF2867/mareham-on-the-hill,name,False
+286,Little Minting,57.0,value,1,43441,[Little] Minting,Lincolnshire,1.0,1.0,0.71,28.5,6.5,,,,TF1673/little-minting,name,False
+287,Newball,15.0,value,1,45031,Newball,Lincolnshire,1.0,1.0,0.23,15.0,4.0,1200.0,,,TF0776/newball,name,False
+288,Newsham,18.0,value,5,45271,Newsham,Lincolnshire,1.0,3.0,0.37,12.0,2.75,480.0,1.0,,TA1213/newsham,name,False
+289,Newton by Toft,17.0,value,3,45516,Newton [by Toft],Lincolnshire,1.0,2.0,0.5,17.0,4.5,64.0,,,TF0587/newton-by-toft,name,False
+290,Norcotes,,absent,0,,,,,,,,,,,,,,
+291,Normanby,27.0,value,3,45876,Normanby [by Stow],Lincolnshire,1.0,0.0,0.58,9.0,2.167,,,,SK8883/normanby-by-stow,name,False
+292,Orford,0.0,value,1,47186,`Orford',Lincolnshire,1.0,0.0,0.22,,,,,,TF2094/orford,name,False
+293,Osgodby Bardney,16.0,value,1,47366,`Osgodby',Lincolnshire,0.667,1.0,0.36,16.0,3.0,,,,TF1372/osgodby,reference+name,False
+294,Otby,61.0,value,2,47471,Otby,Lincolnshire,1.0,1.0,0.42,10.25,1.0,,0.25,,TF1393/otby,name,False
+295,Oxcombe,24.0,value,2,47881,Oxcombe,Lincolnshire,1.0,2.0,0.5,18.5,3.0,480.0,,,TF3177/oxcombe,name,False
+296,Ranby,29.0,value,2,51051,Ranby,Lincolnshire,1.0,2.0,0.72,28.0,8.5,1440.0,1.0,,TF2378/ranby,name,False
+297,Rand,13.0,value,1,51061,Rand,Lincolnshire,1.0,1.0,0.45,13.0,2.0,,,,TF1078/rand,name,False
+298,West Ravendale,49.0,value,5,,,,,,,,,,,,,,
+299,Raventhorpe,9.0,value,1,51256,`Raventhorpe',Lincolnshire,1.0,1.0,0.54,9.0,2.0,360.0,,,SE9308/raventhorpe,name,False
+300,Revesby,68.0,value,1,51601,Revesby,Lincolnshire,1.0,1.0,1.6,34.0,6.5,,,,TF2961/revesby,name,False
+301,East Shefford,18.0,value,1,55111,[East] Shefford,Berkshire,1.0,1.0,0.5,18.0,5.0,2400.0,2.0,5.0,SU3874/east-shefford,name,False
+302,Shinfield (Green),15.0,value,1,55541,Shinfield,Berkshire,1.0,1.0,0.97,15.0,8.0,1920.0,1.0,2.0,SU7268/shinfield,name,False
+303,Shottesbrooke,28.0,value,1,55871,Shottesbrook,Berkshire,0.96,1.0,0.66,28.0,12.0,1440.0,,2.0,SU8477/shottesbrook,name,False
+304,Southcote,,absent,0,,,,,,,,,,,,,,
+305,"Sparkmoor Cottage, nr Tidmarsh",,absent,0,,,,,,,,,,,,,,
+306,North Standen,,absent,1,57911,Standen,Berkshire,1.0,0.0,1.36,4.0,4.0,1200.0,,4.0,SU3266/standen,name,True
+307,Stanford Wick,,absent,0,,,,,,,,,,,,,,
+308,Steventon,68.0,value,1,58751,Steventon,Berkshire,1.0,1.0,0.44,68.0,14.0,7680.0,3.0,2.0,SU4791/steventon,name,False
+309,"Straight Lane, nr Eastbury",,absent,0,,,,,,,,,,,,,,
+310,Stroud,,absent,0,,,,,,,,,,,,,,
+311,Sugworth,,qualified,1,60431,Sugworth,Berkshire,1.0,1.0,0.22,10.0,0.333,800.0,,1.667,SP5100/sugworth,name,False
+312,Swallowfield,30.0,value,3,60956,Swallowfield,Berkshire,1.0,2.0,1.68,19.0,9.0,2166.0,1.0,2.0,SU7164/swallowfield,name,False
+313,Swinford,,absent,0,,,,,,,,,,,,,,
+314,Thrupp,,absent,0,,,,,,,,,,,,,,
+315,"Trunkwell, nr Little Copse",,absent,0,,,,,,,,,,,,,,
+316,Tubney,20.0,value,1,65396,Tubney,Berkshire,1.0,1.0,2.8,20.0,12.0,960.0,,2.0,SU4398/tubney,name,False
+317,Tulwick,,absent,0,,,,,,,,,,,,,,
+318,Ufton Green (Ufton Nervet),13.0,value,1,65946,Ufton [Nervet],Berkshire,1.0,1.0,1.2,13.0,3.0,720.0,,,SU6367/ufton-nervet,name,False
+319,Ufton Robert,14.0,value,1,65951,Ufton [Robert],Berkshire,1.0,1.0,1.33,14.0,7.0,720.0,,1.0,SU6268/ufton-robert,name,False
+320,Wadley,,absent,0,,,,,,,,,,,,,,
+321,Wawcott,,absent,0,,,,,,,,,,,,,,
+322,Weston,,qualified,1,68831,Weston,Berkshire,1.0,1.0,0.59,14.0,2.0,800.0,,2.0,SU3973/weston,name,False
+323,Whatcombe,3.0,value,1,69321,Whatcombe,Berkshire,1.0,1.0,0.36,3.0,1.0,240.0,,,SU3978/whatcombe,name,False
+324,Whistley Green,17.0,value,1,69541,Whistley,Berkshire,0.762,1.0,0.72,17.0,9.0,1440.0,1.0,,SU7973/whistley,reference+name,False
+325,Whitley,,absent,0,,,,,,,,,,,,,,
+326,Wickfield,,absent,0,,,,,,,,,,,,,,
+327,Wicklesham,,absent,0,,,,,,,,,,,,,,
+328,Willington,21.0,value,1,70631,Willington,Berkshire,1.0,1.0,2.49,21.0,9.0,2160.0,,9.0,SU5491/willington,name,False
+329,Old Windsor,25.0,value,1,71026,Windsor,Berkshire,1.0,1.0,3.24,25.0,11.0,3600.0,,1.0,SU9676/windsor,name,True
+330,Woodhill,,absent,0,,,,,,,,,,,,,,
+331,Woolley,22.0,value,1,72416,Woolley,Berkshire,1.0,1.0,1.11,22.0,6.0,1440.0,,4.0,SU4180/woolley,name,False
+332,Woolstone,46.0,value,1,72501,Woolstone,Berkshire,1.0,1.0,0.22,46.0,6.0,4320.0,2.0,10.0,SU2987/woolstone,name,False
+333,Wyld Court,6.0,value,1,73361,Wyld,Berkshire,0.615,1.0,0.53,6.0,3.0,480.0,,2.0,SU5476/wyld,reference+name,False
+334,Wytham,15.0,value,1,73426,Wytham,Berkshire,1.0,1.0,0.8,15.0,1.5,960.0,,,SP4709/wytham,name,False
+335,North Wytham,15.0,value,1,73426,Wytham,Berkshire,1.0,1.0,0.14,15.0,1.5,960.0,,,SP4709/wytham,name,True
+336,Ackhampstead,,absent,0,,,,,,,,,,,,,,
+337,Addingrove,10.0,value,1,311,Addingrove,Buckinghamshire,1.0,1.0,0.2,10.0,5.0,720.0,,1.0,SP6611/addingrove,name,False
+338,Aston Mullins,,absent,0,,,,,,,,,,,,,,
+339,Beachendon,5.0,value,2,5321,Beachendon,Buckinghamshire,1.0,1.0,0.44,5.0,,360.0,,,SP7513/beachendon,name,False
+340,Boarstall,,absent,0,,,,,,,,,,,,,,
+341,Boycott,1.0,value,1,8686,Boycott,Buckinghamshire,1.0,1.0,0.75,1.0,1.0,240.0,,,SP6537/boycott,name,False
+342,Burston,15.0,value,4,,,,,,,,,,,,,,
+343,Caldecote in Newport Pagnell,12.0,value,3,12596,Caldecote,Buckinghamshire,0.529,3.0,0.44,10.0,6.0,1680.0,2.0,1.0,SP8742/caldecote,reference+name,False
+344,Caldecote in Weston Turville,24.0,value,1,69051,Weston [Turville],Buckinghamshire,0.718,1.0,1.92,24.0,15.0,60.0,4.0,12.0,SP8511/weston-turville,reference+name,False
+345,Chetwode,15.0,value,1,14786,Chetwode,Buckinghamshire,1.0,1.0,0.53,15.0,4.5,720.0,1.0,6.0,SP6429/chetwode,name,False
+346,Middle Claydon,21.0,value,1,15801,[Middle] Claydon,Buckinghamshire,1.0,1.0,0.53,21.0,8.0,2400.0,,3.0,SP7225/middle-claydon,name,False
+347,Cottesloe,,absent,0,,,,,,,,,,,,,,
+348,Creslow,12.0,value,1,18571,Creslow,Buckinghamshire,1.0,1.0,0.42,12.0,6.0,1200.0,,5.0,SP8121/creslow,name,False
+349,Cublington,21.0,value,1,19066,Cublington,Buckinghamshire,1.0,1.0,0.22,21.0,9.0,1440.0,,5.0,SP8322/cublington,name,False
+350,Denham,,absent,0,,,,,,,,,,,,,,
+351,Doddershall,,absent,0,,,,,,,,,,,,,,
+352,Evershaw,2.0,value,1,23821,Evershaw,Buckinghamshire,1.0,1.0,0.14,2.0,,240.0,,,SP6338/evershaw,name,False
+353,Eythrope,,absent,0,,,,,,,,,,,,,,
+354,Fleet Marston,12.0,value,1,41751,[Fleet] Marston,Buckinghamshire,1.0,1.0,0.56,12.0,4.0,480.0,,1.0,SP7715/fleet-marston,name,False
+355,Foxcote,4.0,value,1,25621,Foxcote,Buckinghamshire,1.0,1.0,0.36,4.0,4.0,720.0,,1.0,SP7135/foxcote,name,False
+356,Fulbrook,,absent,0,,,,,,,,,,,,,,
+357,Gayhurst,12.0,value,1,26556,Gayhurst,Buckinghamshire,1.0,1.0,0.85,12.0,4.0,1200.0,1.0,2.0,SP8546/gayhurst,name,False
+358,Grove,2.0,value,1,27986,Grove,Buckinghamshire,1.0,1.0,0.3,2.0,1.0,240.0,,,SP9122/grove,name,False
+359,Hallinges,,absent,0,,,,,,,,,,,,,,
+360,Great Hampden,6.0,value,1,,,,,,,,,,,,,,
+361,Hardmead I (North End),36.0,value,6,29401,Hardmead,Buckinghamshire,0.941,4.0,0.85,36.0,6.0,1512.0,,3.0,SP9347/hardmead,name,True
+362,Hardmead II (South End),36.0,value,6,29401,Hardmead,Buckinghamshire,0.889,4.0,0.51,36.0,6.0,1512.0,,3.0,SP9347/hardmead,name,True
+363,Hedsor,,absent,0,,,,,,,,,,,,,,
+364,Helsthorpe,7.0,value,2,30971,Helsthorpe,Buckinghamshire,1.0,2.0,0.81,7.0,3.0,720.0,,3.0,SP8919/helsthorpe,name,False
+365,Hogshaw,8.0,value,1,32341,Hogshaw,Buckinghamshire,1.0,1.0,0.66,8.0,3.5,720.0,,,SP7422/hogshaw,name,False
+366,Hughenden,23.0,value,1,33861,Hughenden,Buckinghamshire,1.0,1.0,0.99,23.0,10.0,2400.0,,5.0,SU8696/hughenden,name,False
+367,Lenborough,12.0,value,2,38771,Lenborough,Buckinghamshire,1.0,2.0,0.44,12.0,3.0,1080.0,,3.0,SP6931/lenborough,name,False
+368,Lillingstone Dayrell,11.0,value,1,39201,Lillingstone [Dayrell],Buckinghamshire,1.0,1.0,0.31,11.0,3.5,720.0,,,SP7039/lillingstone-dayrell,name,False
+369,Linslade,33.0,value,1,39356,Linslade,Bedfordshire,1.0,1.0,1.48,33.0,13.0,2400.0,1.0,5.0,SP9125/linslade,name,False
+370,Liscombe,,absent,0,,,,,,,,,,,,,,
+371,Littlecote,10.0,value,3,39521,Littlecote,Buckinghamshire,1.0,3.0,0.49,10.0,3.0,900.0,,3.0,SP8324/littlecote,name,False
+372,Moreton,,absent,0,,,,,,,,,,,,,,
+373,Okeney,,absent,0,,,,,,,,,,,,,,
+374,Olney Hyde,,absent,0,,,,,,,,,,,,,,
+375,Petsoe,,absent,0,,,,,,,,,,,,,,
+376,Putlowes,,absent,0,,,,,,,,,,,,,,
+377,Quarrendon I,28.0,value,1,50666,Quarrendon,Buckinghamshire,1.0,1.0,0.2,28.0,12.0,1920.0,,,SP8015/quarrendon,name,True
+378,Quarrendon II,28.0,value,1,50666,Quarrendon,Buckinghamshire,1.0,1.0,0.75,28.0,12.0,1920.0,,,SP8015/quarrendon,name,True
+379,Quarrendon III,28.0,value,1,50666,Quarrendon,Buckinghamshire,1.0,1.0,2.75,28.0,12.0,1920.0,,,SP8015/quarrendon,name,True
+380,Saunderton,38.0,value,2,53961,Saunderton,Buckinghamshire,1.0,2.0,0.36,38.0,10.0,2400.0,3.0,4.0,SP7901/saunderton,name,False
+381,Shipton Lee,7.0,value,3,55671,Shipton [Lee],Buckinghamshire,1.0,2.0,0.75,7.0,4.0,900.0,,1.0,SP7321/shipton-lee,name,False
+382,Stantonbury,14.0,value,1,58286,Stanton[bury],Buckinghamshire,1.0,1.0,1.03,14.0,5.0,1440.0,1.0,4.0,SP8442/stantonbury,name,False
+383,Stoke Mandeville,45.0,value,1,59261,Stoke [Mandeville],Buckinghamshire,1.0,1.0,1.01,45.0,21.0,4800.0,1.0,3.0,SP8310/stoke-mandeville,name,False
+384,Stowe,3.0,value,1,59701,Stowe,Buckinghamshire,1.0,1.0,0.31,3.0,1.5,480.0,,,SP6737/stowe,name,False
+385,Tattenhoe,,absent,0,,,,,,,,,,,,,,
+386,Tetchwick,4.0,value,1,61941,Tetchwick,Buckinghamshire,1.0,1.0,0.99,4.0,3.0,360.0,,1.0,SP6819/tetchwick,name,False
+387,Tyringham,34.0,value,2,65776,Tyringham,Buckinghamshire,1.0,2.0,0.44,34.0,12.0,2040.0,,10.0,SP8546/tyringham,name,False
+388,Tythrop,8.0,value,0,65831,Tythorp,Buckinghamshire,0.857,0.0,0.7,8.0,2.0,960.0,,2.0,SP7307/tythrop,name,False
+389,Waldridge,3.0,value,2,66736,Waldridge,Buckinghamshire,1.0,1.0,0.28,3.0,2.0,360.0,,1.0,SP7807/waldridge,name,False
+390,Upper Winchendon,20.0,value,1,70971,[Upper] Winchendon,Buckinghamshire,1.0,1.0,0.1,20.0,9.0,1440.0,,1.0,SP7414/upper-winchendon,name,False
+391,Wotton Underwood,28.0,value,1,73011,Wotton [Underwood],Buckinghamshire,1.0,1.0,0.67,28.0,10.0,1680.0,,5.0,SP6816/wotton-underwood,name,False
+392,Tadley,,absent,0,,,,,,,,,,,,,,
+393,Badlingham,21.0,value,1,3806,Badlingham,Cambridgeshire,1.0,1.0,0.5,21.0,6.0,720.0,2.0,6.0,TL6770/badlingham,name,False
+394,Barham,30.0,value,4,4221,Barham,Cambridgeshire,1.0,2.0,0.41,24.0,8.5,2968.0,2.0,6.0,TL5746/barham,name,False
+395,Castle Camps,49.0,value,2,,,,,,,,,,,,,,
+396,Caxton,35.0,value,1,13691,Caxton,Cambridgeshire,1.0,1.0,0.5,35.0,12.0,2640.0,,,TL3058/caxton,name,False
+397,"Childerley, Great and Little",25.0,value,3,14961,Childerley,Cambridgeshire,1.0,2.0,0.2,25.0,7.0,1560.0,,4.0,TL3561/childerley,name,True
+398,Chilford,,absent,0,,,,,,,,,,,,,,
+399,Clopton,18.0,value,3,16271,Clopton,Cambridgeshire,1.0,2.0,0.42,18.0,4.0,1680.0,,,TL3048/clopton,name,False
+400,Croxton,23.0,value,2,18971,Croxton,Cambridgeshire,1.0,2.0,0.36,23.0,6.5,2160.0,,,TL2559/croxton,name,False
+401,Henny,0.0,value,1,,,,,,,,,,,,,,
+402,Stonehouse,34.0,value,1,59511,Stonehouse,Gloucestershire,1.0,1.0,0.71,34.0,22.0,1920.0,2.0,4.0,SO8005/stonehouse,name,False
+403,Tidgrove,2.0,value,1,63726,Tidgrove,Hampshire,1.0,1.0,0.31,2.0,1.0,300.0,1.0,,SU5254/tidgrove,name,False
+404,Stowell,93.0,value,1,59716,Stowell,Gloucestershire,1.0,0.0,0.53,,,,,,SP0813/stowell,name,False
+405,Sudeley,40.0,value,1,60376,Sudeley,Gloucestershire,1.0,1.0,0.31,40.0,17.0,9600.0,6.0,14.0,SP0327/sudeley,name,False
+406,Taynton Parva,6.0,value,1,61791,[Little] Taynton,Gloucestershire,0.737,1.0,0.72,6.0,1.0,240.0,,,SO7423/little-taynton,reference+name,True
+407,Uletone,8.0,value,0,,,,,,,,,,,,,,
+408,Upcote,,absent,1,66151,Upcote,Gloucestershire,1.0,0.0,0.44,,,,,,SP0216/upcote,name,False
+409,Upton,,absent,0,,,,,,,,,,,,,,
+410,Wall,7.0,value,1,66851,Wall,Gloucestershire,1.0,0.0,0.1,,,,,,SP1510/wall,name,False
+411,Williamstrip,12.0,value,1,70556,Williamstrip,Gloucestershire,1.0,0.0,0.7,,,,,,SP1505/williamstrip,name,False
+412,Wormington Dastyn,,absent,0,,,,,,,,,,,,,,
+413,Wormington Parva,8.0,value,1,72796,Wormington,Gloucestershire,0.8,1.0,2.18,8.0,4.0,960.0,1.0,2.0,SP0336/wormington,reference+name,True
+414,Abbotstone,19.0,value,1,31,Abbotstone,Hampshire,1.0,1.0,0.0,19.0,6.0,1200.0,1.0,5.0,SU5634/abbotstone,name,False
+415,Allington,27.0,value,1,1156,Allington,Hampshire,1.0,1.0,0.57,27.0,8.0,1560.0,2.0,10.0,SU4717/allington,name,False
+416,Aplestede,16.0,value,1,1891,{Aplestede},Hampshire,1.0,1.0,0.69,16.0,2.0,480.0,1.0,,SU6008/aplestede,name,False
+417,Bentley,36.0,value,3,6106,Bentley,Hampshire,1.0,2.0,0.48,7.0,1.5,210.0,,,SU3129/bentley,name,False
+418,Betramelei,0.0,value,1,,,,,,,,,,,,,,
+419,Bile,0.0,value,1,,,,,,,,,,,,,,
+420,Bisterne,9.0,value,1,7316,Bisterne,Hampshire,1.0,1.0,0.9,9.0,3.0,480.0,,,SU1500/bisterne,name,False
+421,Blendworth,,absent,0,,,,,,,,,,,,,,
+422,Boarhunt,27.0,value,3,,,,,,,,,,,,,,
+423,Bocolt,0.0,value,1,,,,,,,,,,,,,,
+424,Bossington,3.0,value,1,8301,Bossington,Hampshire,1.0,1.0,0.4,3.0,,480.0,,,SU3330/bossington,name,False
+425,Bovre,0.0,value,1,,,,,,,,,,,,,,
+426,Bovreford,0.0,value,1,,,,,,,,,,,,,,
+427,Boyatt,11.0,value,1,8681,Boyatt,Hampshire,1.0,1.0,0.55,11.0,1.5,480.0,2.0,2.0,SU4520/boyatt,name,False
+428,Brochelie,0.0,value,1,,,,,,,,,,,,,,
+429,Broxhead,10.0,value,1,10851,Broxhead,Hampshire,1.0,1.0,0.83,10.0,2.0,360.0,1.0,3.0,SU8037/broxhead,name,False
+430,"Candover, Brown",32.0,value,1,12886,[Brown] Candover,Hampshire,1.0,1.0,0.31,32.0,15.0,1920.0,,12.0,SU5739/brown-candover,name,False
+431,"Candover, Chilton",11.0,value,1,12891,[Chilton] Candover,Hampshire,1.0,1.0,0.44,11.0,3.0,1680.0,,,SU5940/chilton-candover,name,False
+432,North Charford,29.0,value,2,14036,[North] Charford,Hampshire,1.0,2.0,0.49,29.0,4.0,1440.0,2.0,4.0,SU1719/north-charford,name,False
+433,South Charford,51.0,value,4,14041,[South] Charford,Hampshire,1.0,3.0,0.58,51.0,6.0,2040.0,,8.0,SU1618/south-charford,name,False
+434,Chineham,14.0,value,1,15176,Chineham,Hampshire,1.0,1.0,0.5,14.0,3.0,600.0,,7.0,SU6453/chineham,name,False
+435,Cocherlie,,absent,0,,,,,,,,,,,,,,
+436,Colemore,10.0,value,1,16736,Colemore,Hampshire,1.0,1.0,0.22,10.0,2.0,360.0,,4.0,SU7030/colemore,name,False
+437,Compton,32.0,value,1,17141,Compton,Hampshire,1.0,1.0,0.55,32.0,8.0,1680.0,1.0,,SU3429/compton,name,False
+438,Dogmersfield,19.0,value,1,20636,Dogmersfield,Hampshire,1.0,1.0,0.0,19.0,4.0,1200.0,1.0,1.0,SU7751/dogmersfield,name,False
+439,Upper Eldon,,absent,0,,,,,,,,,,,,,,
+440,Ellingham,20.0,value,1,22976,Ellingham,Hampshire,1.0,1.0,0.14,20.0,5.5,840.0,1.0,5.0,SU1408/ellingham,name,False
+441,Elvetham,16.0,value,1,23276,Elvetham,Hampshire,1.0,1.0,0.31,16.0,3.0,360.0,,8.0,SU7856/elvetham,name,False
+442,Empshott,4.0,value,1,23371,Empshott,Hampshire,1.0,1.0,0.36,4.0,1.5,300.0,1.0,,SU7531/empshott,name,False
+443,Ewhurst,4.0,value,1,23906,Ewhurst,Hampshire,1.0,1.0,0.57,4.0,2.0,360.0,,,SU5756/ewhurst,name,False
+444,Farleigh Wallop,25.0,value,1,24286,Farleigh [Wallop],Hampshire,1.0,1.0,0.92,25.0,7.0,1440.0,,3.0,SU6246/farleigh-wallop,name,False
+445,Farley Chamberlaine,21.0,value,2,24326,Farley [Chamberlayne],Hampshire,0.944,2.0,0.0,21.0,7.5,1440.0,,6.0,SU3927/farley-chamberlayne,name,False
+446,Farlington,,absent,0,67326,Warblington,Hampshire,0.857,0.0,3.76,,,,,,SU7205/warblington,name,False
+447,Fullerton,13.0,value,1,26176,Fullerton,Hampshire,1.0,1.0,0.14,13.0,3.0,720.0,1.0,4.0,SU3739/fullerton,name,False
+448,Gatingeorde,0.0,value,1,,,,,,,,,,,,,,
+449,Godsfield,,absent,0,,,,,,,,,,,,,,
+450,Harbridge,10.0,value,1,29326,Harbridge,Hampshire,1.0,1.0,0.41,10.0,5.0,840.0,,,SU1410/harbridge,name,False
+451,Hardelie,0.0,value,1,,,,,,,,,,,,,,
+452,Hariforde,,absent,0,,,,,,,,,,,,,,
+453,Hartley Mauditt,13.0,value,2,29891,Hartley [Mauditt],Hampshire,1.0,1.0,0.49,13.0,7.0,1680.0,,,SU7436/hartley-mauditt,name,False
+454,Hatch Warren,13.0,value,1,30121,Hatch [Warren],Hampshire,1.0,1.0,0.31,13.0,3.0,960.0,,11.0,SU6148/hatch-warren,name,False
+455,South Hay,,absent,0,,,,,,,,,,,,,,
+456,Highclere,68.0,value,1,15981,[High]clere,Hampshire,1.0,1.0,0.31,44.0,18.0,2640.0,1.0,5.0,SU4458/highclere,name,False
+457,Hincelveslei,0.0,value,1,,,,,,,,,,,,,,
+458,Hordle,15.0,value,1,33156,Hordle,Hampshire,1.0,1.0,3.22,15.0,4.0,720.0,1.0,,SZ2795/hordle,name,False
+459,Idsworth,,absent,0,,,,,,,,,,,,,,
+460,Inhurst,,absent,0,,,,,,,,,,,,,,
+461,Juare,,absent,0,,,,,,,,,,,,,,
+462,Kempshott,6.0,value,1,35521,Kempshott,Hampshire,1.0,1.0,0.31,6.0,3.0,360.0,,,SU5947/kempshott,name,False
+463,Laverstoke,29.0,value,1,38031,Laverstoke,Hampshire,1.0,1.0,0.53,29.0,7.0,1920.0,2.0,3.0,SU4948/laverstoke,name,False
+464,Lee,,absent,0,,,,,,,,,,,,,,
+465,Lomer,11.0,value,1,39886,Lomer,Hampshire,1.0,1.0,0.14,11.0,4.0,1200.0,,2.0,SU5923/lomer,name,False
+466,Merdon,,absent,0,,,,,,,,,,,,,,
+467,Minley,5.0,value,1,43361,Minley,Hampshire,1.0,1.0,0.5,5.0,2.0,240.0,,,SU8258/minley,name,False
+468,Murrell Green,,absent,0,,,,,,,,,,,,,,
+469,Newton,,absent,0,,,,,,,,,,,,,,
+470,Northington,,absent,0,,,,,,,,,,,,,,
+471,Nutley,19.0,value,1,46501,Nutley,Hampshire,1.0,1.0,0.4,19.0,4.5,1080.0,,8.0,SU6044/nutley,name,False
+472,North Oakley,,absent,0,46631,Oakley,Hampshire,1.0,0.0,4.44,22.0,6.0,2400.0,,4.0,SU5650/oakley,name,True
+473,Otterbourne,24.0,value,1,47506,Otterbourne,Hampshire,1.0,1.0,0.0,24.0,3.0,1200.0,,6.0,SU4622/otterbourne,name,False
+474,Oxelei,0.0,value,1,,,,,,,,,,,,,,
+475,Pauncefoot,,absent,0,,,,,,,,,,,,,,
+476,Pisteslei,0.0,value,3,,,,,,,,,,,,,,
+477,Pittleworth,12.0,value,2,49411,Pittleworth,Hampshire,1.0,1.0,0.31,2.0,3.0,720.0,,,SU3229/pittleworth,name,False
+478,Polhampton,,absent,0,49626,Polhampton,Hampshire,1.0,0.0,0.4,42.0,7.5,3720.0,2.0,10.0,SU5250/polhampton,name,False
+479,Popham,189.0,value,1,49761,Popham,Hampshire,1.0,0.0,0.3,,,,,,SU5543/popham,name,False
+480,Priors Dean,,absent,0,,,,,,,,,,,,,,
+481,Quidhampton,,absent,0,,,,,,,,,,,,,,
+482,Roke,,absent,0,,,,,,,,,,,,,,
+483,Rowestre,0.0,value,1,,,,,,,,,,,,,,
+484,Rowner,14.0,value,1,52786,Rowner,Hampshire,1.0,1.0,0.14,2.0,4.0,840.0,,2.0,SU5801/rowner,name,False
+485,Sanhest,0.0,value,1,,,,,,,,,,,,,,
+486,Silchester,39.0,value,2,56131,Silchester,Hampshire,1.0,2.0,2.01,39.0,8.0,2160.0,,7.0,SU6261/silchester,name,False
+487,Skidmore,,absent,0,,,,,,,,,,,,,,
+488,Slacham,0.0,value,1,,,,,,,,,,,,,,
+489,Snoddington,7.0,value,1,56831,Snoddington,Hampshire,1.0,1.0,1.88,7.0,1.0,960.0,,2.0,SU2545/snoddington,name,False
+490,Little Somborne,8.0,value,1,56991,[Little] Somborne,Hampshire,1.0,1.0,0.35,8.0,2.0,840.0,,7.0,SU3832/little-somborne,name,False
+491,Southwood,,absent,0,,,,,,,,,,,,,,
+492,St Anastius by Wyke,,absent,0,,,,,,,,,,,,,,
+493,Stanbridge,,absent,0,,,,,,,,,,,,,,
+494,Steventon,16.0,value,1,58756,Steventon,Hampshire,1.0,1.0,1.42,16.0,4.0,960.0,,8.0,SU5448/steventon,name,False
+495,Stock,5.0,value,2,,,,,,,,,,,,,,
+496,North Stoneham,48.0,value,1,59496,[North] Stoneham,Hampshire,1.0,1.0,0.57,48.0,11.0,2400.0,2.0,13.0,SU4417/north-stoneham,name,False
+497,South Stoneham,21.0,value,1,59501,[South] Stoneham,Hampshire,1.0,1.0,0.49,21.0,9.0,1920.0,,1.0,SU4315/south-stoneham,name,False
+498,Stratfield Saye,59.0,value,3,59816,Stratfield [Saye],Hampshire,1.0,3.0,0.97,59.0,19.0,3940.0,2.0,14.0,SU6861/stratfield-saye,name,False
+499,Stratfield Turgis,18.0,value,1,59821,Stratfield [Turgis],Hampshire,1.0,1.0,0.2,18.0,4.5,360.0,1.0,4.0,SU6959/stratfield-turgis,name,False
+500,Swarraton,,absent,0,,,,,,,,,,,,,,
+501,Sydmonton,29.0,value,1,61291,Sydmonton,Hampshire,1.0,1.0,0.5,29.0,11.0,2400.0,,1.0,SU4857/sydmonton,name,False
+502,Taceberie,0.0,value,1,,,,,,,,,,,,,,
+503,Tidworth,20.0,value,2,63751,[South] Tidworth,Hampshire,1.0,2.0,0.69,14.0,4.0,2760.0,,10.0,SU2347/south-tidworth,name,False
+504,West Tisted,20.0,value,1,63971,[West] Tisted,Hampshire,1.0,1.0,0.69,20.0,6.0,1440.0,,2.0,SU6529/west-tisted,name,False
+505,Truham,0.0,value,5,,,,,,,,,,,,,,
+506,Wanstead,,absent,0,,,,,,,,,,,,,,
+507,Warblington,0.0,value,0,67326,Warblington,Hampshire,1.0,0.0,0.39,,,,,,SU7205/warblington,name,False
+508,East Wellow,10.0,value,2,68311,[East] Wellow,Hampshire,1.0,1.0,0.22,10.0,3.0,480.0,2.0,,SU3020/east-wellow,name,False
+509,Wellsworth,,absent,0,,,,,,,,,,,,,,
+510,Westbury,13.0,value,1,68626,Westbury,Hampshire,1.0,1.0,0.44,13.0,4.0,960.0,,2.0,SU6523/westbury,name,False
+511,Weston Corbett,,absent,0,,,,,,,,,,,,,,
+512,Widley,,absent,0,,,,,,,,,,,,,,
+513,Winchfield,19.0,value,1,70986,Winchfield,Hampshire,1.0,1.0,0.42,17.0,1.5,360.0,,,SU7653/winchfield,name,False
+514,Winslade,17.0,value,1,71206,Winslade,Hampshire,1.0,1.0,0.3,17.0,5.0,480.0,,4.0,SU6548/winslade,name,False
+515,Wolverton,35.0,value,2,71996,Wolverton,Hampshire,1.0,1.0,0.49,12.0,3.0,600.0,,,SU5558/wolverton,name,False
+516,Woodcott,8.0,value,1,72151,Woodcott,Hampshire,1.0,1.0,0.36,8.0,1.0,360.0,,1.0,SU4354/woodcott,name,False
+517,Little Worldham,14.0,value,1,72726,[East] Worldham,Hampshire,1.0,1.0,1.89,14.0,3.5,480.0,1.0,,SU7538/east-worldham,name,True
+518,Wymering,24.0,value,3,73371,Wymering,Hampshire,1.0,1.0,0.49,24.0,6.0,,,2.0,SU6505/wymering,name,False
+519,Chilstone,,absent,0,,,,,,,,,,,,,,
+520,Little Cowarne,12.0,value,1,18121,[Little] Cowarne,Herefordshire,1.0,1.0,0.56,12.0,4.0,480.0,,7.0,SO6051/little-cowarne,name,False
+521,Devereux,,absent,0,,,,,,,,,,,,,,
+522,Edvin Ralph,,qualified,1,,,,,,,,,,,,,,
+523,Hampton Wafer,0.0,value,1,29011,Hampton [Wafre],Herefordshire,0.917,0.0,0.54,,1.0,360.0,,,SO5757/hampton-wafre,name,False
+524,Hentland,,absent,0,,,,,,,,,,,,,,
+525,Hoarwith,,absent,0,,,,,,,,,,,,,,
+526,Holme Lacy,26.0,value,1,32636,Holme [Lacy],Herefordshire,1.0,1.0,1.56,21.0,22.5,1920.0,,2.0,SO5535/holme-lacy,name,False
+527,Kilpeck,63.0,value,1,36091,Kilpeck,Herefordshire,1.0,1.0,0.0,6.0,22.0,960.0,,2.0,SO4430/kilpeck,name,False
+528,Wacton,,absent,0,,,,,,,,,,,,,,
+529,Wolferlow,10.0,value,2,71886,Wolferlow,Herefordshire,1.0,2.0,0.28,10.0,7.5,900.0,,3.0,SO6661/wolferlow,name,False
+530,Alswick,22.0,value,1,1371,Alswick,Hertfordshire,1.0,1.0,0.1,22.0,5.0,1680.0,,7.0,TL3729/alswick,name,False
+531,Ayot St Lawrence,36.0,value,2,3591,Ayot [St Lawrence],Hertfordshire,1.0,1.0,0.41,22.0,6.0,729.0,1.0,,TL1916/ayot-st-lawrence,name,False
+532,Ayot St Peter,10.0,value,1,3596,Ayot [St Peter],Hertfordshire,1.0,1.0,0.58,10.0,4.0,480.0,,1.0,TL2115/ayot-st-peter,name,False
+533,East Barnet,,absent,0,,,,,,,,,,,,,,
+534,Beauchamps,9.0,value,1,5401,Beauchamps,Hertfordshire,1.0,1.0,0.31,9.0,,360.0,1.0,2.0,TL3831/beauchamps,name,False
+535,Berkesden,16.0,value,2,6271,Berkesden,Hertfordshire,1.0,2.0,0.89,16.0,4.0,840.0,1.0,6.0,TL3328/berkesden,name,False
+536,Betlow,,absent,0,,,,,,,,,,,,,,
+537,Boxbury,14.0,value,3,8631,Box[bury],Hertfordshire,1.0,3.0,0.14,14.0,4.0,720.0,,3.0,TL2726/boxbury,name,False
+538,Bozen,22.0,value,3,8766,Bozen,Hertfordshire,1.0,3.0,0.42,22.0,5.5,1112.0,,2.0,TL4127/bozen,name,False
+539,Brickenden,,absent,0,9801,Brickendon,Hertfordshire,0.9,0.0,2.05,45.0,6.0,1500.0,1.0,2.0,TL3208/brickendon,name,False
+540,Broadfield,13.0,value,4,10171,Broadfield,Hertfordshire,1.0,3.0,0.5,13.0,,696.0,,3.0,TL3231/broadfield,name,False
+541,Burston in St Stephens,,absent,0,,,,,,,,,,,,,,
+542,Caldecote,14.0,value,1,12606,Caldecote,Hertfordshire,1.0,1.0,0.2,14.0,3.5,480.0,,,TL2338/caldecote,name,False
+543,Chesfield,,absent,0,14656,Chesfield,Hertfordshire,1.0,0.0,0.36,,,,,,TL2427/chesfield,name,False
+544,Cockenach,,absent,0,16636,Cokenach,Hertfordshire,0.941,0.0,0.31,16.0,4.0,720.0,,1.0,TL3936/cokenach,name,False
+545,Cockhamsted,,absent,0,16516,Cockhampstead,Hertfordshire,0.917,0.0,0.44,13.0,6.0,1680.0,,4.0,TL4125/cockhampstead,name,False
+546,Corney Bury,10.0,value,1,17641,Corney[bury],Hertfordshire,1.0,1.0,0.36,10.0,,160.0,,2.0,TL3530/corneybury,name,False
+547,Digswell,37.0,value,2,20291,Digswell,Hertfordshire,1.0,2.0,0.41,37.0,11.5,1380.0,2.0,2.0,TL2314/digswell,name,False
+548,Flaunden,,absent,0,,,,,,,,,,,,,,
+549,Gilston,,absent,0,,,,,,,,,,,,,,
+550,Hodenhoe,11.0,value,2,32286,Hodenhoe,Hertfordshire,1.0,2.0,0.14,11.0,,720.0,,,TL3433/hodenhoe,name,False
+551,Ichetone,,absent,0,,,,,,,,,,,,,,
+552,Libury,11.0,value,7,39101,Libury,Hertfordshire,1.0,4.0,0.98,11.0,,1290.0,2.0,,TL3323/libury,name,False
+553,North Mimms,29.0,value,1,43331,[North] Mimms,Hertfordshire,1.0,1.0,0.29,29.0,12.0,1920.0,,1.0,TL2204/north-mimms,name,False
+554,Minsden,17.0,value,1,43366,Minsden,Hertfordshire,1.0,1.0,0.31,17.0,6.0,,,6.0,TL1924/minsden,name,False
+555,Great Munden,42.0,value,4,,,,,,,,,,,,,,
+556,Pendley,7.0,value,1,48616,Pendley,Hertfordshire,1.0,1.0,0.22,7.0,1.0,360.0,,,SP9411/pendley,name,False
+557,Stagenhoe,8.0,value,1,57666,Stagenhoe,Hertfordshire,1.0,1.0,0.22,8.0,1.0,600.0,,,TL1822/stagenhoe,name,False
+558,Stanstead Abbots,30.0,value,5,58141,Stanstead [Abbots],Hertfordshire,1.0,3.0,1.46,29.0,10.0,4344.0,1.0,2.0,TL3811/stanstead-abbots,name,False
+559,Stevenage,28.0,value,3,58746,Stevenage,Hertfordshire,1.0,1.0,0.58,28.0,9.0,2880.0,,4.0,TL2426/stevenage,name,False
+560,Thorley,29.0,value,3,62361,Thorley,Hertfordshire,1.0,2.0,0.7,29.0,7.5,2160.0,1.0,13.0,TL4719/thorley,name,False
+561,Throcking,15.0,value,4,63316,Throcking,Hertfordshire,1.0,2.0,0.28,15.0,,972.0,,2.0,TL3330/throcking,name,False
+562,Thundridge,9.0,value,1,63406,Thundridge,Hertfordshire,1.0,1.0,0.3,9.0,3.0,360.0,1.0,2.0,TL3617/thundridge,name,False
+563,Tiscott,12.5,value,1,63961,Tiscott,Hertfordshire,1.0,1.0,0.72,12.5,4.0,840.0,1.0,1.0,SP8818/tiscott,name,False
+564,Wakeley,9.0,value,3,66626,Wakeley,Hertfordshire,1.0,2.0,0.49,9.0,,360.0,,1.0,TL3426/wakeley,name,False
+565,Welei,,absent,0,,,,,,,,,,,,,,
+566,Wickham,24.0,value,5,70076,Wickham,Hertfordshire,1.0,3.0,0.5,24.0,4.0,1072.0,,1.0,TL4723/wickham,name,False
+567,Windridge,10.0,value,2,71016,Windridge,Hertfordshire,1.0,2.0,0.2,10.0,2.0,720.0,,,TL1205/windridge,name,False
+568,Wlwenewiche,,absent,0,,,,,,,,,,,,,,
+569,Boughton,5.0,value,1,8391,Boughton,Huntingdonshire,1.0,1.0,0.31,5.0,0.5,120.0,,,TL1964/boughton,name,False
+570,Caldecote,30.0,value,1,12611,Caldecote,Huntingdonshire,1.0,1.0,0.32,12.0,5.0,720.0,,,TL1488/caldecote,name,False
+571,Little Catworth,8.0,value,2,13571,Little Catworth,Huntingdonshire,1.0,2.0,0.67,8.0,3.0,360.0,,,TL1072/little-catworth,name,False
+572,Colne,18.0,value,1,16886,Colne,Huntingdonshire,1.0,1.0,0.85,18.0,7.0,1200.0,,,TL3776/colne,name,False
+573,Conington,27.0,value,1,17361,Conington,Huntingdonshire,1.0,1.0,0.4,27.0,15.0,2160.0,,,TL1785/conington,name,False
+574,Coppingford,17.0,value,1,17566,Coppingford,Huntingdonshire,1.0,1.0,0.6,17.0,4.0,960.0,,,TL1680/coppingford,name,False
+575,Little Gidding,18.0,value,1,,,,,,,,,,,,,,
+576,Hardwick,,absent,0,,,,,,,,,,,,,,
+577,Midloe,,absent,0,,,,,,,,,,,,,,
+578,Overston,,absent,0,,,,,,,,,,,,,,
+579,Sibson,9.0,value,4,56036,Sibson,Huntingdonshire,1.0,2.0,0.22,9.0,5.0,1200.0,1.0,,TL0997/sibson,name,False
+580,Steeple Gidding,18.0,value,1,,,,,,,,,,,,,,
+581,Upthorpe,,absent,0,,,,,,,,,,,,,,
+582,"Walton, Wood",19.0,value,1,67181,[Wood] Walton,Huntingdonshire,1.0,1.0,1.7,19.0,6.0,1200.0,,,TL2180/woodwalton,name,False
+583,Washingley,22.0,value,2,67671,Washingley,Huntingdonshire,1.0,2.0,0.5,22.0,7.5,720.0,,,TL1389/washingley,name,False
+584,Weald,3.0,value,1,,,,,,,,,,,,,,
+585,Wintringham,,absent,0,,,,,,,,,,,,,,
+586,Woolley,14.0,value,2,72421,Woolley,Huntingdonshire,1.0,1.0,0.5,14.0,6.0,720.0,,,TL1474/woolley,name,False
+587,Afton,34.0,value,1,476,Afton,Hampshire,1.0,1.0,0.49,34.0,8.0,1920.0,,12.0,SZ3586/afton,name,False
+588,Alvington,10.0,value,1,1541,Alvington,Hampshire,1.0,1.0,0.1,10.0,4.0,720.0,2.0,,SZ4788/alvington,name,False
+589,Ashey,,absent,0,,,,,,,,,,,,,,
+590,Atherfield,15.0,value,1,3276,[Little] Atherfield,Hampshire,1.0,0.0,0.99,1.0,,120.0,,,SZ4680/little-atherfield,name,False
+591,Bernardsley,,absent,0,,,,,,,,,,,,,,
+592,Billingham,,absent,0,,,,,,,,,,,,,,
+593,Briddlesford,10.0,value,1,9826,Briddlesford,Hampshire,1.0,1.0,0.53,10.0,5.0,480.0,,,SZ5490/briddlesford,name,False
+594,Compton,11.0,value,1,17146,Compton,Hampshire,1.0,1.0,0.41,11.0,3.0,1200.0,,1.0,SZ3785/compton,name,False
+595,Durton,2.0,value,1,21696,Durton,Hampshire,1.0,1.0,0.35,2.0,3.0,504.0,,,SZ5288/durton,name,False
+596,Haldley,10.0,value,1,28481,`Haldley',Hampshire,1.0,1.0,3.39,10.0,3.0,720.0,,5.0,SZ4888/haldley,name,False
+597,Hale,5.0,value,1,28491,Hale,Hampshire,1.0,1.0,0.14,5.0,2.0,120.0,,,SZ5484/hale,name,False
+598,Hardley,10.0,value,1,29391,`Hardley',Hampshire,1.0,1.0,0.3,11.0,0.5,480.0,,8.0,SZ6386/hardley,name,False
+599,Heasley,23.0,value,0,30701,Heasley,Hampshire,1.0,0.0,0.28,23.0,4.0,1200.0,,15.0,SZ5485/heasley,name,False
+600,Kerne,7.0,value,0,35701,Kern,Hampshire,0.889,0.0,0.3,7.0,,240.0,,5.0,SZ5786/kern,name,False
+601,Stinsford,8.0,value,2,58856,Stinsford,Dorset,1.0,2.0,0.63,8.0,3.0,264.0,,,SY7191/stinsford,name,False
+602,Whitcombe,14.0,value,1,69626,Whitcombe,Dorset,1.0,1.0,0.35,14.0,4.0,1080.0,,2.0,SY7188/whitcombe,name,False
+603,Wimborne All Saints,,absent,0,,,,,,,,,,,,,,
+604,Winterbourne Came,,no_source,0,,,,,,,,,,,,,,
+605,Winterbourne Farringdon,,no_source,0,,,,,,,,,,,,,,
+606,Winterbourne Herringstone,,no_source,0,,,,,,,,,,,,,,
+607,Kingston,6.0,value,1,36341,Kingston,Hampshire,1.0,1.0,0.3,6.0,1.0,240.0,,,SZ4781/kingston,name,False
+608,Witherston,,absent,0,,,,,,,,,,,,,,
+609,Wolfeton,,absent,0,,,,,,,,,,,,,,
+610,Woodsford,9.0,value,1,72276,Woodsford,Dorset,1.0,1.0,0.48,20.0,2.0,1080.0,1.0,9.0,SY7690/woodsford,name,False
+611,West Woodyates,,absent,0,72316,Woodyates,Dorset,1.0,0.0,0.87,10.0,1.0,480.0,,3.0,SU0219/woodyates,name,True
+612,Woolcomb Maltravers,15.0,value,1,72346,Woolcombe,Dorset,0.667,1.0,0.22,15.0,2.0,600.0,,2.0,ST6005/woolcombe,reference+name,False
+613,Little Burdon,,no_source,0,,,,,,,,,,,,,,
+614,Old Burdon,,no_source,0,,,,,,,,,,,,,,
+615,Butterwick,,no_source,0,,,,,,,,,,,,,,
+616,Castle Eden,,no_source,0,,,,,,,,,,,,,,
+617,Claxton,,no_source,0,,,,,,,,,,,,,,
+618,Coxhoe,,no_source,0,,,,,,,,,,,,,,
+619,Low Dinsdale,,no_source,0,20376,[Over] Dinsdale [Grange],Yorkshire,1.0,0.0,0.5,,,,,,NZ3411/over-dinsdale-grange,name,True
+620,Elstob,,no_source,0,,,,,,,,,,,,,,
+621,Elton,,no_source,0,,,,,,,,,,,,,,
+622,Embleton,,no_source,0,,,,,,,,,,,,,,
+623,Foxton,,no_source,0,,,,,,,,,,,,,,
+624,Garmondsway,,no_source,0,,,,,,,,,,,,,,
+625,Grindon,,no_source,0,,,,,,,,,,,,,,
+626,West Hartburn,,no_source,0,,,,,,,,,,,,,,
+627,Hulam,,no_source,0,,,,,,,,,,,,,,
+628,Hurbuck,,no_source,0,,,,,,,,,,,,,,
+629,Layton,,no_source,0,,,,,,,,,,,,,,
+630,East Newbiggin,,no_source,0,,,,,,,,,,,,,,
+631,West Newbiggin,,no_source,0,,,,,,,,,,,,,,
+632,Newsham,,no_source,0,,,,,,,,,,,,,,
+633,Shotton,,no_source,0,,,,,,,,,,,,,,
+634,Slingley,,no_source,0,,,,,,,,,,,,,,
+635,Sockburn,,no_source,0,,,,,,,,,,,,,,
+636,Swainston,,no_source,0,,,,,,,,,,,,,,
+637,Thrislington,,no_source,0,,,,,,,,,,,,,,
+638,Ulnaby,,no_source,0,,,,,,,,,,,,,,
+639,Walworth,,no_source,0,,,,,,,,,,,,,,
+640,Whessoe,,no_source,0,,,,,,,,,,,,,,
+641,Yoden,,no_source,0,,,,,,,,,,,,,,
+642,Beauchamp St. Ethelbert,,absent,0,,,,,,,,,,,,,,
+643,Little Birch,19.0,value,2,7081,[Little] Birch,Essex,1.0,1.0,0.71,17.0,4.0,912.0,1.0,5.0,TL9420/little-birch,name,False
+644,Great Braxted,22.0,value,2,9541,[Great] Braxted,Essex,1.0,1.0,0.49,13.0,5.0,1920.0,0.5,0.0,TL8515/great-braxted,name,False
+645,Faulkbourne,11.0,value,1,24531,Faulkbourne,Essex,1.0,1.0,0.49,11.0,2.0,600.0,0.0,3.0,TL8016/faulkbourne,name,False
+646,Snoreham,27.0,value,5,,,,,,,,,,,,,,
+647,Stanway,75.0,value,1,58301,Stanway,Essex,1.0,1.0,3.0,77.0,17.0,120.0,3.0,15.0,TL9324/stanway,name,False
+648,Thunderley,17.0,value,1,63396,Thunderley [Hall],Essex,1.0,1.0,0.7,17.0,6.0,1680.0,,,TL5536/thunderley-hall,name,False
+649,Wickham Bishops,14.0,value,1,70086,Wickham [Bishops],Essex,1.0,1.0,0.53,14.0,4.5,1452.0,1.0,4.0,TL8312/wickham-bishops,name,False
+650,Abloads Court,,absent,0,,,,,,,,,,,,,,
+651,Alkington,618.0,value,1,1026,Alkington,Gloucestershire,1.0,0.0,0.36,,,,,,ST6998/alkington,name,False
+652,Ampney St. Mary,18.0,value,1,1691,Ampney [St Mary],Gloucestershire,1.0,1.0,1.4,18.0,8.0,1200.0,2.0,8.0,SP0802/ampney-st-mary,name,False
+653,Aston,,absent,0,,,,,,,,,,,,,,
+654,Aylworth,11.0,value,2,3576,Aylworth,Gloucestershire,1.0,2.0,0.7,11.0,5.0,516.0,,8.0,SP1022/aylworth,name,False
+655,Bidfield,,absent,0,,,,,,,,,,,,,,
+656,Boxwell,21.0,value,1,8671,Boxwell,Gloucestershire,1.0,1.0,0.35,20.0,14.0,1200.0,1.0,8.0,ST8192/boxwell,name,False
+657,Brickhampton,,absent,0,,,,,,,,,,,,,,
+658,Castlett Farm,4.0,value,1,13406,Castlett,Gloucestershire,0.8,1.0,0.71,4.0,2.0,120.0,1.0,4.0,SP0925/castlett,reference+name,False
+659,Charlton,,absent,1,,,,,,,,,,,,,,
+660,Upper Coberley,,absent,1,16486,[Upper] Coberley,Gloucestershire,1.0,0.0,0.36,,,,,,SO9715/upper-coberley,name,False
+661,Combe End,18.0,value,1,17096,Combend,Gloucestershire,0.933,0.0,0.2,,,,,,SO9811/combend,name,False
+662,Daylesford,12.0,value,0,19726,Daylesford,Gloucestershire,1.0,0.0,0.44,7.0,7.0,720.0,,,SP2425/daylesford,name,False
+663,Didcot,12.0,value,1,20251,Didcot,Gloucestershire,1.0,0.0,0.31,,,,,,SP0035/didcot,name,False
+664,Lower Ditchford,,qualified,1,20466,Ditchford,Gloucestershire,1.0,1.0,1.1,5.0,2.0,360.0,,2.0,SP2136/ditchford,name,True
+665,Upper Ditchford,,qualified,1,20466,Ditchford,Gloucestershire,1.0,1.0,1.51,5.0,2.0,360.0,,2.0,SP2136/ditchford,name,True
+666,Elmstree,,absent,0,,,,,,,,,,,,,,
+667,Eyford,21.0,value,1,24056,Eyford,Gloucestershire,1.0,1.0,0.14,21.0,7.0,960.0,,8.0,SP1424/eyford,name,False
+668,Farmcote,17.0,value,1,24356,Farmcote,Gloucestershire,1.0,1.0,0.56,17.0,6.0,720.0,,13.0,SP0629/farmcote,name,False
+669,Frampton,8.0,value,2,25721,Frampton,Gloucestershire,1.0,1.0,0.44,2.0,4.0,600.0,,2.0,SP0133/frampton,name,False
+670,Frocester,18.0,value,1,25991,Frocester,Gloucestershire,1.0,1.0,1.49,18.0,11.0,1920.0,,3.0,SO7803/frocester,name,False
+671,Gawcombe,22.0,value,1,17021,`Combe [Baskerville]',Gloucestershire,0.769,1.0,0.85,22.0,10.0,1440.0,,8.0,SP2120/combe-baskerville,reference+name,False
+672,Harford,7.0,value,1,,,,,,,,,,,,,,
+673,Hilcot,,absent,1,31731,Hilcot,Gloucestershire,1.0,0.0,0.5,,,,,,SO9916/hilcot,name,False
+674,Hullasey,8.0,value,1,33921,Hullasey,Gloucestershire,1.0,1.0,0.9,8.0,4.0,600.0,,,ST9699/hullasey,name,False
+675,Lancaut,,absent,0,,,,,,,,,,,,,,
+676,Lark Stoke,10.0,value,1,,,,,,,,,,,,,,
+677,Lasborough,13.0,value,1,37876,Lasborough,Gloucestershire,1.0,1.0,0.49,13.0,3.0,600.0,,7.0,ST8294/lasborough,name,False
+678,Upper Lemington,164.0,value,1,38761,[Lower] Lemington,Gloucestershire,1.0,0.0,0.63,15.0,4.0,480.0,,6.0,SP2134/lower-lemington,name,True
+679,Lowsmoor,,absent,0,,,,,,,,,,,,,,
+680,Manless Town,,absent,0,,,,,,,,,,,,,,
+681,Naunton,5.0,value,1,44741,Naunton,Gloucestershire,1.0,1.0,0.7,5.0,4.0,480.0,,3.0,SP0133/naunton,name,False
+682,Newington,50.0,value,1,45176,Newington [Bagpath],Gloucestershire,1.0,1.0,0.35,12.5,8.0,690.0,0.25,4.0,ST8194/newington-bagpath,name,False
+683,Northwick,,absent,0,,,,,,,,,,,,,,
+684,"Norton, Burnt",21.0,value,1,46216,[Burnt] Norton,Gloucestershire,1.0,1.0,0.1,21.0,8.0,1440.0,,10.0,SP1441/burnt-norton,name,False
+685,Lower Norton,,absent,0,46216,[Burnt] Norton,Gloucestershire,1.0,0.0,1.64,21.0,8.0,1440.0,,10.0,SP1441/burnt-norton,name,True
+686,Oddington,22.0,value,1,,,,,,,,,,,,,,
+687,Oldbury,0.0,value,1,,,,,,,,,,,,,,
+688,Owdeswell,,absent,0,47776,Owdeswell,Gloucestershire,1.0,0.0,0.51,,,,,,SP0218/owdeswell,name,False
+689,Oxenhall,13.0,value,1,47906,Oxenhall,Gloucestershire,1.0,1.0,0.44,13.0,7.0,480.0,,2.0,SO7126/oxenhall,name,False
+690,Ozleworth,,absent,1,47976,Ozleworth,Gloucestershire,1.0,0.0,0.22,,,,,,ST7993/ozleworth,name,False
+691,Pauntley,12.0,value,1,48366,Pauntley,Gloucestershire,1.0,1.0,0.63,3.0,2.25,240.0,0.25,0.5,SO7429/pauntley,name,False
+692,Pinnock,25.0,value,1,49316,Pinnock,Gloucestershire,1.0,1.0,0.4,25.0,8.0,960.0,1.0,8.0,SP0728/pinnock,name,False
+693,Pontune,,absent,1,,,,,,,,,,,,,,
+694,Postlip,19.0,value,1,49876,Postlip,Gloucestershire,1.0,1.0,0.7,19.0,4.0,960.0,2.0,11.0,SO9926/postlip,name,False
+695,Prescott,,absent,0,,,,,,,,,,,,,,
+696,Roel,21.0,value,1,52366,Roel,Gloucestershire,1.0,1.0,0.41,21.0,10.0,2400.0,,3.0,SP0724/roel,name,False
+697,Sennington,,absent,0,,,,,,,,,,,,,,
+698,Sezincote,36.0,value,5,54851,Sezincote,Gloucestershire,1.0,5.0,0.7,34.0,11.0,1692.0,,20.0,SP1730/sezincote,name,False
+699,Shipton Solars,0.0,value,1,55701,Shipton [Solers],Gloucestershire,0.923,0.0,0.69,,1.0,96.0,,,SP0318/shipton-solers,name,False
+700,Slad,,absent,0,,,,,,,,,,,,,,
+701,Stockwell,,absent,0,,,,,,,,,,,,,,
+702,Knighton,1.0,value,1,36996,Knighton,Hampshire,1.0,1.0,0.22,1.0,1.0,636.0,,,SZ5686/knighton,name,False
+703,Luccombe,8.0,value,0,40351,Luccombe,Hampshire,1.0,0.0,0.35,8.0,,720.0,,2.0,SZ5879/luccombe,name,False
+704,Moor Farm,5.0,value,1,43761,Moor,Hampshire,0.667,1.0,0.19,5.0,1.5,240.0,,,SZ5382/moor,reference+name,False
+705,Nunwell,6.0,value,0,46436,Nunwell,Hampshire,1.0,0.0,0.0,6.0,0.5,480.0,,3.0,SZ5987/nunwell,name,False
+706,Penna and Fairlie,,absent,0,,,,,,,,,,,,,,
+707,Preston,8.0,value,1,50141,Preston,Hampshire,1.0,1.0,0.3,8.0,1.0,240.0,,,SZ5991/preston,name,False
+708,Scotchells,,absent,0,,,,,,,,,,,,,,
+709,Standen,1.0,value,1,57926,[West] Standen,Hampshire,1.0,1.0,0.14,1.0,2.0,480.0,,,SZ5087/west-standen,name,False
+710,Stenbury,29.0,value,0,58686,Stenbury,Hampshire,1.0,0.0,0.5,14.5,4.0,1440.0,,6.0,SZ5279/stenbury,name,False
+711,Thorley,28.0,value,1,62356,Thorley,Hampshire,1.0,1.0,0.35,28.0,8.0,2880.0,,7.0,SZ3689/thorley,name,False
+712,Watchingwell,19.0,value,1,,,,,,,,,,,,,,
+713,Week,23.0,value,0,68051,Week,Hampshire,1.0,0.0,0.35,11.5,4.5,2400.0,1.0,5.0,SZ5377/week,name,False
+714,Wolverton,11.0,value,2,72541,Woolverton,Hampshire,0.947,0.0,0.28,4.0,,120.0,,1.0,SZ6286/woolverton,name,False
+715,Acrise,10.0,value,1,191,Acrise,Kent,1.0,1.0,0.2,10.0,2.5,720.0,,,TR1942/acrise,name,False
+716,Betteshanger,5.0,value,1,6471,Betteshanger,Kent,1.0,1.0,0.22,5.0,5.5,600.0,,,TR3152/betteshanger,name,False
+717,Billerica,,absent,0,,,,,,,,,,,,,,
+718,Bircholt,0.0,value,2,,,,,,,,,,,,,,
+719,Blackmanstone,14.0,value,1,7421,Blackmanstone,Kent,1.0,1.0,0.31,14.0,2.0,1440.0,,1.0,TR0729/blackmanstone,name,False
+720,Boardfield,,absent,0,,,,,,,,,,,,,,
+721,Boughton Malherbe,10.0,value,2,8421,Boughton [Malherbe],Kent,1.0,2.0,0.31,10.0,5.0,1920.0,,,TQ8849/boughton-malherbe,name,False
+722,Bredhurst,,absent,0,,,,,,,,,,,,,,
+723,Buckland,23.0,value,1,,,,,,,,,,,,,,
+724,Cottington,,absent,0,,,,,,,,,,,,,,
+725,Darenth,59.0,value,3,19596,Darenth,Kent,1.0,3.0,0.44,59.0,10.0,4570.0,5.0,7.0,TQ5671/darenth,name,False
+726,Denton,10.0,value,1,20046,Denton,Kent,1.0,1.0,0.7,10.0,2.0,1860.0,,4.0,TQ6673/denton,name,False
+727,Dowdes,,absent,0,,,,,,,,,,,,,,
+728,Eastbridge,38.0,value,1,21921,Eastbridge,Kent,1.0,1.0,0.7,38.0,8.0,3600.0,,,TR0731/eastbridge,name,False
+729,Eastenhanger,,absent,0,,,,,,,,,,,,,,
+730,Ebony,,absent,0,,,,,,,,,,,,,,
+731,Elmley,,absent,0,,,,,,,,,,,,,,
+732,Fairfield,,absent,0,,,,,,,,,,,,,,
+733,Fawkham,21.0,value,1,,,,,,,,,,,,,,
+734,Gore's End,,absent,0,,,,,,,,,,,,,,
+735,Ham,5.0,value,1,28751,Ham,Kent,1.0,1.0,0.2,5.0,1.0,720.0,,2.0,TR3254/ham,name,False
+736,Hope,,absent,0,,,,,,,,,,,,,,
+737,"Horton, Monks",15.0,value,3,33491,[Monk's] Horton,Kent,1.0,2.0,0.0,15.0,4.5,1080.0,2.0,,TR1240/monks-horton,name,False
+738,Hurst,4.0,value,1,,,,,,,,,,,,,,
+739,West Hythe,0.0,value,2,34421,Hythe,Kent,1.0,0.0,3.88,,,,,,TR1634/hythe,name,True
+740,Kenardington,,absent,0,,,,,,,,,,,,,,
+741,Knolton,,absent,0,37126,Knowlton,Kent,0.933,0.0,0.19,2.0,2.0,1680.0,,,TR2853/knowlton,name,False
+742,Leaveland,3.0,value,1,38341,Leaveland [Court],Kent,1.0,1.0,0.3,3.0,2.0,240.0,,,TR0054/leaveland-court,name,False
+743,Leysdown,,absent,0,,,,,,,,,,,,,,
+744,Lullingstone,26.0,value,3,40506,Lullingstone,Kent,1.0,3.0,0.69,26.0,7.0,2964.0,1.0,8.0,TQ5264/lullingstone,name,False
+745,Mereworth,53.0,value,1,42571,Mereworth,Kent,1.0,1.0,0.52,53.0,12.0,4560.0,2.0,10.0,TQ6653/mereworth,name,False
+746,Merston,5.0,value,2,42616,Merston,Kent,1.0,0.0,0.89,5.0,,360.0,,,TQ6971/merston,name,False
+747,Midley,14.0,value,1,43021,Midley,Kent,1.0,1.0,1.57,14.0,2.5,720.0,,,TR0123/midley,name,False
+748,Little Mongeham,30.0,value,1,,,,,,,,,,,,,,
+749,Monkton,110.0,value,1,,,,,,,,,,,,,,
+750,Orgarswick,21.0,value,0,47191,Orgarswick,Kent,1.0,0.0,1.08,,,,,,TR0930/orgarswick,name,False
+751,Oxney,0.0,value,1,,,,,,,,,,,,,,
+752,Pivington,23.0,value,1,49416,Pivington,Kent,1.0,1.0,0.39,23.0,5.0,1440.0,1.0,9.0,TQ9146/pivington,name,False
+753,Polton,,absent,0,49986,Poulton,Kent,0.923,0.0,0.28,3.0,,360.0,,,TR2741/poulton,name,False
+754,Reculver,115.0,value,1,51356,Reculver,Kent,1.0,1.0,0.31,115.0,30.0,8400.0,1.0,,TR2269/reculver,name,False
+755,Romney St Lawrence,,absent,0,,,,,,,,,,,,,,
+756,Romney St Michael,,absent,0,,,,,,,,,,,,,,
+757,Ruxley,20.0,value,1,53216,Ruxley,Kent,1.0,1.0,0.1,20.0,4.0,1200.0,1.0,,TQ4870/ruxley,name,False
+758,Shuart,,absent,0,,,,,,,,,,,,,,
+759,Snave,,absent,0,,,,,,,,,,,,,,
+760,St John's Sutton,,absent,0,,,,,,,,,,,,,,
+761,Stonar,,absent,0,,,,,,,,,,,,,,
+762,Stone,,absent,0,,,,,,,,,,,,,,
+763,Waldershare,14.0,value,1,66716,Waldershare,Kent,1.0,1.0,0.22,14.0,4.0,1680.0,,,TR2948/waldershare,name,False
+764,Warden,,absent,0,,,,,,,,,,,,,,
+765,Westenhanger,,absent,0,,,,,,,,,,,,,,
+766,Woodchurch,,absent,0,,,,,,,,,,,,,,
+767,Aldeby,,absent,0,,,,,,,,,,,,,,
+768,Alton,34.0,value,1,1401,Alton,Leicestershire,1.0,1.0,0.58,34.0,10.0,720.0,1.0,4.0,SK3914/alton,name,False
+769,Ambion,,absent,0,,,,,,,,,,,,,,
+770,Andreschurch,,absent,0,,,,,,,,,,,,,,
+771,Atterton,,absent,0,,,,,,,,,,,,,,
+772,Baggrave,503.0,value,1,3856,Baggrave,Leicestershire,1.0,0.0,0.36,,,,,,SK6909/baggrave,name,False
+773,Belvoir,,absent,0,,,,,,,,,,,,,,
+774,Bescaby,,absent,0,,,,,,,,,,,,,,
+775,Bittesby,14.0,value,1,7351,Bittesby,Leicestershire,1.0,1.0,0.7,14.0,3.0,480.0,,,SP5085/bittesby,name,False
+776,Bradgate,,absent,0,,,,,,,,,,,,,,
+777,Brascote,3.0,value,1,9456,Brascote,Leicestershire,1.0,1.0,0.2,1.5,0.5,120.0,,,SK4402/brascote,name,False
+778,Brentingby,,absent,0,,,,,,,,,,,,,,
+779,Brooksby,141.0,value,2,10596,Brooksby,Leicestershire,1.0,1.0,0.71,2.0,1.0,48.0,,,SK6716/brooksby,name,False
+780,Cotes de Val,4.0,value,1,17816,Cotes [de Val],Leicestershire,1.0,1.0,0.28,4.0,,120.0,,,SP5588/cotes-de-val,name,False
+781,Dishley,74.0,value,2,20441,Dishley,Leicestershire,1.0,1.0,0.36,33.0,8.0,480.0,2.0,,SK5121/dishley,name,False
+782,Elmesthorpe,,absent,0,,,,,,,,,,,,,,
+783,Eye Kettleby,163.0,value,1,35801,[Eye] Kettleby,Leicestershire,1.0,0.0,0.22,,,,,,SK7316/eye-kettleby,name,False
+784,Foston,26.0,value,1,25541,Foston,Leicestershire,1.0,1.0,0.51,24.0,7.0,600.0,,1.0,SP6095/foston,name,False
+785,Frisby,7.0,value,1,25941,Frisby,Leicestershire,1.0,1.0,0.51,7.0,2.0,240.0,,1.0,SK7001/frisby,name,False
+786,Garendon,,absent,0,,,,,,,,,,,,,,
+787,Gopsall,13.0,value,1,27241,Gopsall,Leicestershire,1.0,1.0,0.22,13.0,3.0,360.0,,,SK3506/gopsall,name,False
+788,Hamilton,,absent,0,,,,,,,,,,,,,,
+789,Holt,,absent,0,,,,,,,,,,,,,,
+790,Holyoaks,7.0,value,1,32816,Holyoaks,Leicestershire,1.0,1.0,0.2,7.0,3.0,240.0,1.0,1.0,SP8495/holyoaks,name,False
+791,Ingarsby,,qualified,1,34781,Ingarsby,Leicestershire,1.0,1.0,0.1,28.0,7.0,960.0,1.0,1.0,SK6805/old-ingarsby,name,False
+792,Keythorpe,10.0,value,2,35906,Keythorpe,Leicestershire,1.0,2.0,0.99,10.0,3.0,216.0,,1.0,SK7600/keythorpe,name,False
+793,Knaptoft,22.0,value,1,36901,Knaptoft,Leicestershire,1.0,1.0,2.18,22.0,6.0,600.0,,3.0,SP6289/knaptoft,name,False
+794,Leesthorpe,57.0,value,1,38521,Leesthorpe,Leicestershire,1.0,1.0,0.32,28.5,8.5,480.0,0.5,7.0,SK7913/leesthorpe,name,False
+795,Lindley,14.0,value,1,,,,,,,,,,,,,,
+796,Lowesby,19.0,value,1,40266,Lowesby,Leicestershire,1.0,1.0,0.3,19.0,7.0,480.0,1.0,,SK7207/lowesby,name,False
+797,Lubbesthorpe,18.0,value,2,40341,Lubbesthorpe,Leicestershire,1.0,1.0,0.85,20.0,4.0,960.0,,,SK5401/lubbesthorpe,name,False
+798,North Marefield,503.0,value,1,41456,[North] Marefield,Leicestershire,1.0,0.0,0.42,,,,,,,name,False
+799,Misterton,10.0,value,3,43491,Misterton,Leicestershire,1.0,2.0,0.51,10.0,3.0,384.0,,,SP5583/misterton,name,False
+800,Naneby,,absent,0,,,,,,,,,,,,,,
+801,Newbold Folville,5.0,value,2,45056,Newbold [Folville],Leicestershire,1.0,1.0,1.49,5.0,1.0,240.0,,,,name,False
+802,Newbold Saucy,,absent,0,45076,Newbold [Saucey],Leicestershire,0.96,0.0,1.12,4.0,4.5,120.0,1.0,,SK7609/newbold,name,False
+803,"Newton, Cold",21.0,value,3,45521,[Cold] Newton,Leicestershire,1.0,3.0,0.1,21.0,10.5,540.0,,1.0,SK7106/cold-newton,name,False
+804,Normanton Turville,,absent,0,,,,,,,,,,,,,,
+805,Noseley,28.0,value,1,46356,Noseley,Leicestershire,1.0,1.0,0.28,28.0,8.0,720.0,,3.0,SP7398/noseley,name,False
+806,Othorpe,14.0,value,1,47491,Othorpe,Leicestershire,1.0,1.0,0.4,14.0,4.0,480.0,,,SP7795/othorpe,name,False
+807,Potters Marston,8.0,value,1,41811,[Potters] Marston,Leicestershire,1.0,1.0,0.32,8.0,,120.0,,,SP4996/potters-marston,name,False
+808,Poultney,,qualified,1,,,,,,,,,,,,,,
+809,Prestgrave,6.0,value,1,,,,,,,,,,,,,,
+810,Prestwold,145.0,value,2,50306,Prestwold,Leicestershire,1.0,0.0,0.51,,,,,,SK5721/prestwold,name,False
+811,Quenby,16.0,value,1,50706,Quenby,Leicestershire,1.0,1.0,0.3,7.5,2.0,180.0,,2.0,SK7006/quenby,name,False
+812,Ringlethorpe,,absent,0,51896,`Ringlethorpe',Leicestershire,1.0,0.0,0.1,4.0,0.5,240.0,1.0,,,name,False
+813,Shoby,14.0,value,1,55781,Shoby,Leicestershire,1.0,1.0,0.28,14.0,10.0,360.0,,,SK6820/shoby,name,False
+814,Stapleford,54.0,value,2,58381,Stapleford,Leicestershire,1.0,1.0,0.28,54.0,30.0,2400.0,2.0,4.0,SK8018/stapleford,name,False
+815,Starmore,,absent,0,,,,,,,,,,,,,,
+816,Staunton Harold,7.0,value,1,58516,Staunton [Harold],Leicestershire,1.0,1.0,0.72,7.0,2.0,120.0,,,SK3720/staunton-harold,name,False
+817,Stretton Magna,,absent,0,,,,,,,,,,,,,,
+818,Sysonby,170.0,value,3,61331,Sysonby,Leicestershire,1.0,2.0,1.61,7.0,4.0,264.0,,,SK7420/sysonby,name,False
+819,Welby,28.0,value,4,68146,Welby,Leicestershire,1.0,2.0,0.5,28.0,8.0,780.0,1.0,,SK7221/welby,name,False
+820,Wellsborough,,absent,0,,,,,,,,,,,,,,
+821,Weston,17.0,value,1,68856,`Weston',Leicestershire,1.0,1.0,0.28,17.0,5.5,840.0,,4.0,SK3002/weston,name,False
+822,Whatborough,16.0,value,1,69316,Whatborough,Leicestershire,1.0,1.0,0.56,16.0,5.0,480.0,,,SK7705/whatborough,name,False
+823,Whittington,,absent,0,,,,,,,,,,,,,,
+824,Willesley,,absent,0,70531,Willesley,Leicestershire,1.0,0.0,0.51,13.0,2.5,192.0,,,SK3414/willesley,name,False
+825,Willowes,0.0,value,1,70726,`Willows',Leicestershire,0.933,0.0,0.71,,,12.0,,,,name,False
+826,Wistow,22.0,value,2,71541,Wistow,Leicestershire,1.0,1.0,0.31,22.0,6.0,624.0,1.0,1.0,SP6495/wistow,name,False
+827,Withcote,1.0,value,2,71631,Withcote,Leicestershire,1.0,1.0,0.44,1.0,,72.0,,,SK7905/withcote,name,False
+828,Woodcote,0.0,value,1,72126,Woodcote,Leicestershire,1.0,0.0,1.2,,1.0,120.0,,,SK3518/woodcote,name,False
+829,Wyfordby,200.0,value,3,73286,Wyfordby,Leicestershire,1.0,1.0,0.67,27.0,6.5,488.0,2.0,7.0,SK7918/wyfordby,name,False
+830,Riche,63.0,value,1,51706,{Riche},Lincolnshire,1.0,1.0,0.71,63.0,7.0,,,,TF2636/riche,name,False
+831,Riskenton,41.0,value,1,52091,`Riskenton',Lincolnshire,1.0,1.0,0.71,41.0,6.0,,,,TF3038/riskenton,name,False
+832,Stenning,,absent,0,58696,`Stenning',Lincolnshire,1.0,0.0,0.64,9.0,2.5,240.0,,,TF2340/steyning,name,False
+833,Adewelle,14.0,value,1,351,{Adewelle},Lincolnshire,1.0,1.0,3.81,14.0,5.5,144.0,,,TF0216/adewelle,name,False
+834,Aunby,,absent,0,,,,,,,,,,,,,,
+835,Avethorpe,12.0,value,7,3456,`Avethorpe',Lincolnshire,1.0,4.0,0.32,11.0,3.75,600.0,,,TF0629/avethorpe,name,False
+836,Bacton with Asgarby,,absent,0,,,,,,,,,,,,,,
+837,Banthorp,27.0,value,4,4086,`Banthorpe',Lincolnshire,0.941,1.0,0.58,11.5,2.75,,,,TF0610/banthorpe,name,False
+838,Bassingthorpe,5.0,value,1,62811,[Bassing]thorpe,Lincolnshire,1.0,0.0,0.1,,,,,,SK9628/bassingthorpe,name,False
+839,Boughton,,absent,0,,,,,,,,,,,,,,
+840,Bowthorpe,,absent,0,,,,,,,,,,,,,,
+841,Brauncewell,22.0,value,3,9511,Brauncewell,Lincolnshire,1.0,2.0,3.04,22.0,6.0,360.0,,,,name,False
+842,Casewick,13.0,value,3,13356,Casewick,Lincolnshire,1.0,2.0,0.58,13.0,3.0,720.0,0.5,,TF0709/casewick,name,False
+843,Casthorpe,20.0,value,4,13386,`Casthorpe',Lincolnshire,1.0,4.0,0.22,20.0,2.5,720.0,2.0,,SK8635/casthorpe,name,False
+844,Cotes,,absent,0,,,,,,,,,,,,,,
+845,Counthorpe,25.0,value,2,18046,`Counthorpe',Lincolnshire,1.0,2.0,0.31,25.0,5.5,1440.0,,,TF0020/counthorpe,name,False
+846,Crofton,,absent,0,,,,,,,,,,,,,,
+847,Dunsby,56.0,value,2,21486,`Dunsby',Lincolnshire,1.0,0.0,0.51,28.0,6.0,,,,TF0351/dunsby,name,False
+848,"Dunsthorpe, Grantham",14.0,value,2,21546,`Dunsthorpe',Lincolnshire,1.0,1.0,0.3,14.0,2.0,,,,SK9235/dunsthorpe,name,False
+849,Ganthorpe,,absent,0,26371,`Ganthorpe',Lincolnshire,1.0,0.0,0.41,11.0,2.0,480.0,3.0,,,name,False
+850,Graby,10.0,value,2,27361,[East] Graby,Lincolnshire,1.0,1.0,0.7,6.0,1.0,,,,TF0929/east-and-west-graby,name,False
+851,Hanbeck,,absent,0,,,,,,,,,,,,,,
+852,Houghton,24.0,value,5,,,,,,,,,,,,,,
+853,Hungerton,13.0,value,1,34041,Hungerton,Lincolnshire,1.0,1.0,0.36,13.0,6.0,,,,SK8730/hungerton,name,False
+854,Little Lavington,,absent,0,38046,`Lavington',Lincolnshire,1.0,0.0,0.71,17.0,9.0,720.0,,,,name,True
+855,Lobthorpe,2.0,value,2,39766,Lobthorpe,Lincolnshire,1.0,1.0,0.8,2.0,1.0,480.0,,,SK9521/lobthorpe,name,False
+856,"Mareham, Cold",,no_source,1,41466,`[Cold] Mareham',Lincolnshire,1.0,0.0,0.4,,,,,,TF0843/mareham,name,False
+857,Mere,,absent,0,,,,,,,,,,,,,,
+858,Milthorpe,,absent,0,,,,,,,,,,,,,,
+859,Ogarth,,absent,0,,,,,,,,,,,,,,
+860,Osgodby,24.0,value,1,47371,Osgodby,Lincolnshire,1.0,1.0,0.3,13.0,6.0,1200.0,,,TF0128/osgodby,name,False
+861,Ouseby,,absent,0,47631,`Ouseby',Lincolnshire,1.0,0.0,0.22,15.0,5.0,720.0,3.0,,TF1034/oseby,name,False
+862,Ringsthorpe,,absent,0,,,,,,,,,,,,,,
+863,Ringstone,33.0,value,4,51936,`Ringstone',Lincolnshire,1.0,2.0,0.31,33.0,6.5,1200.0,,,TF0926/ringstone,name,False
+864,Roxholm,8.0,value,2,52846,`Roxholm',Lincolnshire,1.0,1.0,0.43,8.0,3.5,600.0,,,TF0550/roxholm,name,False
+865,Sempringham,42.0,value,3,54776,`Sempringham',Lincolnshire,1.0,3.0,0.41,35.0,3.5,480.0,,,TF1032/sempringham,name,False
+866,Shillingthorpe,,absent,0,,,,,,,,,,,,,,
+867,Skinnand,,absent,0,56426,Skinnand,Lincolnshire,1.0,0.0,0.51,7.0,4.0,240.0,,,SK9457/skinnand,name,False
+868,Sleaford,50.0,value,3,56531,[Old] Sleaford,Lincolnshire,1.0,1.0,0.7,3.0,1.0,,,,,name,False
+869,Somerton,16.0,value,1,57086,`Somerton',Lincolnshire,1.0,0.0,0.14,,,,,,SK9558/somerton,name,False
+870,Southorpe,,absent,0,63146,`[South]thorpe',Lincolnshire,0.9,0.0,0.43,,,,,,SK8895/souththorpe,name,False
+871,Southorpe in Edenham,16.0,value,1,57291,`Southorpe',Lincolnshire,0.667,1.0,0.71,16.0,4.0,600.0,1.0,,TF0622/southorpe,reference+name,False
+872,Stapleford Parva,,absent,0,,,,,,,,,,,,,,
+873,Stenwith,21.0,value,1,58706,Stenwith,Lincolnshire,1.0,1.0,0.22,21.0,4.0,,1.0,,SK8336/stenwith,name,False
+874,Stocking,,absent,0,,,,,,,,,,,,,,
+875,North Stoke,26.0,value,2,59271,North Stoke,Lincolnshire,1.0,1.0,0.2,13.0,3.0,84.0,1.0,,SK9128/north-stoke,name,False
+876,Stowe,32.0,value,5,59706,`Stowe',Lincolnshire,1.0,4.0,0.54,24.0,3.0,144.0,,,TF1011/stowe,name,False
+877,Sudwelle,14.0,value,2,60401,{Suduuelle},Lincolnshire,0.824,1.0,0.71,14.0,5.0,720.0,,,SK9923/sudwelle,reference+name,False
+878,Temple Bruer,,absent,0,,,,,,,,,,,,,,
+879,Thetford,,absent,0,,,,,,,,,,,,,,
+880,Thorpe Latimer,,absent,0,,,,,,,,,,,,,,
+881,Thorpe Parva,,absent,0,,,,,,,,,,,,,,
+882,Towthorpe,22.0,value,3,64601,`Towthorpe',Lincolnshire,1.0,2.0,0.0,16.0,2.5,720.0,3.0,,SK9238/towthorpe,name,False
+883,Walton,,no_source,1,,,,,,,,,,,,,,
+884,Westhorpe,10.0,value,2,68751,Westhorpe,Lincolnshire,1.0,1.0,0.51,10.0,2.0,960.0,3.0,,SK9634/westhorpe,name,False
+885,West Willoughby,,no_source,1,70716,[West] Willoughby,Lincolnshire,1.0,1.0,0.0,43.0,16.375,3000.0,0.125,,SK9643/west-willoughby,name,False
+886,Woolsthorpe,29.0,value,1,72451,Woolsthorpe,Lincolnshire,1.0,1.0,0.31,28.0,5.0,960.0,4.5,,SK8333/woolsthorpe-by-belvoir,name,False
+887,Wyville,13.0,value,1,73466,Wyville,Lincolnshire,1.0,1.0,0.42,6.5,3.5,600.0,,,SK8829/wyville,name,False
+888,Ackthorpe,,absent,0,,,,,,,,,,,,,,
+889,Aisthorpe,25.0,value,3,606,Aisthorpe,Lincolnshire,1.0,1.0,0.28,11.0,2.25,32.0,,,SK9480/aisthorpe,name,False
+890,Aleby,15.0,value,2,53536,Saleby,Lincolnshire,0.909,0.0,2.28,6.0,2.0,,,,TF4578/saleby,name,False
+891,Asterby,18.0,value,1,2976,Asterby,Lincolnshire,1.0,1.0,0.14,18.0,3.0,,,,TF2679/asterby,name,False
+892,Audby (Autby),,absent,0,3341,`Audby',Lincolnshire,1.0,0.0,0.65,30.5,4.5,240.0,,,TF2897/autby,name,False
+893,Audleby,33.0,value,3,3346,Audleby,Lincolnshire,1.0,2.0,0.71,33.0,5.5,1920.0,,,TA1104/audleby,name,False
+894,Barlings,11.0,value,7,4346,Barlings,Lincolnshire,1.0,3.0,0.4,11.0,5.0,1680.0,,,TF0774/barlings,name,False
+895,Beckering,15.0,value,6,5481,Beckering,Lincolnshire,1.0,5.0,0.36,15.0,1.0,336.0,,,TF1280/beckering,name,False
+896,Beckfield,,absent,0,,,,,,,,,,,,,,
+897,Beesby,10.0,value,2,5721,Beesby,Lincolnshire,1.0,2.0,0.14,10.0,2.5,360.0,,,TF2696/beesby,name,False
+898,Biscathorpe,19.0,value,1,7216,Biscathorpe,Lincolnshire,1.0,1.0,0.65,19.0,4.5,,2.0,,TF2284/biscathorpe,name,False
+899,Bleasby,10.0,value,6,7591,Bleasby,Lincolnshire,1.0,2.0,0.55,10.0,3.5,720.0,,,TF1384/bleasby,name,False
+900,Bonthorpe,10.0,value,2,8121,Bonthorpe,Lincolnshire,1.0,1.0,0.43,10.0,2.0,720.0,,,TF4872/bonthorpe,name,False
+901,Riby,70.0,value,3,51686,Riby,Lincolnshire,1.0,2.0,0.32,33.333,7.667,120.0,,,TA1807/riby,name,False
+902,Rigsby,26.0,value,5,51821,Rigsby,Lincolnshire,1.0,2.0,0.42,19.333,3.0,160.0,,,TF4275/rigsby,name,False
+903,Risby,25.0,value,1,52036,Risby,Lincolnshire,1.0,1.0,0.5,18.0,3.0,,,,TF1492/risby,name,False
+904,Great Risby,,absent,0,,,,,,,,,,,,,,
+905,Little Risby,,absent,0,,,,,,,,,,,,,,
+906,Riseholme,10.0,value,5,52061,Riseholme,Lincolnshire,1.0,3.0,0.55,10.0,6.5,1320.0,2.0,,SK9875/riseholme,name,False
+907,Roxton,,absent,0,,,,,,,,,,,,,,
+908,Saltfleetby,53.0,value,6,53626,`Saltfleet',Lincolnshire,0.9,0.0,2.69,,,,,,TF4593/saltfleet,name,False
+909,Santon,16.0,value,3,53866,Santon,Lincolnshire,1.0,1.0,0.65,12.0,2.0,,,,SE9312/santon,name,False
+910,Sawcliffe,78.0,value,3,53991,`Sawcliffe',Lincolnshire,1.0,0.0,0.31,,0.333,64.0,,,SE9114/sawcliffe,name,False
+911,Scrafield,,absent,0,,,,,,,,,,,,,,
+912,Scremthorpe,,absent,0,,,,,,,,,,,,,,
+913,Scrivelsby,89.0,value,2,54431,Scrivelsby,Lincolnshire,1.0,2.0,0.78,89.0,21.0,3360.0,1.0,,TF2666/scrivelsby,name,False
+914,Snarford,18.0,value,5,56756,Snarford,Lincolnshire,1.0,2.0,0.41,18.0,3.5,480.0,,,TF0582/snarford,name,False
+915,Somerby by Brigg,51.0,value,2,57006,Somerby,Lincolnshire,0.667,2.0,0.45,21.4,5.9,,,,TA0606/somerby,reference+name,False
+916,Somerby by Gainsborough,10.0,value,5,57001,Somerby,Lincolnshire,0.5,4.0,0.94,10.0,2.0,60.0,,,SK8589/somerby,reference+name,False
+917,Stain,,absent,0,,,,,,,,,,,,,,
+918,Stainfield,23.0,value,1,57706,Stainfield,Lincolnshire,1.0,1.0,0.36,23.0,7.0,720.0,,,TF1073/stainfield,name,False
+919,Stainsby,,absent,0,,,,,,,,,,,,,,
+920,Stenigot,28.0,value,1,58691,Stenigot,Lincolnshire,1.0,1.0,0.2,28.0,6.0,,,,TF2581/stenigot,name,False
+921,Stichesby,,absent,0,,,,,,,,,,,,,,
+922,Strubby,26.0,value,4,60111,Strubby,Lincolnshire,1.0,3.0,0.45,8.0,0.5,,,,TF1577/strubby,name,False
+923,Little Sturton,16.0,value,5,60281,[Little] Sturton,Lincolnshire,1.0,1.0,0.0,16.0,8.0,1920.0,1.0,,TF2175/little-sturton,name,False
+924,Sudtone,15.0,value,2,60391,{Sudtone},Lincolnshire,1.0,1.0,0.45,8.5,1.0,120.0,,,TF1976/sudtone,name,False
+925,Swine Haven,,absent,0,,,,,,,,,,,,,,
+926,Blithfield,13.0,value,1,7666,Blithfield,Staffordshire,1.0,1.0,0.5,13.0,4.0,240.0,,4.0,SK0423/blithfield,name,False
+927,Blore,2.0,value,1,7696,Blore,Staffordshire,1.0,1.0,0.2,2.0,2.0,60.0,,,SK1349/blore,name,False
+928,Chartley,15.0,value,1,14266,Chartley,Staffordshire,1.0,1.0,0.7,15.0,10.5,120.0,,,SK0128/chartley,name,False
+929,Chillington,,absent,0,15031,Chillington,Staffordshire,1.0,0.0,0.3,28.0,6.0,360.0,,9.0,SJ8606/chillington,name,False
+930,Bingham,55.0,value,1,7001,Bingham,Nottinghamshire,1.0,1.0,0.93,55.0,17.5,2556.0,,,SK7039/bingham,name,False
+931,Croxall,,absent,0,18956,Croxall,Staffordshire,1.0,0.0,0.32,46.0,10.0,960.0,2.0,,SK1913/croxall,name,False
+932,Fisherwick,,absent,0,,,,,,,,,,,,,,
+933,Freeford,82.0,value,1,25821,Freeford,Staffordshire,1.0,0.0,0.0,,,,,,SK1307/freeford,name,False
+934,Haselour,,absent,0,,,,,,,,,,,,,,
+935,Okeover,0.0,value,1,46981,Okeover,Staffordshire,1.0,0.0,0.43,,,240.0,1.0,,SK1548/okeover,name,False
+936,Packington,151.0,value,2,48001,Packington,Staffordshire,1.0,0.0,0.22,,,,,,SK1606/packington,name,False
+937,Patshull,19.0,value,1,48326,Patshull,Staffordshire,1.0,1.0,0.64,19.0,6.0,360.0,1.0,1.0,SJ8000/patshull,name,False
+938,Pillaton,,absent,0,,,,,,,,,,,,,,
+939,Sandon,26.0,value,1,53826,Sandon,Staffordshire,1.0,1.0,4.97,26.0,10.0,1440.0,,,SJ9524/sandon,name,False
+940,Shugborough,,absent,0,,,,,,,,,,,,,,
+941,Statfold,,absent,0,,,,,,,,,,,,,,
+942,Syerscote,5.0,value,1,61296,Syerscote,Staffordshire,1.0,1.0,0.22,5.0,3.5,192.0,,1.0,SK2207/syerscote,name,False
+943,Tamhorn,82.0,value,1,61466,Tamhorn,Staffordshire,1.0,0.0,0.71,,,,,,SK1807/tamhorn,name,False
+944,Thorpe Constantine,13.0,value,1,62846,Thorpe [Constantine],Staffordshire,1.0,1.0,0.64,13.0,5.0,480.0,,,SK2508/thorpe-constantine,name,False
+945,Wychnor,6.0,value,1,70001,Wichnor,Staffordshire,0.857,1.0,0.5,6.0,1.0,180.0,1.0,,SK1716/wychnor,name,False
+946,Alteinestuna,,absent,0,,,,,,,,,,,,,,
+947,Ashby,,absent,0,,,,,,,,,,,,,,
+948,Badley,41.0,value,3,3801,Badley,Suffolk,1.0,2.0,0.58,41.0,7.0,1664.0,0.5,5.0,TM0655/badley,name,False
+949,Braiseworth,34.0,value,5,9116,Braiseworth,Suffolk,1.0,5.0,0.42,35.0,7.5,798.0,1.0,,TM1371/braiseworth,name,False
+950,Easton Bavents,13.0,value,3,22086,Easton [Bavents],Suffolk,1.0,2.0,0.2,13.0,4.0,288.0,,1.0,TM5178/easton-bavents,name,False
+951,South Elmham,,qualified,5,,,,,,,,,,,,,,
+952,Flixton,59.5,value,3,25221,Flixton,Suffolk,1.0,0.0,0.3,67.0,17.5,1450.0,0.5,4.0,TM5195/flixton,name,False
+953,Fordley,28.0,value,5,25426,Fordley,Suffolk,1.0,4.0,0.42,45.0,8.0,504.0,1.0,,TM4266/fordley,name,False
+954,Linstead,,qualified,2,,,,,,,,,,,,,,
+955,Mells,23.0,value,1,42351,Mells,Suffolk,1.0,1.0,0.3,23.0,5.0,720.0,0.0,3.0,TM4076/mells,name,False
+956,Redisham,6.0,value,1,51421,Redisham,Suffolk,1.0,1.0,1.91,6.0,1.5,368.0,,,TM4084/redisham,name,False
+957,Sotherton,23.0,value,1,57156,Sotherton,Suffolk,1.0,1.0,0.31,23.0,5.5,504.0,,2.0,TM4479/sotherton,name,False
+958,Sotterley,21.0,value,2,57166,Sotterley,Suffolk,1.0,1.0,0.31,21.0,6.0,640.0,,2.0,TM4585/sotterley,name,False
+959,Willingham,32.0,value,4,70596,Willingham,Suffolk,1.0,3.0,0.9,25.0,10.0,972.0,,,TM4586/willingham,name,False
+960,Aldham,17.0,value,3,876,Aldham,Suffolk,1.0,2.0,0.49,17.0,14.0,4090.0,2.0,2.0,TM0444/aldham,name,False
+961,Chilton,33.0,value,1,15096,Chilton,Suffolk,1.0,1.0,0.58,10.0,3.0,564.0,,1.0,TL8842/chilton,name,False
+962,Fornham St. Geneveve,30.0,value,1,25476,Fornham [St Genevieve],Suffolk,0.971,1.0,0.53,30.0,8.0,1080.0,3.0,3.0,TL8368/fornham-st-genevieve,name,False
+963,Ickworth,16.0,value,1,34506,Ickworth,Suffolk,1.0,1.0,0.44,16.0,6.0,960.0,1.0,4.0,TL8161/ickworth,name,False
+964,Knettishall,11.0,value,3,36976,Knettishall,Suffolk,1.0,2.0,0.31,14.0,3.5,306.0,2.0,,TL9780/knettishall,name,False
+965,Langham,16.0,value,2,37576,Langham,Suffolk,1.0,2.0,0.7,17.0,5.0,876.0,,3.0,TL9869/langham,name,False
+966,Little Livermere,10.0,value,1,39691,[Little] Livermere,Suffolk,1.0,1.0,0.98,13.0,5.0,360.0,,,TL8772/little-livermere,name,False
+967,Great Saxham,,qualified,4,,,,,,,,,,,,,,
+968,Wordwell,17.0,value,1,72691,Wordwell,Suffolk,1.0,1.0,0.64,17.0,5.0,360.0,1.0,2.0,TL8272/wordwell,name,False
+969,Albury,22.0,value,1,691,Albury,Surrey,1.0,1.0,1.98,22.0,8.5,2160.0,1.0,5.0,TQ0447/albury,name,False
+970,Cuddington,28.0,value,1,19091,Cuddington,Surrey,1.0,1.0,1.25,28.0,9.0,2304.0,1.0,4.0,TQ2264/cuddington,name,False
+971,Gatton,9.0,value,1,26536,Gatton,Surrey,1.0,1.0,0.31,9.0,4.0,1440.0,,,TQ2752/gatton,name,False
+972,Tatsfield,26.0,value,1,61686,Tatsfield,Surrey,1.0,1.0,1.59,26.0,2.0,720.0,,12.0,TQ4257/tatsfield,name,False
+973,Titsey,54.0,value,1,64006,Titsey,Surrey,1.0,1.0,0.53,54.0,9.0,2640.0,,9.0,TQ4054/titsey,name,False
+974,Aldrington,73.0,value,1,926,Aldrington,Sussex,1.0,1.0,0.89,73.0,10.0,2640.0,,,TQ2705/aldrington,name,False
+975,Balmer,5.0,value,2,4016,Balmer,Sussex,1.0,1.0,0.63,5.0,1.0,360.0,,2.0,TQ3509/balmer,name,False
+976,Balsdean,,absent,0,,,,,,,,,,,,,,
+977,Broomhill,,absent,0,,,,,,,,,,,,,,
+978,Bulverhythe,,absent,0,,,,,,,,,,,,,,
+979,Exceat,24.0,value,1,23936,Exceat,Sussex,1.0,1.0,0.41,24.0,5.0,1680.0,,1.0,TV5299/exceat,name,False
+980,Hamsey,30.0,value,2,29016,Hamsey,Sussex,1.0,1.0,0.31,30.0,11.0,2400.0,,,TQ4112/hamsey,name,False
+981,Hangleton,44.0,value,1,29131,Hangleton,Sussex,1.0,1.0,1.12,44.0,7.0,2400.0,,,TQ2706/hangleton,name,False
+982,Hove,,absent,0,,,,,,,,,,,,,,
+983,Hydneye,,absent,0,,,,,,,,,,,,,,
+984,Newtimber,21.0,value,1,45346,Newtimber,Sussex,1.0,1.0,0.43,21.0,7.0,1920.0,1.0,,TQ2713/newtimber,name,False
+985,Northeye,,absent,0,,,,,,,,,,,,,,
+986,Perching,20.0,value,2,48841,Perching,Sussex,1.0,2.0,1.21,20.0,5.5,1080.0,1.0,2.0,TQ2411/perching,name,False
+987,Pyecombe,,absent,0,,,,,,,,,,,,,,
+988,Swinhope,37.0,value,3,61201,Swinhope,Lincolnshire,1.0,3.0,0.3,37.0,7.5,960.0,1.0,,TF2196/swinhope,name,False
+989,Upper Barpham,,absent,0,11836,Burpham,Sussex,0.857,0.0,2.16,30.0,6.0,1920.0,,10.0,TQ0408/burpham,name,True
+990,Binderton,17.0,value,1,6991,Binderton,Sussex,1.0,1.0,0.65,17.0,4.0,1680.0,,,SU8410/binderton,name,False
+991,Binstead,,absent,0,7051,Binsted,Sussex,0.933,0.0,0.49,8.0,2.5,720.0,,,SU9806/binsted,name,False
+992,Botolphs,,absent,0,,,,,,,,,,,,,,
+993,Bracklesham,,absent,0,,,,,,,,,,,,,,
+994,Burton,13.0,value,1,11956,Burton,Sussex,1.0,1.0,0.22,13.0,4.0,1200.0,1.0,2.0,SU9617/burton,name,False
+995,Coombes,33.0,value,1,17521,Coombes,Sussex,1.0,1.0,0.49,33.0,12.0,3120.0,,2.0,TQ1908/coombes,name,False
+996,Cudlow,,absent,0,,,,,,,,,,,,,,
+997,Duncton,31.0,value,1,21391,Duncton,Sussex,1.0,1.0,0.69,31.0,5.5,1716.0,4.0,2.0,SU9617/duncton,name,False
+998,Old Erringham,7.0,value,1,23546,Erringham,Sussex,1.0,1.0,0.2,7.0,,480.0,,,TQ2007/erringham,name,True
+999,Glatting,11.0,value,1,26886,Glatting,Sussex,1.0,1.0,0.41,11.0,3.0,960.0,,6.0,SU9714/glatting,name,False
+1000,Heene,14.0,value,1,30816,Heene,Sussex,1.0,1.0,0.85,14.0,4.0,960.0,,1.0,TQ1303/heene,name,False
+1001,Islesham,,absent,0,,,,,,,,,,,,,,
+1002,East Itchenor,,absent,0,35166,Itchenor,Sussex,1.0,0.0,1.15,6.0,2.0,264.0,,,SU7901/itchenor,name,True
+1003,Whitchurch,27.0,value,2,69611,Whitchurch,Warwickshire,1.0,1.0,1.21,27.0,12.0,2160.0,2.0,7.0,SP2247/whitchurch,name,False
+1004,Linch,14.0,value,1,39266,Linch,Sussex,1.0,1.0,0.39,14.0,3.0,1200.0,,2.0,SU8418/linch,name,False
+1005,Lordington,17.0,value,1,40141,Lordington,Sussex,1.0,1.0,0.42,17.0,3.0,840.0,1.0,2.0,SU7809/lordington,name,False
+1006,North Marden,,qualified,4,,,,,,,,,,,,,,
+1007,"Marden, Up",,qualified,3,,,,,,,,,,,,,,
+1008,Muntham,11.0,value,1,44461,Muntham,Sussex,1.0,1.0,1.25,11.0,2.0,840.0,,,TQ1109/muntham,name,False
+1009,Parham,16.0,value,2,48226,Parham,Sussex,1.0,2.0,0.7,16.0,5.0,1680.0,1.0,,TQ0614/parham,name,False
+1010,Racton,21.0,value,1,50796,Racton,Sussex,1.0,1.0,0.57,21.0,3.5,960.0,,,SU7809/racton,name,False
+1011,Wiston,39.0,value,1,71531,Wiston,Sussex,1.0,1.0,0.1,39.0,7.0,2880.0,,5.0,TQ1512/wiston,name,False
+1012,Woodmancote,21.0,value,1,72236,Woodmancote,Sussex,1.0,1.0,0.55,21.0,10.0,840.0,,,TQ2315/woodmancote,name,False
+1013,Alscot,9.0,value,1,,,,,,,,,,,,,,
+1014,Arnhale,,absent,0,,,,,,,,,,,,,,
+1015,"Ascote, Chapel",,absent,0,,,,,,,,,,,,,,
+1016,Aspley,,absent,0,,,,,,,,,,,,,,
+1017,Asthull,,absent,0,,,,,,,,,,,,,,
+1018,Baddesley Clinton,,absent,0,,,,,,,,,,,,,,
+1019,Barcheston,16.0,value,2,4106,Barcheston,Warwickshire,1.0,2.0,0.41,16.0,6.5,1080.0,1.0,,SP2639/barcheston,name,False
+1020,Bericote,9.0,value,1,6261,Bericote,Warwickshire,1.0,1.0,0.7,9.0,3.0,480.0,1.0,2.0,SP3169/bericote,name,False
+1021,Biggin,5.0,value,2,6801,Biggin,Warwickshire,1.0,2.0,0.5,5.0,0.5,156.0,,1.0,SP5377/biggin,name,False
+1022,Billesley Trussell,26.0,value,1,6866,Billesley,Warwickshire,0.692,1.0,0.31,26.0,7.0,1200.0,,8.0,SP1456/billesley,reference+name,False
+1023,Bosworth,,absent,0,,,,,,,,,,,,,,
+1024,Bradmore,,absent,0,,,,,,,,,,,,,,
+1025,Bramcote,3.0,value,3,9141,Bramcote,Warwickshire,1.0,3.0,0.36,3.0,0.5,144.0,,,SP4188/bramcote,name,False
+1026,Brookhamptom,,absent,0,,,,,,,,,,,,,,
+1027,"Broom, Burnell's",14.0,value,1,10621,Broom,Warwickshire,1.0,1.0,0.8,14.0,4.0,720.0,,,SP0853/broom,name,False
+1028,Broughton,,absent,0,,,,,,,,,,,,,,
+1029,Newbottle,32.0,value,1,45086,Newbottle,Northamptonshire,1.0,1.0,0.94,32.0,7.5,1440.0,,15.0,SP5136/newbottle,name,False
+1030,Newbottle in Harrington,4.0,value,1,45091,Newbottle,Northamptonshire,0.6,1.0,0.9,4.0,1.5,72.0,1.0,,SP7881/newbottle,reference+name,False
+1031,Tatebi,10.0,value,1,61666,{Tatebi},Lincolnshire,1.0,1.0,0.71,3.333,0.5,160.0,,,TF4274/tatebi,name,False
+1032,Little Newton,,absent,0,45406,Newton,Northamptonshire,1.0,0.0,0.28,28.0,3.0,384.0,1.5,,SP8883/newton,name,True
+1033,Broxtowe,1.0,value,3,10871,Broxtow,Nottinghamshire,0.933,1.0,0.28,1.0,1.0,96.0,,,SK5242/broxtowe,name,False
+1034,Nobold,,absent,0,,,,,,,,,,,,,,
+1035,Thonock,11.0,value,1,62276,`Thonock',Lincolnshire,1.0,1.0,0.43,5.5,0.75,,,,SK8292/thonock,name,False
+1036,Whitley,11.0,value,1,,,,,,,,,,,,,,
+1037,West Burton,178.0,value,2,12106,[West] Burton,Nottinghamshire,1.0,1.0,0.71,4.0,2.5,480.0,,,SK7985/west-burton,name,False
+1038,Wike,,absent,0,,,,,,,,,,,,,,
+1039,Thoresby,,absent,0,,,,,,,,,,,,,,
+1040,Nunton,,absent,0,,,,,,,,,,,,,,
+1041,Carburton,0.0,value,1,13031,Carburton,Nottinghamshire,1.0,0.0,0.45,,,,,,SK6173/carburton,name,False
+1042,Thornton le Moor,18.0,value,3,62671,Thornton [le Moor],Lincolnshire,1.0,2.0,0.62,18.0,2.5,60.0,,,TF0596/thornton-le-moor,name,False
+1043,Onley,,absent,0,,,,,,,,,,,,,,
+1044,Willicote,0.0,value,0,,,,,,,,,,,,,,
+1045,Thorpe,,absent,0,,,,,,,,,,,,,,
+1046,East Chilwell,51.0,value,3,15146,Chilwell,Nottinghamshire,1.0,1.0,3.54,10.0,3.5,,,,SK5135/chilwell,name,True
+1047,Overstone,,absent,0,,,,,,,,,,,,,,
+1048,Wilmcote Parva,6.0,value,1,70746,Wilmcote,Warwickshire,0.762,1.0,0.82,6.0,4.0,720.0,,2.0,SP1658/wilmcote,reference+name,True
+1049,Wishaw,8.0,value,1,71491,Wishaw,Warwickshire,1.0,1.0,0.2,8.0,,120.0,,,SP1794/wishaw,name,False
+1050,Thrunscoe,82.0,value,4,63346,Thrunscoe,Lincolnshire,1.0,4.0,0.45,25.667,3.333,240.0,,,TA3007/thrunscoe,name,False
+1051,Clowne,0.0,value,1,16351,Clown,Nottinghamshire,0.909,0.0,0.59,,,,,,SK5874/clown,name,False
+1052,Little Oxenden,,absent,0,,,,,,,,,,,,,,
+1053,Wolfhampcote,22.0,value,2,71891,Wolfhampcote,Warwickshire,1.0,1.0,0.58,22.0,5.0,720.0,,4.0,SP5265/wolfhampcote,name,False
+1054,Tothby,3.0,value,1,64506,Tothby,Lincolnshire,1.0,1.0,0.2,3.0,,,,,TF4476/tothby,name,False
+1055,Clumber,0.0,value,3,16361,Clumber,Nottinghamshire,1.0,0.0,0.28,,1.0,48.0,1.0,,SK6274/clumber,name,False
+1056,Lower Woodcote,,absent,0,,,,,,,,,,,,,,
+1057,Papley,,absent,0,,,,,,,,,,,,,,
+1058,Tothill,106.0,value,1,64511,Tothill,Lincolnshire,1.0,1.0,0.45,21.2,6.2,,1.2,,TF4181/tothill,name,False
+1059,Upper Woodcote,,absent,0,,,,,,,,,,,,,,
+1060,Colston Basset,,absent,2,16926,Colston [Bassett],Nottinghamshire,0.963,0.0,1.05,,,,,,SK6933/colston-bassett,name,False
+1061,Low Toynton,64.0,value,3,,,,,,,,,,,,,,
+1062,Over Colwick,,absent,0,16986,Colwick,Nottinghamshire,1.0,0.0,1.99,34.0,12.5,480.0,1.0,2.0,SK6140/colwick,name,False
+1063,Woodloes,,absent,0,,,,,,,,,,,,,,
+1064,Perio,,absent,0,,,,,,,,,,,,,,
+1065,Cratley,,absent,0,,,,,,,,,,,,,,
+1066,Waddingworth,60.0,value,2,66536,Waddingworth,Lincolnshire,1.0,2.0,0.31,60.0,12.0,,,,TF1871/waddingworth,name,False
+1067,Wormleighton,48.0,value,3,72801,Wormleighton,Warwickshire,1.0,3.0,0.58,50.0,23.0,3660.0,,6.0,SP4453/wormleighton,name,False
+1068,Langton,,no_source,0,,,,,,,,,,,,,,
+1069,Pipewell,10.0,value,3,49331,Pipewell,Northamptonshire,1.0,3.0,0.8,10.0,,180.0,,,SP8385/pipewell,name,False
+1070,Dallington,12.0,value,1,19486,`Dallington',Nottinghamshire,1.0,1.0,0.67,4.0,1.0,,,,SK7743/dallington,name,False
+1071,Walmsgate,0.0,value,1,66916,Walmsgate,Lincolnshire,1.0,0.0,0.51,,,,,,TF3677/walmsgate,name,False
+1072,Smardale,,no_source,0,,,,,,,,,,,,,,
+1073,Potcote,,absent,0,,,,,,,,,,,,,,
+1074,Danethorpe,12.0,value,1,19571,Danethorpe,Nottinghamshire,1.0,1.0,0.36,11.0,3.0,,,,SK8458/danethorpe,name,False
+1075,Great Purston,7.0,value,2,,,,,,,,,,,,,,
+1076,Addeston,8.0,value,1,296,Addestone,Wiltshire,0.941,1.0,0.28,8.0,2.0,480.0,,3.0,SU0643/addestone,name,False
+1077,Waterton,12.0,value,3,67776,`Waterton',Lincolnshire,1.0,1.0,0.54,3.0,0.5,9.0,,,SE8517/waterton,name,False
+1078,Alderstone,4.0,value,1,831,Alderstone,Wiltshire,1.0,1.0,0.0,4.0,,120.0,,,SU2424/alderstone,name,False
+1079,Flawford,,absent,0,,,,,,,,,,,,,,
+1080,Seawell,13.0,value,1,54596,Seawell,Northamptonshire,1.0,1.0,0.5,13.0,5.0,720.0,1.0,2.0,SP6252/seawell,name,False
+1081,Alton,11.0,value,1,1411,Alton,Wiltshire,1.0,1.0,0.36,11.0,3.0,1200.0,,3.0,SU1546/alton,name,False
+1082,Weelsby,17.0,value,5,68076,Weelsby,Lincolnshire,1.0,1.0,1.42,17.0,2.0,1200.0,,,TA2708/weelsby,name,False
+1083,Gledthorpe,,qualified,1,26901,Gleadthorpe,Nottinghamshire,0.952,1.0,0.5,4.0,2.0,,,,SK5970/gleadthorpe,name,False
+1084,Sibberton,,absent,0,,,,,,,,,,,,,,
+1085,Anstye,,absent,0,,,,,,,,,,,,,,
+1086,Asserton,,absent,0,,,,,,,,,,,,,,
+1087,Well,19.0,value,2,68216,Well,Lincolnshire,1.0,2.0,0.14,19.0,3.0,1680.0,1.0,,TF4473/well,name,False
+1088,Silsworth,,absent,0,,,,,,,,,,,,,,
+1089,Greasley,8.0,value,1,27591,Greasley,Nottinghamshire,1.0,1.0,0.72,8.0,4.0,120.0,,,SK4847/greasley,name,False
+1090,Westlaby,10.0,value,2,68766,`Westlaby',Lincolnshire,1.0,2.0,0.36,10.0,3.0,192.0,,,TF0981/westlaby,name,False
+1091,Avon,,absent,0,,,,,,,,,,,,,,
+1092,Snorscomb,4.0,value,2,56876,Snorscomb,Northamptonshire,1.0,2.0,0.44,4.0,,180.0,,2.0,SP5956/snorscomb,name,False
+1093,Grimston,25.0,value,3,27861,Grimston,Nottinghamshire,1.0,2.0,1.35,17.0,5.5,,,,SK6865/grimston,name,False
+1094,Wilksby,14.0,value,2,70466,Wilksby,Lincolnshire,1.0,2.0,0.36,14.0,2.0,,,,TF2862/wilksby,name,False
+1095,Habblesthorpe,,absent,0,,,,,,,,,,,,,,
+1096,Steane,19.0,value,1,58586,Steane,Northamptonshire,1.0,1.0,0.5,14.0,9.0,720.0,1.0,2.0,SP5539/steane,name,False
+1097,Barford,2.0,value,1,4181,Barford,Wiltshire,1.0,1.0,0.29,2.0,,84.0,,,SU1822/barford,name,False
+1098,Winceby,183.0,value,2,70936,Winceby,Lincolnshire,1.0,2.0,0.45,125.857,28.857,240.0,2.286,,TF3268/winceby,name,False
+1099,Haughton,,absent,0,30301,Haughton,Nottinghamshire,1.0,0.0,0.87,,,240.0,,,SK6772/haughton,name,False
+1100,Stuchbury,13.0,value,1,60161,Stuchbury,Northamptonshire,1.0,1.0,0.56,10.0,2.0,480.0,,2.0,SP5644/stuchbury,name,False
+1101,Great Bathampton,23.0,value,2,5101,Bathampton,Wiltshire,1.0,2.0,0.53,23.0,6.5,1680.0,2.0,12.0,SU0138/bathampton,name,True
+1102,Sulby,13.0,value,2,60436,Sulby,Northamptonshire,1.0,1.0,1.56,13.0,3.0,1200.0,,,SP6682/sulby,name,False
+1103,Hempshill,6.0,value,1,31061,Hempshill,Nottinghamshire,1.0,1.0,0.4,6.0,2.0,,,,SK5244/hempshill,name,False
+1104,Hermeston,,absent,0,,,,,,,,,,,,,,
+1105,Thorpe Lubenham,42.0,value,1,62986,Thorpe [Lubenham],Northamptonshire,1.0,1.0,0.1,21.0,4.5,360.0,,1.0,SP7086/thorpe-lubenham,name,False
+1106,Withcall,63.0,value,3,,,,,,,,,,,,,,
+1107,Little Bathampton,,absent,0,5101,Bathampton,Wiltshire,1.0,0.0,1.04,23.0,6.5,1680.0,2.0,12.0,SU0138/bathampton,name,True
+1108,Worlaby,76.0,value,3,72721,Worlaby,Lincolnshire,1.0,0.0,0.59,16.5,3.0,480.0,,,TF3476/worlaby,name,False
+1109,Hesley,,absent,0,,,,,,,,,,,,,,
+1110,Wyham,21.0,value,2,73291,Wyham,Lincolnshire,1.0,2.0,0.41,21.0,6.0,720.0,,,TF2795/wyham,name,False
+1111,Thrupp,13.0,value,4,63356,Thrupp [Grounds],Northamptonshire,1.0,4.0,0.36,12.0,1.5,480.0,,,SP6065/thrupp-grounds,name,False
+1112,Baycliff,10.0,value,1,5271,Baycliff,Wiltshire,1.0,1.0,0.22,10.0,2.0,480.0,,,ST8139/baycliff,name,False
+1113,Holbeck,,absent,0,,,,,,,,,,,,,,
+1114,Wykeham,,no_source,1,73316,Wykeham,Lincolnshire,1.0,0.0,0.42,,,,,,TF1197/wykeham,name,False
+1115,Torpel,,absent,0,,,,,,,,,,,,,,
+1116,East Wykeham,5.0,value,3,73331,[East] Wykeham,Lincolnshire,1.0,1.0,0.3,5.0,0.5,,,,TF2288/east-wykeham,name,False
+1117,Baynton,,absent,0,,,,,,,,,,,,,,
+1118,Holme Pierrepoint,16.0,value,2,32661,Holme [Pierrepont],Nottinghamshire,0.968,1.0,0.22,16.0,7.0,1440.0,1.0,,SK6239/holme-pierrepont,name,False
+1119,Trafford,6.0,value,1,64641,Trafford,Northamptonshire,1.0,1.0,0.22,6.0,2.0,360.0,1.0,3.0,SP5248/trafford,name,False
+1120,West Wykeham,10.0,value,3,73341,`[West] Wykeham',Lincolnshire,1.0,0.0,0.5,,,180.0,,,TF2188/west-wykeham,name,False
+1121,Horsepool,25.0,value,1,33321,Horsepool,Nottinghamshire,1.0,0.0,2.9,,,,,,,name,False
+1122,Beversbrook,13.0,value,2,,,,,,,,,,,,,,
+1123,Keighton,,absent,0,,,,,,,,,,,,,,
+1124,Alethorpe,36.0,value,1,956,Alethorpe,Norfolk,1.0,1.0,0.58,36.0,8.0,10326.0,,2.0,TF9431/alethorpe,name,False
+1125,Upton,22.0,value,1,66286,Upton,Northamptonshire,1.0,1.0,0.28,22.0,7.0,,1.0,,SP7160/upton,name,False
+1126,Bincknoll,11.0,value,2,6981,Bincknoll,Wiltshire,1.0,0.0,0.28,11.0,2.0,1140.0,,4.0,SU1079/bincknoll,name,False
+1127,Walcot,,absent,0,,,,,,,,,,,,,,
+1128,Algarsthorpe,,absent,0,,,,,,,,,,,,,,
+1129,Kilvington,94.0,value,3,36131,Kilvington,Nottinghamshire,1.0,3.0,0.57,17.875,6.438,240.0,,,SK7942/kilvington,name,False
+1130,Walton,,absent,3,67116,Walton [Grounds],Northamptonshire,1.0,3.0,0.14,10.0,,540.0,1.0,3.0,SP5034/walton-grounds,name,False
+1131,Blackland,,absent,0,,,,,,,,,,,,,,
+1132,Alvington,,absent,0,,,,,,,,,,,,,,
+1133,Bourton,,absent,0,,,,,,,,,,,,,,
+1134,Kimberley,8.0,value,2,36156,Kimberley,Nottinghamshire,1.0,1.0,0.71,8.0,3.5,120.0,,,SK4944/kimberley,name,False
+1135,Woodcroft,,absent,0,,,,,,,,,,,,,,
+1136,Bradfield,5.0,value,1,8886,Bradfield,Wiltshire,1.0,1.0,0.4,5.0,2.0,360.0,,,ST8982/bradfield,name,False
+1137,Kinoulton,16.0,value,2,36486,Kinoulton,Nottinghamshire,1.0,2.0,1.31,16.0,3.0,32.0,,,SK6831/kinoulton,name,False
+1138,Appleton,27.0,value,2,1971,Appleton,Norfolk,1.0,2.0,0.1,29.0,1.0,4212.0,,4.0,TF7027/appleton,name,False
+1139,Bremelham,,absent,0,,,,,,,,,,,,,,
+1140,Knapthorpe,12.0,value,4,36896,Knapthorpe,Nottinghamshire,1.0,2.0,0.59,12.0,3.5,368.0,,,SK7458/knapthorpe,name,False
+1141,Wothorpe,20.0,value,3,72991,Wothorpe,Northamptonshire,1.0,3.0,0.51,20.0,5.5,696.0,1.0,,TF0205/wothorpe,name,False
+1142,Apton,,absent,2,63601,Thurton,Norfolk,0.5,1.0,1.96,22.0,3.0,,,,TG3200/thurton,reference+name,False
+1143,Wythemail,18.0,value,1,73441,Wythemail,Northamptonshire,1.0,1.0,0.64,17.0,3.0,480.0,,1.0,SP8471/wythemail,name,False
+1144,Bremeridge,,absent,0,,,,,,,,,,,,,,
+1145,Langford,38.0,value,1,37536,Langford,Nottinghamshire,1.0,0.0,0.67,38.0,9.5,120.0,2.0,,SK8258/langford,name,False
+1146,Ashby,27.5,value,3,2451,Ashby,Norfolk,1.0,2.0,0.5,22.0,4.0,336.0,,,TG4115/ashby,name,False
+1147,Bridmore,,absent,0,,,,,,,,,,,,,,
+1148,Abberwick,,no_source,0,,,,,,,,,,,,,,
+1149,Broom,,absent,0,,,,,,,,,,,,,,
+1150,Babingley,68.0,value,2,3641,Babingley,Norfolk,1.0,2.0,0.54,68.0,7.0,1200.0,3.0,6.0,TF6626/babingley,name,False
+1151,Martin,10.0,value,1,41856,Martin,Nottinghamshire,1.0,1.0,0.31,10.0,5.0,,,,SK6394/martin,name,False
+1152,East Acomb,,no_source,0,,,,,,,,,,,,,,
+1153,Meering,0.0,value,1,42226,Meering,Nottinghamshire,1.0,0.0,2.11,,,,,,SK8165/meering,name,False
+1154,Great Barwick,,other,0,4926,Barwick,Norfolk,1.0,0.0,0.45,17.0,2.0,240.0,,,TF8035/barwick,name,True
+1155,Bulbridge,,absent,0,,,,,,,,,,,,,,
+1156,Bupton,,absent,0,,,,,,,,,,,,,,
+1157,Acton,,no_source,0,,,,,,,,,,,,,,
+1158,Milnthorpe,,absent,0,,,,,,,,,,,,,,
+1159,Alnham,,no_source,0,,,,,,,,,,,,,,
+1160,Chalcot,,absent,0,,,,,,,,,,,,,,
+1161,Low Alwinton,,no_source,0,,,,,,,,,,,,,,
+1162,Little Barwick,,qualified,1,4926,Barwick,Norfolk,1.0,1.0,0.31,17.0,2.0,240.0,,,TF8035/barwick,name,True
+1163,Morton in Babworth,8.0,value,1,44076,Morton,Nottinghamshire,0.545,1.0,0.45,8.0,4.0,,,,SK6780/morton,reference+name,False
+1164,Great Chalfield,5.0,value,1,,,,,,,,,,,,,,
+1165,West Backworth,,no_source,0,,,,,,,,,,,,,,
+1166,Barton,,no_source,0,,,,,,,,,,,,,,
+1167,Charnage,11.0,value,1,14221,Charnage,Wiltshire,1.0,1.0,0.41,11.0,3.5,960.0,,,ST8331/charnage,name,False
+1168,Great Bavington,,no_source,0,,,,,,,,,,,,,,
+1169,Bawsey,44.0,value,2,5261,Bawsey,Norfolk,1.0,1.0,1.44,23.0,1.0,360.0,1.0,3.0,TF6519/bawsey,name,False
+1170,Chilhampton,,absent,0,,,,,,,,,,,,,,
+1171,Morton in Lenton,,absent,1,44081,Morton,Nottinghamshire,0.6,1.0,2.17,18.0,11.0,240.0,,,SK5638/morton,reference+name,False
+1172,Little Bavington,,no_source,0,,,,,,,,,,,,,,
+1173,Bayfield,13.0,value,2,5276,Bayfield,Norfolk,1.0,2.0,0.3,13.0,1.0,368.0,2.0,,TG0540/bayfield,name,False
+1174,Nettleworth,,absent,0,,,,,,,,,,,,,,
+1175,Choulston,5.0,value,1,15406,Choulston,Wiltshire,1.0,1.0,1.07,5.0,,480.0,,2.0,SU1549/choulston,name,False
+1176,Beck,74.0,value,2,5466,Beck,Norfolk,1.0,0.0,0.36,,,,,,TG0220/beck,name,False
+1177,Bebside,,no_source,0,,,,,,,,,,,,,,
+1178,Cockleberg,,absent,0,,,,,,,,,,,,,,
+1179,Normanton,0.0,value,1,45906,Normanton [-by-Clumber],Nottinghamshire,1.0,0.0,0.55,,,,,,SK6574/normanton,name,False
+1180,Belsay,,no_source,0,,,,,,,,,,,,,,
+1181,Beeston,,other,1,5756,Beeston [St Lawrence],Norfolk,1.0,1.0,0.58,5.0,,64.0,,,TG3221/beeston-st-lawrence,name,False
+1182,Corton,6.0,value,1,,,,,,,,,,,,,,
+1183,Bickerston,1.0,value,1,6626,Bickerston,Norfolk,1.0,1.0,0.22,1.0,,6.0,,,TG0808/bickerston,name,False
+1184,Osberton,5.0,value,1,47336,Osberton,Nottinghamshire,1.0,1.0,0.51,5.0,4.0,120.0,,,SK6279/osberton,name,False
+1185,Cowesfield,13.0,value,2,18151,Cowesfield,Wiltshire,1.0,2.0,0.69,13.0,3.0,480.0,,,SU2523/cowesfield,name,False
+1186,Benridge,,no_source,0,,,,,,,,,,,,,,
+1187,Bixley,28.0,value,5,7376,Bixley,Norfolk,1.0,4.0,0.94,29.0,8.0,672.0,,,TG2504/bixley,name,False
+1188,Ossington,26.0,value,1,47456,Ossington,Nottinghamshire,1.0,1.0,0.71,26.0,9.0,480.0,,,SK7564/ossington,name,False
+1189,Biddlestone,,no_source,0,,,,,,,,,,,,,,
+1190,Cumberwell,7.0,value,1,,,,,,,,,,,,,,
+1191,Plumtree,,absent,0,,,,,,,,,,,,,,
+1192,East Bingfield,,no_source,0,,,,,,,,,,,,,,
+1193,Bowthorpe,19.0,value,2,8621,Bowthorpe,Norfolk,1.0,1.0,0.44,19.0,4.0,1440.0,1.0,3.0,TG1709/bowthorpe,name,False
+1194,Dauntsey,26.0,value,1,19686,Dauntsey,Wiltshire,1.0,1.0,0.5,26.0,6.0,1440.0,1.0,2.0,ST9782/dauntsey,name,False
+1195,Bitchfield,,no_source,0,,,,,,,,,,,,,,
+1196,Boyland,8.5,value,1,8696,Boyland,Norfolk,1.0,1.0,0.1,8.5,3.0,480.0,1.0,,TM2294/boyland,name,False
+1197,Draycote Cerne,22.0,value,1,21036,Draycot [Cerne],Wiltshire,0.96,1.0,0.98,22.0,5.0,1200.0,1.0,4.0,ST9278/draycot-cerne,name,False
+1198,Black Headley,,no_source,0,,,,,,,,,,,,,,
+1199,Rayton,0.0,value,2,51336,Rayton,Nottinghamshire,1.0,0.0,0.2,,,,,,SK6179/rayton,name,False
+1200,Braydeston,17.5,value,2,8871,Bradeston,Norfolk,0.947,1.0,0.5,18.5,3.5,10.0,,2.0,TG3408/bradeston,name,False
+1201,Blagdon,,no_source,0,,,,,,,,,,,,,,
+1202,Easton,9.0,value,1,,,,,,,,,,,,,,
+1203,Rempstone,10.0,value,3,51536,Rempstone,Nottinghamshire,1.0,1.0,1.01,5.0,1.0,88.0,,,SK5724/rempstone,name,False
+1204,Bolam,,no_source,0,,,,,,,,,,,,,,
+1205,Hazon,,no_source,0,,,,,,,,,,,,,,
+1206,Eston,4.0,value,1,22076,Easton,Wiltshire,0.909,0.0,2.37,9.0,2.0,600.0,,2.0,ST8676/easton,name,False
+1207,Little Breckles,33.0,value,5,9626,Breckles,Norfolk,1.0,4.0,0.5,31.0,9.5,4944.0,,1.0,TL9594/breckles,name,True
+1208,"Healey, Mount",,no_source,0,,,,,,,,,,,,,,
+1209,Rufford,10.0,value,1,52966,Rufford,Nottinghamshire,1.0,1.0,1.25,10.0,4.0,720.0,,,SK6464/rufford,name,False
+1210,Bradford,,no_source,0,,,,,,,,,,,,,,
+1211,Faulston,,absent,0,,,,,,,,,,,,,,
+1212,Brotherwick,,no_source,0,,,,,,,,,,,,,,
+1213,Serlby,13.0,value,1,54786,Serlby,Nottinghamshire,1.0,1.0,0.0,13.0,4.0,240.0,1.0,,SK6389/serlby,name,False
+1214,Heatherwick,,no_source,0,,,,,,,,,,,,,,
+1215,Buckenham Tofts,19.0,value,2,11016,Buckenham [Tofts],Norfolk,1.0,2.0,0.36,19.0,3.5,228.0,0.5,,TL8394/buckenham-tofts,name,False
+1216,East Brunton,,no_source,0,,,,,,,,,,,,,,
+1217,Forde,,absent,0,,,,,,,,,,,,,,
+1218,Heaton,,no_source,0,,,,,,,,,,,,,,
+1219,Steetley,,absent,0,,,,,,,,,,,,,,
+1220,Burgh,,absent,0,,,,,,,,,,,,,,
+1221,Buckenfield,,no_source,0,,,,,,,,,,,,,,
+1222,Fowlswick,,absent,0,,,,,,,,,,,,,,
+1223,"Heddon, Black",,no_source,0,,,,,,,,,,,,,,
+1224,East Stoke,102.0,value,5,59186,[East] Stoke,Nottinghamshire,1.0,4.0,0.5,31.125,5.938,780.0,,,SK7549/east-stoke,name,False
+1225,Bylaugh,29.0,value,1,12371,Bylaugh,Norfolk,1.0,1.0,0.22,29.0,8.0,1200.0,1.0,,TG0318/bylaugh,name,False
+1226,Foxley,10.0,value,1,25671,Foxley,Wiltshire,1.0,1.0,0.51,10.0,5.0,480.0,1.0,3.0,ST8985/foxley,name,False
+1227,Caldecote,13.0,value,2,12616,Caldecote,Norfolk,1.0,1.0,0.2,11.0,2.5,96.0,1.0,1.0,TF7403/caldecote,name,False
+1228,Budle,,no_source,0,,,,,,,,,,,,,,
+1229,East Heddon,,no_source,0,,,,,,,,,,,,,,
+1230,Sutton Passeys,0.0,value,2,60826,Sutton [Passeys],Nottinghamshire,1.0,0.0,1.59,,,,,,,name,False
+1231,Calveston,19.0,value,1,16971,Colveston,Norfolk,0.889,0.0,0.1,,,,,,TL7995/colveston,name,False
+1232,Bullocks Hall,,no_source,0,,,,,,,,,,,,,,
+1233,Fresden,,absent,0,,,,,,,,,,,,,,
+1234,Burton,,no_source,0,,,,,,,,,,,,,,
+1235,Swainston,,absent,0,60996,`Swanston',Nottinghamshire,0.941,0.0,0.71,,,,,,SK8174/swanston,name,False
+1236,West Heddon,,no_source,0,,,,,,,,,,,,,,
+1237,Cavelly,,absent,0,12746,Calvely,Norfolk,0.857,0.0,0.4,20.0,1.5,240.0,,,TG0105/calvely,name,False
+1238,Thoresby,0.0,value,1,62301,Thoresby,Nottinghamshire,1.0,0.0,1.35,,,,,,SK6371/thoresby,name,False
+1239,Low Buston,,no_source,0,,,,,,,,,,,,,,
+1240,Hedgeley,,no_source,0,,,,,,,,,,,,,,
+1241,Choseley,,absent,0,,,,,,,,,,,,,,
+1242,Butterlaw,,no_source,0,,,,,,,,,,,,,,
+1243,Dornford,,absent,0,,,,,,,,,,,,,,
+1244,Gomeldon,,absent,0,,,,,,,,,,,,,,
+1245,Hethpool,,no_source,0,,,,,,,,,,,,,,
+1246,Thorney,78.0,value,1,62496,Thorney,Nottinghamshire,1.0,1.0,0.52,11.143,3.071,,,,SK8573/thorney,name,False
+1247,Draitone,,absent,0,,,,,,,,,,,,,,
+1248,Draycot,7.0,value,1,21031,Draycot,Oxfordshire,1.0,1.0,0.91,7.0,2.0,360.0,,2.0,SP6506/draycot,name,False
+1249,Bywell,,no_source,0,,,,,,,,,,,,,,
+1250,Cleythorpe,11.0,value,1,16026,Cleythorpe,Norfolk,1.0,1.0,1.34,10.0,2.5,516.0,,3.0,TF7903/cleythorpe,name,False
+1251,Groundwell,4.0,value,1,27981,Groundwell,Wiltshire,1.0,1.0,0.63,4.0,3.0,840.0,,1.0,SU1589/groundwell,name,False
+1252,Dunthorpe,,absent,0,,,,,,,,,,,,,,
+1253,Hetton,,no_source,0,,,,,,,,,,,,,,
+1254,Thorpe in the Glebe,0.0,value,3,62926,Thorpe [-in-the-Glebe],Nottinghamshire,1.0,0.0,0.36,,,48.0,,,SK6025/thorpe-in-the-glebe,name,False
+1255,Gurston,,absent,0,,,,,,,,,,,,,,
+1256,Eggesle,,absent,0,,,,,,,,,,,,,,
+1257,Clipstone,14.0,value,1,16241,Clipstone,Norfolk,1.0,0.0,0.14,,,,,,TF9730/clipstone,name,False
+1258,Wansley,6.0,value,1,67246,Wansley,Nottinghamshire,1.0,1.0,1.07,6.0,0.5,120.0,,,SK4651/wansley,name,False
+1259,Fifield,17.0,value,1,,,,,,,,,,,,,,
+1260,Hollinghill,,no_source,0,,,,,,,,,,,,,,
+1261,Caistron,,no_source,0,,,,,,,,,,,,,,
+1262,Hartham,13.0,value,6,29841,Hartham,Wiltshire,1.0,3.0,1.0,13.0,2.0,990.0,,3.0,ST8672/hartham,name,False
+1263,Warby,3.0,value,2,67336,`Warborough',Nottinghamshire,0.533,1.0,0.45,3.0,2.0,204.0,,,,reference+name,False
+1264,Carry Coates,,no_source,0,,,,,,,,,,,,,,
+1265,Fulwell,6.0,value,1,26221,Fulwell,Oxfordshire,1.0,1.0,0.31,6.0,2.0,720.0,1.0,1.0,SP6234/fulwell,name,False
+1266,Cartington,,no_source,0,,,,,,,,,,,,,,
+1267,Culesthorpe,,no_source,0,19316,Custhorpe,Norfolk,0.9,0.0,1.84,4.0,1.0,,,,TF7813/custhorpe,name,False
+1268,Horton Grange,,no_source,0,,,,,,,,,,,,,,
+1269,Hazlebury,25.0,value,4,30576,Hazelbury,Wiltshire,0.889,2.0,0.1,25.0,5.0,1764.0,2.0,2.0,ST8368/hazelbury,name,False
+1270,Welham,83.0,value,2,68206,Welham,Nottinghamshire,1.0,2.0,0.36,14.357,4.571,64.0,0.286,,SK7282/welham,name,False
+1271,Catcherside,,no_source,0,,,,,,,,,,,,,,
+1272,Godington,19.0,value,1,27066,Godington,Oxfordshire,1.0,1.0,0.42,19.0,8.5,1200.0,1.0,1.0,SP6427/godington,name,False
+1273,South Wheatley,7.0,value,1,,,,,,,,,,,,,,
+1274,Chirmundesdon,,no_source,0,,,,,,,,,,,,,,
+1275,Heale,,absent,0,,,,,,,,,,,,,,
+1276,Didlington,51.0,value,2,20276,Didlington,Norfolk,1.0,1.0,0.7,4.0,1.0,240.0,1.0,1.0,TL7796/didlington,name,False
+1277,High Horton,,no_source,0,,,,,,,,,,,,,,
+1278,Golder,,qualified,1,,,,,,,,,,,,,,
+1279,Whimpton,53.0,value,1,70916,Wimpton,Nottinghamshire,0.933,0.0,0.5,,,,,,SK7973/whimpton,name,False
+1280,Middle Chirton,,no_source,0,,,,,,,,,,,,,,
+1281,Dykebeck,29.0,value,2,21736,Dykebeck,Norfolk,1.0,2.0,0.3,29.0,6.0,1325.0,,,TG0901/dykebeck,name,False
+1282,Hensat,,absent,0,,,,,,,,,,,,,,
+1283,Earlham,37.5,value,2,21821,Earlham,Norfolk,1.0,1.0,0.58,21.0,5.0,2475.0,,,TG1908/earlham,name,False
+1284,Low Horton,,no_source,0,,,,,,,,,,,,,,
+1285,West Chirton,,no_source,0,,,,,,,,,,,,,,
+1286,Gosford,,absent,0,,,,,,,,,,,,,,
+1287,Clarewood,,no_source,0,,,,,,,,,,,,,,
+1288,Eccles,30.0,value,2,22356,Eccles,Norfolk,1.0,2.0,0.3,5.0,0.5,51.0,,,TG4128/eccles,name,False
+1289,Willoughby by Norwell,7.0,value,2,70676,Willoughby,Nottinghamshire,0.69,1.0,0.76,7.0,2.0,,0.5,,SK7862/willoughby,reference+name,False
+1290,Grove,,absent,0,,,,,,,,,,,,,,
+1291,Humbleton,,no_source,0,,,,,,,,,,,,,,
+1292,Hill Deverill,24.0,value,2,20186,[Hill] Deverill,Wiltshire,1.0,2.0,0.31,24.0,5.0,1440.0,1.0,2.0,ST8640/hill-deverill,name,False
+1293,Clennel,,no_source,0,,,,,,,,,,,,,,
+1294,Kearsley,,no_source,0,,,,,,,,,,,,,,
+1295,Homanton,,absent,0,,,,,,,,,,,,,,
+1296,Egmere,20.0,value,3,22761,Egmere,Norfolk,1.0,2.0,0.22,20.0,3.0,544.0,,0.0,TF8937/egmere,name,False
+1297,Lower Haddon,,absent,0,,,,,,,,,,,,,,
+1298,Willoughby by Walesby,4.0,value,4,70681,Willoughby,Nottinghamshire,0.69,1.0,0.5,9.0,0.5,120.0,,,SK6870/willoughby,reference+name,False
+1299,Kepwick,,no_source,0,,,,,,,,,,,,,,
+1300,Foston,,absent,0,,,,,,,,,,,,,,
+1301,Hurdcott,15.0,value,1,34196,Hurdcott,Wiltshire,1.0,1.0,0.69,15.0,4.0,720.0,1.0,1.0,SU0431/hurdcott,name,False
+1302,"Haddon, Marsh",,absent,0,,,,,,,,,,,,,,
+1303,Cocklaw,,no_source,0,,,,,,,,,,,,,,
+1304,Winkerfield,,absent,0,,,,,,,,,,,,,,
+1305,Kirkharle,,no_source,0,,,,,,,,,,,,,,
+1306,Knighton,,absent,0,,,,,,,,,,,,,,
+1307,Wiverton,33.0,value,5,71816,Wiverton,Nottinghamshire,1.0,5.0,0.0,29.5,9.0,120.0,,,SK7136/wiverton,name,False
+1308,Coldcotes,,no_source,0,,,,,,,,,,,,,,
+1309,Knighton,,absent,0,37021,Knighton,Wiltshire,1.0,0.0,2.72,19.0,5.0,2640.0,1.0,6.0,SU1245/knighton,name,False
+1310,Hampton Gay,11.0,value,1,,,,,,,,,,,,,,
+1311,Kirkley,,no_source,0,,,,,,,,,,,,,,
+1312,Frense,,absent,0,,,,,,,,,,,,,,
+1313,Woodcotes,,absent,0,,,,,,,,,,,,,,
+1314,Learchild,,no_source,0,,,,,,,,,,,,,,
+1315,Coldwell,,no_source,0,,,,,,,,,,,,,,
+1316,Coresenside,,no_source,0,,,,,,,,,,,,,,
+1317,Longford,12.0,value,1,40006,Longford,Wiltshire,1.0,1.0,0.31,12.0,1.0,720.0,1.0,1.0,SU1726/longford,name,False
+1318,Woolsthorpe,,absent,0,,,,,,,,,,,,,,
+1319,Crookdean,,no_source,0,,,,,,,,,,,,,,
+1320,West Learmouth,,no_source,0,,,,,,,,,,,,,,
+1321,Glosthorpe,24.0,value,1,26976,Glosthorpe,Norfolk,1.0,1.0,0.2,24.0,2.5,720.0,2.0,3.0,TF6918/glosthorpe,name,False
+1322,Lemmington,,no_source,0,,,,,,,,,,,,,,
+1323,Hardwick,7.0,value,1,,,,,,,,,,,,,,
+1324,Debdon,,no_source,0,,,,,,,,,,,,,,
+1325,Godwick,15.0,value,1,27086,Godwick,Norfolk,1.0,1.0,0.31,14.0,2.0,,,,TF9022/godwick,name,False
+1326,North Dissington,,no_source,0,,,,,,,,,,,,,,
+1327,Lydiard Tregoze,28.0,value,1,40711,Lydiard [Tregoze],Wiltshire,1.0,1.0,0.36,28.0,5.0,1440.0,,3.0,SU1084/lydiard-tregoze,name,False
+1328,Adwell,10.0,value,1,431,Adwell,Oxfordshire,1.0,1.0,0.14,10.0,4.0,1440.0,1.0,3.0,SU6999/adwell,name,False
+1329,Hordley,,absent,0,,,,,,,,,,,,,,
+1330,Mannington,,absent,0,,,,,,,,,,,,,,
+1331,West Lilburn,,no_source,0,,,,,,,,,,,,,,
+1332,South Dissington,,no_source,0,,,,,,,,,,,,,,
+1333,Littlemill,,no_source,0,,,,,,,,,,,,,,
+1334,Gowthorpe,,absent,0,,,,,,,,,,,,,,
+1335,Albury,9.0,value,1,686,Albury,Oxfordshire,1.0,1.0,1.06,9.0,3.0,720.0,,1.0,SP6505/albury,name,False
+1336,Old Horspath,15.0,value,1,33396,Horspath,Oxfordshire,1.0,1.0,1.41,15.0,5.5,1200.0,,2.0,SP5704/horspath,name,True
+1337,Middleton,4.0,value,2,42851,Middleton,Wiltshire,1.0,2.0,0.7,4.0,2.0,924.0,,1.0,ST9044/middleton,name,False
+1338,Grenstein,,absent,0,,,,,,,,,,,,,,
+1339,Ilbury,5.0,value,1,34611,Ilbury,Oxfordshire,1.0,1.0,0.5,5.0,2.0,480.0,,2.0,SP4331/ilbury,name,False
+1340,Alwoldesberie,13.0,value,1,,,,,,,,,,,,,,
+1341,Lorbottle,,no_source,0,,,,,,,,,,,,,,
+1342,Downham,,no_source,0,,,,,,,,,,,,,,
+1343,Midgehall,,absent,0,,,,,,,,,,,,,,
+1344,Milbourne,,absent,0,,,,,,,,,,,,,,
+1345,Langley,,absent,0,,,,,,,,,,,,,,
+1346,Gunton,63.0,value,3,,,,,,,,,,,,,,
+1347,Newenham,,absent,0,,,,,,,,,,,,,,
+1348,East Matfen,,no_source,0,,,,,,,,,,,,,,
+1349,Dukeshagg,,no_source,0,,,,,,,,,,,,,,
+1350,Armstalls,,absent,0,,,,,,,,,,,,,,
+1351,Easington,,no_source,0,,,,,,,,,,,,,,
+1352,Ascott,,absent,0,,,,,,,,,,,,,,
+1353,North Middleton,,no_source,0,,,,,,,,,,,,,,
+1354,Latchford,,absent,0,,,,,,,,,,,,,,
+1355,Hackford,32.0,value,1,28231,Hackford,Norfolk,1.0,0.0,0.56,24.0,7.0,840.0,1.0,1.0,TG0722/hackford,name,False
+1356,Norridge,,absent,0,,,,,,,,,,,,,,
+1357,Lea,,absent,0,,,,,,,,,,,,,,
+1358,South Middleton,,no_source,0,,,,,,,,,,,,,,
+1359,Ledall,,absent,0,,,,,,,,,,,,,,
+1360,Asterleigh,,absent,0,,,,,,,,,,,,,,
+1361,Hales,42.5,value,5,28511,Hales,Norfolk,1.0,4.0,2.18,69.5,8.5,915.0,,,TM3897/hales,name,False
+1362,Elford,,no_source,0,,,,,,,,,,,,,,
+1363,Norrington,,absent,0,,,,,,,,,,,,,,
+1364,Elwick,,no_source,0,,,,,,,,,,,,,,
+1365,Hargham,15.0,value,2,29556,Hargham,Norfolk,1.0,2.0,0.51,15.0,3.0,380.0,,,TM0291/hargham,name,False
+1366,Mitford,,no_source,0,,,,,,,,,,,,,,
+1367,Ludwell,0.0,value,5,40461,Ludwell,Oxfordshire,1.0,2.0,0.28,6.0,1.0,1416.0,,2.0,SP4322/ludwell,name,False
+1368,Penleigh,,absent,0,,,,,,,,,,,,,,
+1369,Elyhaugh,,no_source,0,,,,,,,,,,,,,,
+1370,Astrop,9.0,value,1,3216,Astrop,Oxfordshire,1.0,1.0,0.41,9.0,,360.0,,4.0,SP3008/astrop,name,False
+1371,West Harling,128.0,value,5,37861,Larling,Norfolk,0.857,0.0,4.39,7.0,4.0,480.0,1.0,,TL9889/larling,name,True
+1372,Middleton Stoney,37.0,value,1,42931,Middleton [Stoney],Oxfordshire,1.0,1.0,0.36,37.0,16.0,2400.0,,5.0,SP5323/middleton-stoney,name,False
+1373,Pensworth,,absent,0,,,,,,,,,,,,,,
+1374,Monkridge,,no_source,0,,,,,,,,,,,,,,
+1375,Harringby,23.0,value,0,31351,Herringby,Norfolk,0.889,0.0,0.22,23.0,4.0,240.0,,,TG4410/herringby,name,False
+1376,Pertwood,5.0,value,1,48946,Pertwood,Wiltshire,1.0,1.0,0.56,5.0,2.0,480.0,,,ST8835/pertwood,name,False
+1377,Attington,,absent,0,,,,,,,,,,,,,,
+1378,Poulton,34.0,value,1,49991,Poulton,Wiltshire,1.0,1.0,1.2,11.0,3.0,1920.0,1.0,2.0,SU2070/poulton,name,False
+1379,Helmingham,52.0,value,3,30916,Helmingham,Norfolk,1.0,3.0,1.36,51.0,13.0,1568.0,2.0,3.0,TG1116/helmingham,name,False
+1380,Mongewell,23.0,value,1,43646,Mongewell,Oxfordshire,1.0,1.0,0.57,23.0,16.0,3360.0,2.0,5.0,SU6187/mongewell,name,False
+1381,Evistones,,no_source,0,,,,,,,,,,,,,,
+1382,Monkseaton,,no_source,0,,,,,,,,,,,,,,
+1383,Little Hockham,25.0,value,1,32231,[Little] Hockham,Norfolk,1.0,1.0,0.64,9.0,1.5,160.0,,2.0,TL9490/little-hockham,name,False
+1384,Preshute,,absent,0,,,,,,,,,,,,,,
+1385,Nash,,absent,1,,,,,,,,,,,,,,
+1386,Puthall,,absent,0,,,,,,,,,,,,,,
+1387,Holkham,88.0,value,8,32466,Holkham,Norfolk,1.0,6.0,0.32,62.0,11.0,2396.0,1.0,,TF8743/holkham,name,False
+1388,Bainton,3.0,value,1,3931,Bainton,Oxfordshire,1.0,1.0,0.8,3.0,2.0,480.0,,,SP5826/bainton,name,False
+1389,Old Moor,,no_source,0,,,,,,,,,,,,,,
+1390,Rabson,,absent,0,,,,,,,,,,,,,,
+1391,Nuneham Courtenay,45.0,value,2,46406,Nuneham [Courtenay],Oxfordshire,1.0,1.0,1.89,45.0,17.0,3120.0,1.0,7.0,SU5599/nuneham-courtenay,name,False
+1392,Fallodon,,no_source,0,,,,,,,,,,,,,,
+1393,Little Baldon,13.0,value,1,3976,[Little] Baldon,Oxfordshire,1.0,1.0,0.1,13.0,6.0,1680.0,,3.0,SU5698/little-baldon,name,False
+1394,Pinkhill,,absent,0,,,,,,,,,,,,,,
+1395,Ratfyn,8.0,value,2,51151,Ratfyn,Wiltshire,1.0,2.0,0.31,8.0,1.0,660.0,,,SU1642/ratfyn,name,False
+1396,Holt,,absent,0,,,,,,,,,,,,,,
+1397,Fallowfield,,no_source,0,,,,,,,,,,,,,,
+1398,"Barton, Sesswell's",,absent,0,4806,[Steeple] Barton,Oxfordshire,1.0,0.0,0.75,9.0,3.0,600.0,,1.5,SP4425/steeple-barton,name,False
+1399,Prescote,,absent,0,,,,,,,,,,,,,,
+1400,Richardson,,absent,0,,,,,,,,,,,,,,
+1401,Salthrop,12.0,value,1,53646,Salthrop,Wiltshire,1.0,1.0,0.42,12.0,3.0,960.0,,3.0,SU1180/salthrop,name,False
+1402,Old Mousen,,no_source,0,,,,,,,,,,,,,,
+1403,Houghton,60.0,value,1,33581,Houghton,Norfolk,1.0,0.0,0.1,,,,,,TF7928/houghton,name,False
+1404,"Barton, Steeple",18.0,value,1,4806,[Steeple] Barton,Oxfordshire,1.0,1.0,0.54,9.0,3.0,600.0,,1.5,SP4425/steeple-barton,name,False
+1405,Fallowlees,,no_source,0,,,,,,,,,,,,,,
+1406,Old Sarum,,absent,0,,,,,,,,,,,,,,
+1407,Nafferton,,no_source,0,,,,,,,,,,,,,,
+1408,Houghton on the Hill,1.0,value,1,33626,Houghton [on the Hill],Norfolk,1.0,1.0,0.28,1.0,,32.0,,,TF8605/houghton-on-the-hill,name,False
+1409,Putlesle,,absent,0,,,,,,,,,,,,,,
+1410,Old Felton,,no_source,0,,,,,,,,,,,,,,
+1411,Shaw,3.0,value,1,55036,Shaw,Wiltshire,1.0,1.0,0.2,3.0,0.5,240.0,,,SU1365/shaw,name,False
+1412,Nesbit,,no_source,0,,,,,,,,,,,,,,
+1413,Smithcot,11.0,value,1,,,,,,,,,,,,,,
+1414,Benneye,,absent,0,,,,,,,,,,,,,,
+1415,Newham in Belsay,,no_source,0,,,,,,,,,,,,,,
+1416,Ingolosa,,absent,0,,,,,,,,,,,,,,
+1417,Puttes,,absent,0,,,,,,,,,,,,,,
+1418,Fenrother,,no_source,0,,,,,,,,,,,,,,
+1419,Irmingland,68.0,value,3,35066,Irmingland,Norfolk,1.0,2.0,0.22,14.0,3.5,480.0,2.0,,TG1229/irmingland,name,False
+1420,Radcot,,absent,0,,,,,,,,,,,,,,
+1421,Berrings,,absent,0,,,,,,,,,,,,,,
+1422,Snap,,absent,0,,,,,,,,,,,,,,
+1423,Newham in Ellingham,,no_source,0,,,,,,,,,,,,,,
+1424,Rofford,10.0,value,1,52371,Rofford,Oxfordshire,1.0,1.0,0.89,10.0,5.0,720.0,,,SU6298/rofford,name,False
+1425,Newsham,,no_source,0,,,,,,,,,,,,,,
+1426,Keburn,,absent,0,,,,,,,,,,,,,,
+1427,St. Joan A Gore,,absent,0,,,,,,,,,,,,,,
+1428,Bignell,,absent,0,,,,,,,,,,,,,,
+1429,Ogle,,no_source,0,,,,,,,,,,,,,,
+1430,Fotherley,,no_source,0,,,,,,,,,,,,,,
+1431,Little Rollright,17.0,value,1,52416,Little Rollright,Oxfordshire,1.0,1.0,0.44,17.0,8.0,1200.0,,2.0,SP2930/little-rollright,name,False
+1432,Kempstone,9.0,value,1,35531,Kempston,Norfolk,0.941,1.0,0.51,9.0,2.5,240.0,,1.0,TF8816/kempston,name,False
+1433,Rycote Magna,,absent,0,,,,,,,,,,,,,,
+1434,Standlynch,0.0,value,3,57941,Standlynch,Wiltshire,1.0,0.0,1.53,,,300.0,,,SU1924/standlynch,name,False
+1435,Broadstone,,absent,0,,,,,,,,,,,,,,
+1436,Kenningham,12.5,value,3,35606,Kenningham,Norfolk,1.0,3.0,0.41,12.5,2.5,251.0,,,TM2099/kenningham,name,False
+1437,Fulwell,,no_source,0,,,,,,,,,,,,,,
+1438,Rycote Parva,,absent,0,,,,,,,,,,,,,,
+1439,Ouston,,no_source,0,,,,,,,,,,,,,,
+1440,Brookend,,absent,0,,,,,,,,,,,,,,
+1441,Stanley,6.0,value,1,58051,Stanley,Wiltshire,1.0,1.0,0.49,6.0,,360.0,,,ST9572/stanley,name,False
+1442,Kilverstone,18.0,value,3,36121,Kilverstone,Norfolk,1.0,3.0,0.41,17.0,4.0,1448.0,2.0,5.0,TL8984/kilverstone,name,False
+1443,North Gosforth,,no_source,0,,,,,,,,,,,,,,
+1444,Cadwell,0.0,value,1,12491,Cadwell,Oxfordshire,1.0,0.0,0.22,,1.0,360.0,,,SU6495/cadwell,name,False
+1445,Sexintone,13.0,value,2,54846,{Sexintone},Oxfordshire,1.0,2.0,0.5,13.0,3.5,1080.0,,,SP5625/saxintone,name,False
+1446,Outchester,,no_source,0,,,,,,,,,,,,,,
+1447,Stock Street,,absent,0,,,,,,,,,,,,,,
+1448,Kipton,32.0,value,1,36551,Kipton,Norfolk,1.0,0.0,0.1,,,,,,TF8423/kipton,name,False
+1449,Greenleighton,,no_source,0,,,,,,,,,,,,,,
+1450,Caswell,,absent,0,,,,,,,,,,,,,,
+1451,Plessey,,no_source,0,,,,,,,,,,,,,,
+1452,Caversfield,,absent,0,13631,Caversfield,Oxfordshire,1.0,0.0,0.9,21.0,8.0,1200.0,,,SP5824/caversfield,name,False
+1453,East Stowell,,absent,0,,,,,,,,,,,,,,
+1454,Shelswell,,recorded,0,55216,Shelswell,Oxfordshire,1.0,0.0,0.71,16.0,7.0,2400.0,,2.0,SP6030/shelswell,name,False
+1455,Langford,32.0,value,1,37531,Langford,Norfolk,1.0,1.0,0.4,32.0,4.0,1260.0,2.0,6.0,TL8396/langford,name,False
+1456,Chalford,20.0,value,2,,,,,,,,,,,,,,
+1457,Surrendell,19.0,value,1,60521,Surrendell,Wiltshire,1.0,1.0,0.41,19.0,6.0,1680.0,,4.0,ST8782/surrendell,name,False
+1458,West Harle,,no_source,0,,,,,,,,,,,,,,
+1459,Shifford,13.0,value,1,55476,Shifford,Oxfordshire,1.0,1.0,0.53,13.0,6.0,1200.0,,,SP3701/shifford,name,False
+1460,Letton,14.0,value,5,38946,Letton,Norfolk,1.0,2.0,0.71,3.0,0.5,72.0,,,TF9705/letton,name,False
+1461,Nether Chalford,,absent,0,13916,Chalford,Oxfordshire,1.0,0.0,0.22,10.0,9.5,1440.0,2.0,2.0,SP3425/chalford,name,True
+1462,Syrencot,,absent,0,,,,,,,,,,,,,,
+1463,Ratchwood,,no_source,0,,,,,,,,,,,,,,
+1464,Thornhill,,absent,0,,,,,,,,,,,,,,
+1465,Harnham,,no_source,0,,,,,,,,,,,,,,
+1466,Showell,14.0,value,2,55911,Showell,Oxfordshire,1.0,2.0,0.42,14.0,4.5,1440.0,,6.0,SP3529/showell,name,False
+1467,Hartington,,no_source,0,,,,,,,,,,,,,,
+1468,Ray,,no_source,0,,,,,,,,,,,,,,
+1469,Thoulstone,,absent,0,,,,,,,,,,,,,,
+1470,Reaveley,,no_source,0,,,,,,,,,,,,,,
+1471,Throope,,absent,0,,,,,,,,,,,,,,
+1472,Over Chalford,,absent,0,13916,Chalford,Oxfordshire,1.0,0.0,0.22,10.0,9.5,1440.0,2.0,2.0,SP3425/chalford,name,False
+1473,Leziate,3.0,value,1,39096,Leziate,Norfolk,1.0,1.0,0.36,3.0,,60.0,1.0,,TF6920/leziate,name,False
+1474,Somerforde,,absent,0,,,,,,,,,,,,,,
+1475,Hartlaw,,no_source,0,,,,,,,,,,,,,,
+1476,Standhill,,absent,0,,,,,,,,,,,,,,
+1477,East Tockenham,17.0,value,5,,,,,,,,,,,,,,
+1478,Riplington,,no_source,0,,,,,,,,,,,,,,
+1479,Great Chilworth,24.0,value,2,15161,Chilworth,Oxfordshire,1.0,2.0,0.31,24.0,7.0,960.0,,5.0,SP6303/chilworth,name,True
+1480,Lynford,19.0,value,2,40821,Lynford,Norfolk,1.0,1.0,1.16,2.0,0.5,20.0,,1.0,TL8194/lynford,name,False
+1481,Little Chilworth,,absent,0,15161,Chilworth,Oxfordshire,1.0,0.0,2.53,24.0,7.0,960.0,,5.0,SP6303/chilworth,name,True
+1482,Maideston,,absent,0,,,,,,,,,,,,,,
+1483,South Ugford,8.0,value,2,65966,Ugford,Wiltshire,1.0,2.0,1.23,8.0,2.0,1200.0,2.0,1.0,SU0831/ugford,name,True
+1484,Stowford,14.0,value,1,59756,Stowford,Oxfordshire,1.0,1.0,0.57,2.8,0.7,480.0,,,SP5508/stowford,name,False
+1485,Ross,,no_source,0,,,,,,,,,,,,,,
+1486,Hartley,,no_source,0,,,,,,,,,,,,,,
+1487,Mannington,80.0,value,2,41211,Mannington,Norfolk,1.0,1.0,0.9,29.0,5.5,1216.0,2.0,1.0,TG1431/mannington,name,False
+1488,Mantateston,,absent,0,,,,,,,,,,,,,,
+1489,Rothley,,no_source,0,,,,,,,,,,,,,,
+1490,Thomley,11.0,value,2,62261,Thomley,Oxfordshire,1.0,1.0,0.63,11.0,4.0,540.0,,,SP6308/thomley,name,False
+1491,Chimney,,absent,0,,,,,,,,,,,,,,
+1492,Hartside,,no_source,0,,,,,,,,,,,,,,
+1493,Markshall,21.0,value,2,41571,Markshall,Norfolk,1.0,1.0,0.85,21.0,7.5,2652.0,2.5,1.0,TG2205/markshall,name,False
+1494,Row,,no_source,0,,,,,,,,,,,,,,
+1495,Chippinghurst,5.0,value,1,15241,Chippinghurst,Oxfordshire,1.0,1.0,0.62,5.0,4.0,480.0,,1.0,SP6001/chippinghurst,name,False
+1496,Tilgardesle,,absent,0,,,,,,,,,,,,,,
+1497,Haughton,,no_source,0,,,,,,,,,,,,,,
+1498,Clattercote,,absent,0,,,,,,,,,,,,,,
+1499,Topples,,absent,0,,,,,,,,,,,,,,
+1500,Mintlyn,21.0,value,1,43446,Mintlyn,Norfolk,1.0,1.0,0.42,21.0,0.5,360.0,,,TF6519/mintlyn,name,False
+1501,Rugley,,no_source,0,,,,,,,,,,,,,,
+1502,Hawick,,no_source,0,,,,,,,,,,,,,,
+1503,Tusmore,0.0,value,1,65621,Tusmore,Oxfordshire,1.0,0.0,0.14,,0.5,120.0,,,SP5630/tusmore,name,False
+1504,Claywell,,absent,1,15871,Claywell,Oxfordshire,1.0,0.0,0.49,,,,,,SP3505/claywell,name,False
+1505,Narford,25.0,value,1,44681,Narford,Norfolk,1.0,1.0,0.31,25.0,9.0,1200.0,1.5,1.0,TF7613/narford,name,False
+1506,Nessa,,absent,0,44851,Ness,Norfolk,0.889,0.0,0.71,1.0,,16.0,,,TG4821/ness,name,False
+1507,Little Ryle,,no_source,0,,,,,,,,,,,,,,
+1508,Haydon,,no_source,0,,,,,,,,,,,,,,
+1509,Walcot,,absent,0,,,,,,,,,,,,,,
+1510,Coat,,absent,0,,,,,,,,,,,,,,
+1511,Nettingdon,,absent,0,,,,,,,,,,,,,,
+1512,Scrainwood,,no_source,0,,,,,,,,,,,,,,
+1513,Seaton Delavel,,no_source,0,,,,,,,,,,,,,,
+1514,Cogges,3.0,value,1,16611,Cogges,Oxfordshire,1.0,1.0,0.39,3.0,2.0,2400.0,1.0,3.0,SP3609/cogges,name,False
+1515,East Shaftoe,,no_source,0,,,,,,,,,,,,,,
+1516,Warpsgrove,6.0,value,1,67551,Warpsgrove,Oxfordshire,1.0,1.0,0.66,6.0,2.0,960.0,,1.0,SU6498/warpsgrove,name,False
+1517,Norton,,absent,0,,,,,,,,,,,,,,
+1518,Cokesthorpe,,absent,0,,,,,,,,,,,,,,
+1519,West Shaftoe,,no_source,0,,,,,,,,,,,,,,
+1520,Combe,14.0,value,1,17006,Combe,Oxfordshire,1.0,1.0,0.58,14.0,5.0,2400.0,1.0,2.0,SP4115/combe,name,False
+1521,Water Eaton,33.0,value,1,22291,[Water] Eaton,Oxfordshire,1.0,1.0,0.4,33.0,9.0,1200.0,1.0,,SP5112/water-eaton,name,False
+1522,Oby,43.0,value,4,46731,Oby,Norfolk,1.0,3.0,0.1,21.0,5.0,488.0,,,TG4114/oby,name,False
+1523,Shawdon,,no_source,0,,,,,,,,,,,,,,
+1524,Copcourt,,absent,0,,,,,,,,,,,,,,
+1525,Wheatfield,5.0,value,1,69371,Wheatfield,Oxfordshire,1.0,1.0,0.35,5.0,1.5,240.0,,1.0,SU6899/wheatfield,name,False
+1526,Coton,,absent,0,,,,,,,,,,,,,,
+1527,Oxborough Hithe,,absent,0,,,,,,,,,,,,,,
+1528,Cumbes,,absent,0,,,,,,,,,,,,,,
+1529,Old Wheatley,,absent,1,69401,Wheatley,Oxfordshire,1.0,0.0,0.36,,,,,,SP5905/wheatley,name,True
+1530,Whitehill,4.0,value,2,,,,,,,,,,,,,,
+1531,Shilvington,,no_source,0,,,,,,,,,,,,,,
+1532,Great Palgrave,81.0,value,3,48086,Palgrave,Norfolk,1.0,2.0,0.6,12.0,3.0,420.0,,,TF8311/palgrave,name,True
+1533,Old Shoreston,,no_source,0,,,,,,,,,,,,,,
+1534,Cutteslowe,0.0,value,2,19351,Cutteslowe,Oxfordshire,1.0,0.0,0.36,,2.0,1440.0,,,SP5011/cutteslowe,name,False
+1535,Wick,,absent,0,,,,,,,,,,,,,,
+1536,Little Palgrave,,absent,0,48086,Palgrave,Norfolk,1.0,0.0,2.0,12.0,3.0,420.0,,,TF8311/palgrave,name,True
+1537,Shortflatt,,no_source,0,,,,,,,,,,,,,,
+1538,Ditchley,,absent,0,,,,,,,,,,,,,,
+1539,Widford,,absent,0,70211,Widford,Oxfordshire,1.0,0.0,0.58,11.0,4.0,720.0,1.0,4.0,SP2711/widford,name,False
+1540,Shotton,,no_source,0,,,,,,,,,,,,,,
+1541,Wilcote,2.0,value,1,70411,Wilcote,Oxfordshire,1.0,1.0,0.0,2.0,1.0,480.0,,,SP3715/wilcote,name,False
+1542,Spindlestone,,no_source,0,,,,,,,,,,,,,,
+1543,Willaston,,absent,0,,,,,,,,,,,,,,
+1544,Woodperry,11.0,value,1,72266,Woodperry,Oxfordshire,1.0,1.0,0.2,11.0,3.0,480.0,,4.0,SP5710/woodperry,name,False
+1545,Spital,,no_source,0,,,,,,,,,,,,,,
+1546,Wretchwick,,absent,0,,,,,,,,,,,,,,
+1547,Stanton,,no_source,0,,,,,,,,,,,,,,
+1548,Wykham,9.0,value,1,73356,Wykham,Oxfordshire,1.0,1.0,0.56,9.0,3.5,1200.0,1.0,4.0,SP4437/wykham,name,False
+1549,Styford,,no_source,0,,,,,,,,,,,,,,
+1550,Yelford,10.0,value,1,73751,Yelford,Oxfordshire,1.0,1.0,0.62,10.0,2.5,600.0,,4.0,SP3604/yelford,name,False
+1551,Sweethope,,no_source,0,,,,,,,,,,,,,,
+1552,Little Swinburn,,no_source,0,,,,,,,,,,,,,,
+1553,Alstoe,,absent,1,3506,`Awsthorp',Rutland,0.571,1.0,0.36,15.0,4.0,480.0,,,SK8912/austhorp,reference+name,False
+1554,Swineleas,,no_source,0,,,,,,,,,,,,,,
+1555,Brook,,absent,0,,,,,,,,,,,,,,
+1556,Thornborough,,no_source,0,,,,,,,,,,,,,,
+1557,Gunthorpe,,absent,0,,,,,,,,,,,,,,
+1558,Hardwick,0.0,value,0,29471,Hardwick,Rutland,1.0,0.0,0.61,,,,,,SK9612/hardwick,name,False
+1559,West Thornton,,no_source,0,,,,,,,,,,,,,,
+1560,Horn,0.0,value,2,33206,Horn,Rutland,1.0,2.0,0.22,37.0,8.0,1320.0,4.0,3.0,SK9511/horn,name,False
+1561,Throckington,,no_source,0,,,,,,,,,,,,,,
+1562,Martinsthorpe,,absent,0,,,,,,,,,,,,,,
+1563,Throphill,,no_source,0,,,,,,,,,,,,,,
+1564,Normanton,,absent,0,,,,,,,,,,,,,,
+1565,Tilmouth,,no_source,0,,,,,,,,,,,,,,
+1566,Pickworth,,absent,0,,,,,,,,,,,,,,
+1567,Todburn,,no_source,0,,,,,,,,,,,,,,
+1568,Sculthorp,0.0,value,1,54456,`Sculthorp',Rutland,1.0,1.0,0.54,14.5,6.0,360.0,1.0,,SK9302/sculthorp,name,False
+1569,Togston,,no_source,0,,,,,,,,,,,,,,
+1570,Snelston,0.0,value,1,56796,`Snelston',Rutland,1.0,0.0,0.22,,,,,,SP8695/snelston,name,False
+1571,Low Trewhit,,no_source,0,,,,,,,,,,,,,,
+1572,Tixover,0.0,value,1,64056,Tixover,Rutland,1.0,0.0,0.8,,,,,,SK9700/tixover,name,False
+1573,Trewick,,no_source,0,,,,,,,,,,,,,,
+1574,Tolethorpe,,absent,0,64186,Tolethorpe,Rutland,1.0,0.0,0.4,27.0,4.0,1200.0,4.0,,TF0210/tolethorpe,name,False
+1575,Trohope,,no_source,0,,,,,,,,,,,,,,
+1576,Tughall,,no_source,0,,,,,,,,,,,,,,
+1577,Wenton,,absent,0,,,,,,,,,,,,,,
+1578,Twizel,,no_source,0,,,,,,,,,,,,,,
+1579,Braggington,,absent,0,,,,,,,,,,,,,,
+1580,Wallridge,,no_source,0,,,,,,,,,,,,,,
+1581,Caus,,absent,0,,,,,,,,,,,,,,
+1582,Warenmouth,,no_source,0,,,,,,,,,,,,,,
+1583,Detton,13.0,value,1,20166,Detton,Shropshire,1.0,0.0,0.22,13.0,3.0,180.0,,7.0,SO6679/detton,name,False
+1584,Warenton,,no_source,0,,,,,,,,,,,,,,
+1585,Babington,11.0,value,1,3646,Babington,Somerset,1.0,1.0,0.5,11.0,5.0,720.0,1.0,7.0,ST7051/babington,name,False
+1586,Welton,,no_source,0,,,,,,,,,,,,,,
+1587,Barrow Mead,,absent,0,,,,,,,,,,,,,,
+1588,West Whelpington,,no_source,0,,,,,,,,,,,,,,
+1589,Bickley,,absent,0,,,,,,,,,,,,,,
+1590,Whitchester,,no_source,0,,,,,,,,,,,,,,
+1591,Bineham,,absent,0,,,,,,,,,,,,,,
+1592,Whitfield,,no_source,0,,,,,,,,,,,,,,
+1593,"Bradon, Goose",7.0,value,4,,,,,,,,,,,,,,
+1594,Whittington,,no_source,0,,,,,,,,,,,,,,
+1595,North Bradon,7.0,value,4,,,,,,,,,,,,,,
+1596,Whittle,,no_source,0,,,,,,,,,,,,,,
+1597,South Bradon,7.0,value,4,,,,,,,,,,,,,,
+1598,Long Witton,,no_source,0,,,,,,,,,,,,,,
+1599,Camerton,22.0,value,1,12826,Camerton,Somerset,1.0,1.0,0.1,22.0,5.0,1680.0,2.0,9.0,ST6857/camerton,name,False
+1600,Nether Witton,,no_source,0,,,,,,,,,,,,,,
+1601,Currypool,11.0,value,1,19291,Currypool,Somerset,1.0,1.0,0.19,11.0,4.0,480.0,,,ST2238/currypool,name,False
+1602,Woodhouse,,no_source,0,,,,,,,,,,,,,,
+1603,West Dowlish,31.0,value,1,,,,,,,,,,,,,,
+1604,Woolsington,,no_source,0,,,,,,,,,,,,,,
+1605,Earnshill,7.0,value,2,21841,Earnshill,Somerset,1.0,2.0,0.1,7.0,1.0,504.0,,3.0,ST3821/earnshill,name,False
+1606,Wreighill,,no_source,0,,,,,,,,,,,,,,
+1607,Eastham,136.0,value,2,21976,Easthams,Somerset,0.933,1.0,0.22,11.0,2.0,600.0,1.0,1.0,ST4510/easthams,name,False
+1608,Old Yeavering,,no_source,0,,,,,,,,,,,,,,
+1609,Fayroke,,absent,0,,,,,,,,,,,,,,
+1610,Yetlington,,no_source,0,,,,,,,,,,,,,,
+1611,Hardington,12.0,value,2,29376,Hardington,Somerset,1.0,1.0,0.35,12.0,5.0,960.0,,4.0,ST7452/hardington,name,False
+1612,Adbolton,7.0,value,2,281,Adbolton,Nottinghamshire,1.0,1.0,0.51,7.0,3.0,240.0,,,SK6038/adbolton,name,False
+1613,Holcombe,,absent,0,,,,,,,,,,,,,,
+1614,Algarthorpe,,absent,0,,,,,,,,,,,,,,
+1615,Horsley,,absent,0,,,,,,,,,,,,,,
+1616,Moreton,25.0,value,1,43906,Moreton,Somerset,1.0,1.0,0.42,25.0,4.0,720.0,1.0,,ST5659/moreton,name,False
+1617,Panworth,22.0,value,1,48181,Panworth,Norfolk,1.0,1.0,0.58,22.0,5.5,480.0,,2.0,TF8904/panworth,name,False
+1618,Annesley,20.0,value,1,1791,Annesley,Nottinghamshire,1.0,1.0,0.14,20.0,8.0,480.0,,,SK5053/annesley,name,False
+1619,Sock Dennis,11.0,value,1,56906,Sock [Dennis],Somerset,1.0,0.0,0.28,11.0,4.0,780.0,,1.0,ST5121/sock-dennis,name,False
+1620,Babworth,4.0,value,2,3661,Babworth,Nottinghamshire,1.0,2.0,0.4,2.0,1.667,120.0,,,SK6880/babworth,name,False
+1621,Pattesley,0.0,value,1,48331,Pattesley,Norfolk,1.0,0.0,0.57,,0.0,240.0,,,TF8924/pattesley,name,False
+1622,Spargrove,,absent,0,,,,,,,,,,,,,,
+1623,Besthorpe,,qualified,3,6441,Besthorpe,Nottinghamshire,1.0,2.0,0.51,6.5,1.5,,,,SK7260/beesthorpe,name,False
+1624,Pensthorpe,15.0,value,1,48771,Pensthorpe,Norfolk,1.0,1.0,0.56,15.0,3.0,480.0,1.0,2.0,TF9429/pensthorpe,name,False
+1625,Petygards,,absent,0,,,,,,,,,,,,,,
+1626,Standerwick,9.0,value,1,57931,Standerwick,Somerset,1.0,1.0,0.7,9.0,1.0,240.0,,,ST8150/standerwick,name,False
+1627,Whitcomb,8.0,value,1,69621,Whitcomb,Somerset,1.0,1.0,0.3,8.0,3.0,960.0,,2.0,ST6323/whitcomb,name,False
+1628,Pudding Norton,44.0,value,1,46316,[Pudding] Norton,Norfolk,1.0,0.0,0.22,8.0,1.5,,,,TF9227/pudding-norton,name,False
+1629,Woodwick,5.0,value,1,72311,`Woodwick',Somerset,1.0,1.0,0.14,5.0,,240.0,0.5,,ST7760/woodwick,name,False
+1630,Wraxall,,absent,0,73081,Wraxall,Somerset,1.0,0.0,0.3,73.0,28.0,3600.0,2.0,2.0,ST4971/wraxall,name,False
+1631,Quarles,5.0,value,2,,,,,,,,,,,,,,
+1632,Rainesthorpe,,absent,0,50971,Rainthorpe,Norfolk,0.909,0.0,0.44,9.5,2.5,576.0,3.0,,TM2097/rainthorpe,name,False
+1633,Little Ringstead,,absent,0,51931,Ringstead,Norfolk,1.0,0.0,1.81,129.0,15.5,3234.0,2.0,10.0,TF7040/ringstead,name,True
+1634,Roudham,,absent,0,52681,Roudham,Norfolk,1.0,0.0,0.41,22.0,5.5,600.0,,,TL9587/roudham,name,False
+1635,Roxham,1.0,value,1,52841,Roxham,Norfolk,1.0,1.0,0.36,1.0,,97.0,,,TL6399/roxham,name,False
+1636,Ryston,23.0,value,3,53301,Ryston,Norfolk,1.0,3.0,0.3,23.0,4.5,376.0,,2.0,TF6201/ryston,name,False
+1637,Santon,9.0,value,1,53871,Santon,Norfolk,1.0,1.0,0.45,9.0,3.0,120.0,,,TL8287/santon,name,False
+1638,Semere,25.5,value,2,54771,Semere,Norfolk,1.0,0.0,0.28,16.0,4.5,540.0,,,TM1884/semere,name,False
+1639,Shipden,17.0,value,3,55561,{Shipden},Norfolk,1.0,3.0,0.5,16.0,4.5,312.0,,,TG2242/shipden,name,False
+1640,Shotesham St Mary,,qualified,13,,,,,,,,,,,,,,
+1641,Shotford,18.0,value,2,55856,Shotford,Norfolk,1.0,2.0,0.56,18.0,4.0,360.0,,,TM2582/shotford,name,False
+1642,Great Snareshill,,absent,0,56736,[Great] Snarehill,Norfolk,0.966,0.0,3.43,,,,,,TL8780/great-snarehill,name,False
+1643,Little Snareshill,,absent,0,56741,[Little] Snarehill,Norfolk,0.968,0.0,1.42,7.0,0.5,240.0,,1.0,TL8881/little-snarehill,name,False
+1644,Snore,20.0,value,1,56851,Snore,Norfolk,1.0,1.0,0.22,20.0,0.5,260.0,,,TL6299/snore,name,False
+1645,Sparham,36.0,value,3,,,,,,,,,,,,,,
+1646,Stanninghall,9.0,value,1,58106,Stanninghall,Norfolk,1.0,1.0,0.1,9.0,2.0,,2.0,,TG2517/stanninghall,name,False
+1647,Stinton,66.0,value,1,58861,Stinton,Norfolk,1.0,1.0,0.22,66.0,15.0,1680.0,1.0,3.0,TG1125/stinton,name,False
+1648,Stow,,absent,0,,,,,,,,,,,,,,
+1649,Sturston,22.0,value,3,60241,Sturston,Norfolk,1.0,3.0,0.4,22.0,5.0,740.0,,,TL8794/sturston,name,False
+1650,Summerfield,,absent,0,,,,,,,,,,,,,,
+1651,Swathing,37.0,value,2,61061,Swathing,Norfolk,1.0,1.0,1.39,37.0,3.0,1600.0,2.0,4.0,TF9804/swathing,name,False
+1652,Testerton,8.0,value,1,61926,Testerton,Norfolk,1.0,1.0,0.28,8.0,1.5,120.0,,1.0,TF9326/testerton,name,False
+1653,Thorpe,51.0,value,2,,,,,,,,,,,,,,
+1654,Thorpe,,absent,0,,,,,,,,,,,,,,
+1655,Thorpe Parva,8.0,value,1,63076,Thorpe [Parva],Norfolk,1.0,1.0,0.51,9.0,3.5,240.0,,,TM1679/thorpe-parva,name,False
+1656,Thorpland,69.5,value,3,63221,Thorpland,Norfolk,1.0,0.0,0.42,,,,,,TF9332/thorpland,name,False
+1657,Threxton,10.0,value,2,63276,Threxton,Norfolk,1.0,2.0,0.4,20.0,7.5,1080.0,,1.0,TF8800/threxton,name,False
+1658,Thuketeliart,,absent,0,,,,,,,,,,,,,,
+1659,Thurton,14.0,value,2,63596,Thurton,Norfolk,1.0,1.0,0.22,10.0,2.5,264.0,,1.0,TG1021/thurton,name,False
+1660,Thuxton,57.0,value,3,63616,Thuxton,Norfolk,1.0,0.0,0.94,,,,,,TG0307/thuxton,name,False
+1661,Toimere,,absent,0,,,,,,,,,,,,,,
+1662,Wallington,19.0,value,2,66886,Wallington,Norfolk,1.0,1.0,0.14,18.0,2.0,387.0,,,TF6207/wallington,name,False
+1663,Little Walton,,absent,0,,,,,,,,,,,,,,
+1664,Washingford,9.0,value,1,67666,Washingford,Norfolk,1.0,1.0,2.89,9.0,2.0,,1.0,,TG3101/washingford,name,False
+1665,Waterden,24.0,value,1,67736,Waterden,Norfolk,1.0,1.0,0.3,24.0,3.0,208.0,,,TF8835/waterden,name,False
+1666,Waxham Parva,,absent,0,,,,,,,,,,,,,,
+1667,Well,31.0,value,1,68221,Well,Norfolk,1.0,1.0,0.2,31.0,3.0,2400.0,2.0,1.0,TF7220/well,name,False
+1668,Wella,,absent,0,,,,,,,,,,,,,,
+1669,Whimpwell,9.0,value,2,69486,Whimpwell,Norfolk,1.0,2.0,0.99,9.0,2.5,392.0,,,TG3829/whimpwell,name,False
+1670,Wicken,,absent,0,,,,,,,,,,,,,,
+1671,Little Witchington,,absent,0,,,,,,,,,,,,,,
+1672,Wolterton,21.0,value,3,71966,Wolterton,Norfolk,1.0,2.0,0.7,8.0,2.0,240.0,,,TG1632/wolterton,name,False
+1673,West Wreningham,,absent,0,73106,Wreningham,Norfolk,1.0,0.0,1.5,23.0,5.0,1008.0,,1.0,TM1698/wreningham,name,True
+1674,West Wretham,63.0,value,1,73126,[East] Wretham,Norfolk,1.0,1.0,2.02,63.0,16.5,,1.0,9.0,TL9190/wretham,name,True
+1675,Wyveling,,absent,0,,,,,,,,,,,,,,
+1676,Achurch,24.0,value,1,131,Achurch,Northamptonshire,1.0,1.0,0.42,24.0,8.0,1200.0,,3.0,TL0283/achurch,name,False
+1677,Althorp,10.0,value,2,1381,Althorp,Northamptonshire,1.0,1.0,0.58,10.0,2.0,240.0,,3.0,SP6865/althorp,name,False
+1678,Appletree,,absent,0,,,,,,,,,,,,,,
+1679,Armston,18.0,value,1,2161,Armston,Northamptonshire,1.0,1.0,0.58,9.0,4.0,240.0,,,TL0585/armston,name,False
+1680,"Ashby, Canons",16.0,value,1,2461,[Canons] Ashby,Northamptonshire,1.0,1.0,0.31,16.0,4.0,960.0,,4.0,SP5750/canons-ashby,name,False
+1681,Astwell,17.0,value,1,3221,Astwell,Northamptonshire,1.0,1.0,1.79,17.0,5.0,480.0,1.0,1.0,SP6044/astwell,name,False
+1682,Astwick,9.0,value,1,3231,Astwick,Northamptonshire,1.0,1.0,0.58,9.0,3.0,480.0,1.0,1.0,SP5734/astwick,name,False
+1683,Badsaddle,,absent,0,,,,,,,,,,,,,,
+1684,Barford,7.0,value,2,4171,Barford,Northamptonshire,1.0,1.0,0.7,7.0,2.0,,1.0,,SP8582/barford,name,False
+1685,Boughton,50.0,value,6,8406,Boughton,Northamptonshire,1.0,0.0,0.5,11.0,2.0,216.0,1.0,,SP9081/boughton,name,False
+1686,Braunstonbury,,absent,0,,,,,,,,,,,,,,
+1687,Brime,12.0,value,1,10011,{Brime},Northamptonshire,1.0,1.0,2.6,10.0,4.0,720.0,1.0,3.0,SP5446/brime,name,False
+1688,Brockhall,6.0,value,1,10311,Brockhall,Northamptonshire,1.0,1.0,0.22,3.0,0.5,240.0,,,SP6362/brockhall,name,False
+1689,Burghley,11.0,value,1,11611,Burghley,Northamptonshire,1.0,1.0,0.56,11.0,2.0,480.0,,3.0,TF0406/burghley,name,False
+1690,Calme,5.0,value,1,12711,{Calme},Northamptonshire,1.0,1.0,2.96,5.0,1.0,72.0,,,SP7379/calme,name,False
+1691,Caswell,,absent,0,,,,,,,,,,,,,,
+1692,Catesby,25.0,value,1,13441,Catesby,Northamptonshire,1.0,1.0,1.0,22.0,10.0,960.0,2.0,,SP5259/catesby,name,False
+1693,"Charwelton, Church",16.0,value,4,14271,Charwelton,Northamptonshire,1.0,3.0,0.99,16.0,6.5,1080.0,1.0,1.0,SP5355/charwelton,name,False
+1694,Churchfield,,absent,0,,,,,,,,,,,,,,
+1695,Cotes,,absent,0,,,,,,,,,,,,,,
+1696,"Cotton, Mallows",,absent,0,,,,,,,,,,,,,,
+1697,"Cotton, Mill",,absent,0,,,,,,,,,,,,,,
+1698,Downtown,,absent,0,,,,,,,,,,,,,,
+1699,Eaglesthorpe,,absent,0,,,,,,,,,,,,,,
+1700,Easton Neston,20.0,value,3,22121,Easton Neston,Northamptonshire,1.0,3.0,0.28,20.0,5.5,744.0,2.0,2.0,SP7049/easton-neston,name,False
+1701,Edgcote,25.0,value,1,22501,Edgcote,Northamptonshire,1.0,1.0,0.4,25.0,5.0,960.0,1.0,2.0,SP5047/edgcote,name,False
+1702,Elkington,17.0,value,3,22861,Elkington,Northamptonshire,1.0,2.0,0.7,15.0,3.5,504.0,,3.0,SP6276/elkington,name,False
+1703,Elmington in Ashton,,absent,0,,,,,,,,,,,,,,
+1704,Elmington in Tansor,,absent,0,,,,,,,,,,,,,,
+1705,Falcutt,,absent,0,,,,,,,,,,,,,,
+1706,Fawsley,17.0,value,8,24571,Fawsley,Northamptonshire,1.0,2.0,0.22,16.0,8.0,168.0,,,SP5656/fawsley,name,False
+1707,Faxton,35.0,value,1,24581,Faxton,Northamptonshire,1.0,1.0,0.3,35.0,12.0,3840.0,,6.0,SP7875/faxton,name,False
+1708,Field Burcote,,absent,0,,,,,,,,,,,,,,
+1709,Foscote,,absent,0,,,,,,,,,,,,,,
+1710,Foxley,0.0,value,1,25666,Foxley,Northamptonshire,1.0,0.0,0.53,,,60.0,,,SP6451/foxley,name,False
+1711,Furtho,15.0,value,2,26246,Furtho,Northamptonshire,1.0,2.0,0.51,15.0,3.5,1440.0,,4.0,SP7743/furtho,name,False
+1712,Glassthorpe,6.0,value,2,26866,Glassthorpe[hill],Northamptonshire,1.0,1.0,1.21,6.0,2.0,480.0,,3.0,SP6660/glassthorpehill,name,False
+1713,Glendon,29.0,value,2,26931,Glendon,Northamptonshire,1.0,1.0,0.14,9.0,1.0,120.0,,1.0,SP8481/glendon,name,False
+1714,Hale,,absent,0,,,,,,,,,,,,,,
+1715,Hothorpe,1.0,value,1,33521,Hothorpe,Northamptonshire,1.0,1.0,0.36,1.0,0.5,24.0,,,SP6685/hothorpe,name,False
+1716,Kingsthorpe,34.0,value,1,36326,Kingsthorpe,Northamptonshire,1.0,0.0,0.51,9.0,4.0,240.0,,,TL0885/kingsthorpe,name,False
+1717,Kirby in Blakesley,,absent,0,,,,,,,,,,,,,,
+1718,Kirby in Gretton,6.0,value,1,36556,Kirby,Northamptonshire,0.526,1.0,0.32,6.0,,72.0,,,SP9292/kirby,reference+name,False
+1719,Knuston,12.0,value,2,37151,Knuston,Northamptonshire,1.0,1.0,0.8,12.0,2.5,240.0,2.0,1.0,SP9466/knuston,name,False
+1720,Lilford,40.0,value,1,39171,Lilford,Northamptonshire,1.0,1.0,0.7,40.0,15.0,1920.0,1.0,4.0,TL0384/lilford,name,False
+1721,Lolham,,absent,0,,,,,,,,,,,,,,
+1722,Mawsley,,absent,0,,,,,,,,,,,,,,
+1723,Milton,12.0,value,1,43256,Milton,Northamptonshire,1.0,1.0,0.0,12.0,4.0,480.0,,1.0,TL1499/milton,name,False
+1724,Muscott,6.0,value,1,44511,Muscott,Northamptonshire,1.0,1.0,0.2,3.0,0.5,240.0,,,SP6263/muscott,name,False
+1725,Newbold,,absent,0,,,,,,,,,,,,,,
+1726,Budbrooke,42.0,value,1,11251,Budbrooke,Warwickshire,1.0,1.0,0.41,42.0,9.0,1920.0,1.0,7.0,SP2565/budbrooke,name,False
+1727,Burmington Parva,20.0,value,1,11701,Burmington,Warwickshire,0.8,1.0,1.75,20.0,8.0,1200.0,1.0,,SP2637/burmington,reference+name,True
+1728,Calcutt,14.0,value,3,12576,Calcutt,Warwickshire,1.0,1.0,0.64,4.0,1.833,264.0,,0.667,SP4764/calcutt,name,False
+1729,Caldecote,10.0,value,1,12621,Caldecote,Warwickshire,1.0,1.0,0.99,10.0,6.0,720.0,1.0,2.0,SP3594/caldecote,name,False
+1730,Caludon,,absent,0,,,,,,,,,,,,,,
+1731,Cawston,13.0,value,2,13666,Cawston,Warwickshire,1.0,2.0,0.5,13.0,2.0,336.0,,2.0,SP4773/cawston,name,False
+1732,Cestersover,12.0,value,1,13786,[Cesters]over,Warwickshire,1.0,1.0,0.51,12.0,7.0,480.0,1.0,1.0,SP5081/cestersover,name,False
+1733,Charlecote,23.0,value,1,14066,Charlecote,Warwickshire,1.0,1.0,0.2,23.0,7.0,960.0,2.0,7.0,SP2656/charlecote,name,False
+1734,Chelmscote,,absent,0,,,,,,,,,,,,,,
+1735,Chesteron,,absent,0,14731,Chesterton,Warwickshire,0.947,0.0,0.7,48.0,20.5,3720.0,,5.0,SP3558/chesterton,name,False
+1736,Clifford,,absent,0,,,,,,,,,,,,,,
+1737,Clopton,11.0,value,1,16306,[Lower] Clopton,Warwickshire,1.0,0.0,0.42,17.0,12.0,1200.0,,,SP1645/lower-clopton,name,False
+1738,Compton Scorpion,2.0,value,1,17271,Compton [Scorpion],Warwickshire,1.0,1.0,0.2,2.0,,120.0,,,SP2140/compton-scorpion,name,False
+1739,Compton Verney,48.0,value,2,17281,Compton [Verney],Warwickshire,1.0,2.0,0.85,48.0,15.0,2400.0,,11.0,SP3052/compton-verney,name,False
+1740,Compton Wynyates,,absent,0,,,,,,,,,,,,,,
+1741,Copston Parva,,absent,0,,,,,,,,,,,,,,
+1742,Coton,,absent,0,,,,,,,,,,,,,,
+1743,Coundon,13.0,value,2,18041,Coundon,Warwickshire,1.0,2.0,0.14,13.0,2.0,288.0,,1.0,SP3181/coundon,name,False
+1744,Cryfield,,absent,0,,,,,,,,,,,,,,
+1745,"Dassett, Burton",75.0,value,1,19671,[Burton] Dassett,Warwickshire,1.0,1.0,0.42,75.0,30.0,4800.0,,4.0,SP3951/burton-dassett,name,False
+1746,"Dassett, Southend",,absent,0,19671,[Burton] Dassett,Warwickshire,1.0,0.0,0.7,75.0,30.0,4800.0,,4.0,SP3951/burton-dassett,name,False
+1747,"Ditchford, Friary",,absent,0,20466,Ditchford,Gloucestershire,1.0,0.0,1.56,5.0,2.0,360.0,,2.0,SP2136/ditchford,name,False
+1748,Dodwell,,absent,0,,,,,,,,,,,,,,
+1749,Dorsington Parva,9.0,value,1,20806,[Little] Dorsington,Warwickshire,0.8,1.0,1.79,9.0,3.0,360.0,,,SP1149/little-dorsington,reference+name,True
+1750,Drakenage,,absent,0,,,,,,,,,,,,,,
+1751,Edstone,12.0,value,1,22636,Edstone,Warwickshire,1.0,1.0,0.3,12.0,3.0,720.0,,2.0,SP1761/edstone,name,False
+1752,Enscote,,absent,0,,,,,,,,,,,,,,
+1753,Lower Ettington,,absent,0,23721,Ettington,Warwickshire,1.0,0.0,1.98,71.5,21.0,5070.0,1.0,10.0,SP2648/ettington,name,True
+1754,Finham,,absent,0,,,,,,,,,,,,,,
+1755,Fletchamstead,,absent,0,,,,,,,,,,,,,,
+1756,Foxcote,,absent,0,,,,,,,,,,,,,,
+1757,Fulbrook,,absent,0,,,,,,,,,,,,,,
+1758,Goldicote,,absent,0,,,,,,,,,,,,,,
+1759,Harborough Parva,,qualified,2,,,,,,,,,,,,,,
+1760,Hardwick in Burton Dassett,,absent,0,,,,,,,,,,,,,,
+1761,Hardwick in Tysoe,,absent,0,,,,,,,,,,,,,,
+1762,Hasely,11.0,value,1,29991,Haseley,Warwickshire,0.923,1.0,1.11,11.0,3.0,360.0,1.0,,SP2367/haseley,name,False
+1763,Hatton on Avon,,absent,0,,,,,,,,,,,,,,
+1764,Hawkesbury,,absent,0,,,,,,,,,,,,,,
+1765,Heathcote,,absent,0,,,,,,,,,,,,,,
+1766,Henley,,absent,0,,,,,,,,,,,,,,
+1767,Hillborough,18.0,value,2,31826,Hillborough,Warwickshire,1.0,2.0,0.54,11.5,3.0,480.0,0.5,4.0,SP1251/hillborough,name,False
+1768,Hodnell,32.0,value,3,32291,Hodnell,Warwickshire,1.0,3.0,0.1,32.0,7.5,1680.0,,1.0,SP4257/hodnell,name,False
+1769,Honiley,,absent,0,,,,,,,,,,,,,,
+1770,Hopsford,8.0,value,1,33081,Hopsford,Warwickshire,1.0,1.0,0.3,8.0,,360.0,,2.0,SP4283/hopsford,name,False
+1771,Hunscote,,absent,0,,,,,,,,,,,,,,
+1772,Hurst,,absent,0,,,,,,,,,,,,,,
+1773,Hydes Pastures,,absent,0,,,,,,,,,,,,,,
+1774,Idlicote,36.0,value,1,34571,Idlicote,Warwickshire,1.0,1.0,0.0,36.0,11.0,1920.0,,7.0,SP2844/idlicote,name,False
+1775,Lower Itchington,,absent,0,35176,[Bishop's] Itchington,Warwickshire,1.0,0.0,1.35,43.0,15.0,2880.0,,6.0,SP3857/bishops-itchington,name,True
+1776,Kingston,,absent,0,,,,,,,,,,,,,,
+1777,Kington,,absent,0,36226,Kineton [Green],Warwickshire,0.857,0.0,2.78,5.0,,120.0,,,SP1281/kineton-green,name,False
+1778,Little Lawford,7.0,value,1,38086,[Little] Lawford,Warwickshire,1.0,1.0,0.58,7.0,1.0,128.0,1.0,1.0,SP4677/little-lawford,name,False
+1779,Lee,,absent,0,,,,,,,,,,,,,,
+1780,Marston,0.0,value,1,41806,Marston [-on-Avon],Warwickshire,1.0,0.0,0.56,,,,,,SP4176/marston-on-avon,name,False
+1781,Meon,,absent,0,,,,,,,,,,,,,,
+1782,Milburn,,absent,0,,,,,,,,,,,,,,
+1783,Lower Milcote,,absent,0,43056,Milcote,Warwickshire,1.0,0.0,2.29,12.0,5.0,600.0,,,SP1952/milcote,name,True
+1784,Upper Milcote,12.0,value,1,43056,Milcote,Warwickshire,1.0,1.0,0.42,12.0,5.0,600.0,,,SP1952/milcote,name,True
+1785,Morrell,40.0,value,1,43946,Moreton [Morrell],Warwickshire,0.667,1.0,1.01,40.0,11.0,2640.0,,18.0,SP3155/moreton-morrell,reference+name,False
+1786,Morton,,absent,0,31876,[Hill]morton,Warwickshire,1.0,0.0,0.99,44.0,13.0,1440.0,,3.0,SP5373/hillmorton,name,False
+1787,Morton Bagot,12.0,value,1,44106,Morton [Bagot],Warwickshire,1.0,1.0,0.42,12.0,3.0,600.0,,2.0,SP1164/morton-bagot,name,False
+1788,Myton,47.0,value,3,44591,Myton,Warwickshire,1.0,3.0,0.8,39.0,9.0,3000.0,4.0,5.0,SP3064/myton,name,False
+1789,Naspis,,absent,0,,,,,,,,,,,,,,
+1790,Newbold Comyn,25.0,value,2,45051,Newbold [Comyn],Warwickshire,1.0,2.0,0.7,25.0,11.0,1200.0,1.0,4.0,SP3365/newbold-comyn,name,False
+1791,Newbold Pacey,27.0,value,1,45066,Newbold [Pacey],Warwickshire,1.0,1.0,0.44,27.0,12.5,1200.0,,5.0,SP2957/newbold-pacey,name,False
+1792,Newnham Paddox,24.0,value,1,45226,Newnham [Paddox],Warwickshire,1.0,1.0,0.54,24.0,7.0,720.0,,3.0,SP4783/newnham-paddox,name,False
+1793,Norton,,absent,0,46301,Norton [Lindsey],Warwickshire,1.0,0.0,0.67,11.0,4.0,480.0,,4.0,SP2263/norton-lindsey,name,False
+1794,Offord,13.0,value,2,46906,`Offord',Warwickshire,1.0,1.0,0.7,13.0,1.0,1080.0,1.0,3.0,SP1461/offord,name,False
+1795,Oldberrow,0.0,value,0,46996,Oldberrow,Warwickshire,1.0,0.0,0.58,,,60.0,,,SP1266/oldberrow,name,False
+1796,Great Packington,,qualified,1,,,,,,,,,,,,,,
+1797,Little Packington,,qualified,1,,,,,,,,,,,,,,
+1798,Pinley,,absent,0,,,,,,,,,,,,,,
+1799,Radbourn,,absent,0,,,,,,,,,,,,,,
+1800,Ruin Clifford,8.0,value,1,16101,[Ruin] Clifford,Warwickshire,1.0,1.0,0.14,8.0,2.0,360.0,,2.0,SP2052/ruin-clifford,name,False
+1801,Rykemersbury,,absent,0,,,,,,,,,,,,,,
+1802,Shelford,,absent,0,,,,,,,,,,,,,,
+1803,Upper Shuckburgh,23.0,value,3,,,,,,,,,,,,,,
+1804,Smercote,2.0,value,1,56666,Smercote,Warwickshire,1.0,1.0,1.7,1.0,,30.0,,,SP3485/smercote,name,False
+1805,Lower Smite,,absent,0,,,,,,,,,,,,,,
+1806,Upper Smite,,absent,0,,,,,,,,,,,,,,
+1807,Sole End,,absent,0,,,,,,,,,,,,,,
+1808,Spernall,11.0,value,1,57491,Spernall,Warwickshire,1.0,1.0,0.3,11.0,4.0,480.0,1.0,,SP0862/spernall,name,False
+1809,Stoke,,absent,0,,,,,,,,,,,,,,
+1810,Stokhull,,absent,0,,,,,,,,,,,,,,
+1811,Stoneton,0.0,value,0,59541,Stoneton,Warwickshire,1.0,0.0,0.14,14.0,3.0,360.0,,3.0,SP4654/stoneton,name,False
+1812,Stoneythorpe,,absent,0,,,,,,,,,,,,,,
+1813,Stratford,,absent,0,,,,,,,,,,,,,,
+1814,Stretton Baskerville,12.0,value,1,,,,,,,,,,,,,,
+1815,Tachbrook Mallory,12.0,value,1,61366,Tachbrook [Mallory],Warwickshire,1.0,1.0,0.85,12.0,4.0,480.0,,,SP3162/tachbrook-mallory,name,False
+1816,Tackley,,absent,0,,,,,,,,,,,,,,
+1817,Thornton,,absent,0,,,,,,,,,,,,,,
+1818,Upton,19.0,value,1,,,,,,,,,,,,,,
+1819,Walton Deyville,,absent,0,,,,,,,,,,,,,,
+1820,Watergall,,absent,0,,,,,,,,,,,,,,
+1821,Weddington,21.0,value,1,67991,Weddington,Warwickshire,1.0,1.0,0.6,21.0,5.5,360.0,,4.0,SP3693/weddington,name,False
+1822,Weethley,0.0,value,1,68081,Weethley,Warwickshire,1.0,0.0,0.0,,,,,,SP0555/weethley,name,False
+1823,Welcombe,,absent,0,,,,,,,,,,,,,,
+1824,Westcote,,absent,0,,,,,,,,,,,,,,
+1825,Weston,,absent,0,,,,,,,,,,,,,,
+1826,Upham,,absent,0,,,,,,,,,,,,,,
+1827,Vasterne,,absent,0,,,,,,,,,,,,,,
+1828,Walcote,,absent,0,66671,Walcot,Wiltshire,0.923,0.0,0.81,,,276.0,,,SU1684/walcot,name,False
+1829,Walton,,absent,0,,,,,,,,,,,,,,
+1830,Washern,19.0,value,1,67641,Washern,Wiltshire,1.0,1.0,0.74,9.0,7.0,1800.0,,,SU1030/washern,name,False
+1831,Westlecote,,absent,1,68771,Westlecott,Wiltshire,0.9,1.0,0.51,10.0,2.0,480.0,1.0,1.0,SU1482/westlecott,name,False
+1832,Whelpley,,absent,0,,,,,,,,,,,,,,
+1833,Whetham,,absent,0,,,,,,,,,,,,,,
+1834,Whiteclive,2.0,value,1,69646,Whitecliff,Wiltshire,0.8,1.0,0.44,2.0,1.0,420.0,,1.0,ST8538/whitecliff,reference+name,False
+1835,Whitley,,absent,0,,,,,,,,,,,,,,
+1836,North Widhill,14.0,value,2,,,,,,,,,,,,,,
+1837,West Widhill,14.0,value,2,,,,,,,,,,,,,,
+1838,Witcomb,7.0,value,1,71566,Witcomb,Wiltshire,1.0,1.0,0.0,7.0,1.0,360.0,,,SU0275/witcomb,name,False
+1839,Witherington,12.0,value,1,71641,Witherington,Wiltshire,1.0,1.0,0.42,12.0,2.0,960.0,1.0,,SU1824/witherington,name,False
+1840,Wittenham,13.0,value,1,71741,`Wittenham',Wiltshire,1.0,1.0,0.49,13.0,5.0,1080.0,1.0,3.0,ST8058/wittenham,name,False
+1841,Woodhill,11.0,value,1,72211,Woodhill,Wiltshire,1.0,1.0,0.7,11.0,3.0,960.0,,6.0,SU0676/woodhill,name,False
+1842,Bickmarsh,,absent,0,6706,Bickmarsh,Worcestershire,1.0,0.0,0.4,26.0,11.0,1440.0,,8.0,SP1049/bickmarsh,name,False
+1843,Elmley Lovett,30.0,value,1,23066,Elmley [Lovett],Worcestershire,1.0,1.0,0.2,30.0,10.0,3840.0,3.0,,SO8669/elmley-lovett,name,False
+1844,Kenswick,10.0,value,1,35641,Kenswick,Worcestershire,1.0,1.0,0.36,10.0,2.0,180.0,,4.0,SO7958/kenswick,name,False
+1845,"Naunton, Sheriffs",,absent,0,44746,Naunton [Beauchamp],Worcestershire,1.0,0.0,0.59,16.0,8.0,960.0,,10.0,SO9652/naunton-beauchamp,name,False
+1846,Pendock,38.0,value,2,48626,Pendock,Worcestershire,1.0,1.0,3.38,3.0,2.0,48.0,,,SO7832/pendock,name,False
+1847,Poden,,absent,0,,,,,,,,,,,,,,
+1848,Great Witley,,absent,0,71726,[Little] Witley,Worcestershire,1.0,0.0,3.94,3.0,2.0,120.0,,,SO7863/little-witley,name,True
+1849,Argam,0.0,value,1,2066,Argam,Yorkshire,1.0,0.0,0.37,,,,,,TA1171/argam,name,False
+1850,Arram,2.0,value,1,2226,Arram,Yorkshire,1.0,1.0,0.3,2.0,1.0,,,,TA1649/arram,name,False
+1851,Arras,,absent,0,,,,,,,,,,,,,,
+1852,Old Arras,,absent,0,,,,,,,,,,,,,,
+1853,Auburn,0.0,value,1,3326,Auburn,Yorkshire,1.0,0.0,0.65,,,,,,TA1762/auburn,name,False
+1854,Barthorpe,0.0,value,2,4711,Barthorpe [Grange],Yorkshire,1.0,0.0,1.09,,,,,,SE7759/barthorpe-grange,name,False
+1855,Bartindale,,absent,0,,,,,,,,,,,,,,
+1856,Battleburn,,absent,0,,,,,,,,,,,,,,
+1857,Belby,1.0,value,3,5821,Belby [House],Yorkshire,1.0,1.0,0.81,1.0,,,,,SE7729/belby-house,name,False
+1858,Belthorpe,0.0,value,1,5926,Belthorpe,Yorkshire,1.0,0.0,0.65,,,,,,SE7854/belthorpe,name,False
+1859,East Benningholme,44.0,value,1,6041,Benningholme [Hall],Yorkshire,1.0,0.0,0.8,,,,,,TA1239/benningholme-hall,name,True
+1860,West Benningholme,44.0,value,1,6041,Benningholme [Hall],Yorkshire,1.0,0.0,1.08,,,,,,TA1239/benningholme-hall,name,True
+1861,Bewick,44.0,value,1,6541,Bewick [Hall],Yorkshire,1.0,0.0,0.32,,,,,,TA2339/bewick-hall,name,False
+1862,Birdsall,7.0,value,3,7146,Birdsall,Yorkshire,1.0,1.0,0.45,2.0,0.5,24.0,,,SE8164/birdsall,name,False
+1863,Bonwick,,absent,0,,,,,,,,,,,,,,
+1864,Bracken,0.0,value,0,8796,Bracken,Yorkshire,1.0,0.0,0.45,,,,,,SE9850/bracken,name,False
+1865,Brackenholme,0.0,value,0,8806,Brackenholme,Yorkshire,1.0,0.0,0.72,,,,,,SE7030/brackenholme,name,False
+1866,Buckton,26.0,value,2,11236,Buckton [Holms],Yorkshire,1.0,1.0,0.29,26.0,13.0,1920.0,2.0,,SE8469/buckton-holms,name,False
+1867,Burdale,50.0,value,2,11476,Burdale,Yorkshire,1.0,0.0,0.46,,,,,,SE8762/burdale,name,False
+1868,"Burstwick, Bond",1.0,value,1,11921,Burstwick,Yorkshire,1.0,1.0,1.58,53.0,15.0,2400.0,,,TA2227/burstwick,name,False
+1869,Burton Constable,1.0,value,1,11996,Burton [Constable],Yorkshire,1.0,0.0,0.59,,1.0,,,,TA1836/burton-constable,name,False
+1870,Camerton,0.0,value,1,12831,Camerton [Hall],Yorkshire,1.0,0.0,0.54,,,,,,TA2126/camerton-hall,name,False
+1871,Cavil,99.0,value,1,13651,Cavil,Yorkshire,1.0,0.0,0.51,,,,,,SE7730/cavil,name,False
+1872,Caythorpe,0.0,value,1,13716,[Low] Caythorpe,Yorkshire,1.0,0.0,0.6,,,336.0,,,TA1167/low-caythorpe,name,False
+1873,Cleaving,0.0,value,2,15891,Cleaving [Grange],Yorkshire,1.0,0.0,0.59,,,264.0,,,SE8546/cleaving-grange,name,False
+1874,Cleeton,7.0,value,2,15916,Cleeton,Yorkshire,1.0,1.0,1.31,7.0,3.0,1440.0,,,TA1855/cleeton,name,False
+1875,Cotness,99.0,value,1,17866,Cotness [Hall],Yorkshire,1.0,0.0,0.71,,,,,,SE7924/cotness-hall,name,False
+1876,Cottam,0.0,value,0,17916,Cottam,Yorkshire,1.0,0.0,0.36,,,,,,SE9964/cottam,name,False
+1877,Little Cowden,23.0,value,1,18141,[Little] Cowden,Yorkshire,1.0,0.0,1.62,,,,,,TA2442/little-cowden,name,False
+1878,Cowlam,31.0,value,2,18161,Cowlam,Yorkshire,1.0,0.0,0.22,,,480.0,,,SE9665/cowlam,name,False
+1879,Croom,31.0,value,3,18786,Croom [House],Yorkshire,1.0,0.0,0.2,,,480.0,,,SE9365/croom-house,name,False
+1880,Sandburn,0.0,value,0,53751,Sandburn [House],Yorkshire,1.0,0.0,0.72,,,,,,SE6659/sandburn-house,name,False
+1881,Sawcoch,,absent,0,,,,,,,,,,,,,,
+1882,Scawthorpe,41.0,value,1,54211,`Scawthorpe',Yorkshire,1.0,0.0,1.58,,,,,,TA0881/scawthorpe,name,False
+1883,Little Sessay,,absent,0,54791,Sessay,Yorkshire,1.0,0.0,1.43,8.0,3.0,240.0,,,SE4575/sessay,name,True
+1884,Shutterskelfe,48.0,value,3,56471,Skutterskelfe [Hall],Yorkshire,0.923,1.0,0.54,3.0,1.111,,,,NZ4807/skutterskelfe-hall,name,False
+1885,"Sigston, Kirby",0.0,value,1,56126,[Kirby] Sigston,Yorkshire,1.0,0.0,0.29,,,,,,SE4194/kirby-sigston,name,False
+1886,Little Smeaton,0.0,value,2,56641,[Little] Smeaton,Yorkshire,1.0,0.0,0.1,,,240.0,,,NZ3403/little-smeaton,name,False
+1887,Solberg,4.0,value,1,56956,Solberge,Yorkshire,0.933,1.0,0.4,4.0,2.0,156.0,,,SE3589/solberge,name,False
+1888,Sowerby under Cotcliffe,0.0,value,2,57386,Sowerby [under Cotcliffe],Yorkshire,1.0,0.0,0.33,,,120.0,,,SE4193/sowerby-under-cotcliffe,name,False
+1889,Stanwick,3.0,value,1,58341,Stanwick,Yorkshire,1.0,0.0,0.5,3.0,3.0,144.0,,,NZ1811/stanwick,name,False
+1890,Stittenham,26.0,value,1,58876,Stittenham,Yorkshire,1.0,1.0,0.43,13.0,5.0,240.0,0.5,,SE6767/stittenham,name,False
+1891,Studdah,,absent,0,,,,,,,,,,,,,,
+1892,Swainby,,absent,0,60916,[Low] Swainby,Yorkshire,1.0,0.0,0.21,8.0,2.0,120.0,,,SE3385/low-swainby,name,False
+1893,Swarthorpe,0.0,value,1,61056,`Swarthorpe',Yorkshire,1.0,0.0,0.36,,,,,,SE2083/swarthorpe,name,False
+1894,East Tanfield,5.0,value,1,61491,[East] Tanfield,Yorkshire,1.0,0.0,0.58,,,60.0,,,SE2877/east-tanfield,name,False
+1895,Tanton,35.0,value,4,61541,Tanton,Yorkshire,1.0,2.0,0.14,7.0,4.111,360.0,,,NZ5210/tanton,name,False
+1896,Thoralby,27.0,value,2,62291,Thoraldby [Farm],Yorkshire,0.941,1.0,0.37,3.0,1.111,16.0,,,NZ4907/thoraldby-farm,name,False
+1897,Thoresby,13.0,value,2,,,,,,,,,,,,,,
+1898,Thornton Bridge,7.0,value,1,62626,Thornton [Bridge],Yorkshire,1.0,1.0,0.53,7.0,4.0,,,,SE4371/thornton-bridge,name,False
+1899,Thornton le Street,0.0,value,1,62686,Thornton [le Street],Yorkshire,1.0,0.0,0.32,,,,,,SE4186/thornton-le-street,name,False
+1900,Thornton on Hill,,absent,0,,,,,,,,,,,,,,
+1901,Thornton Riseborough,0.0,value,1,62691,Thornton [Riseborough],Yorkshire,1.0,0.0,0.23,,,120.0,,,SE7482/thornton-riseborough,name,False
+1902,Thorpe in Wycliffe,26.0,value,1,,,,,,,,,,,,,,
+1903,Thorpe Perrow,0.0,value,1,62726,Thorp [Perrow],Yorkshire,0.957,0.0,0.31,,,,,,SE2685/thorp-perrow,name,False
+1904,Thorpe Row,,absent,0,,,,,,,,,,,,,,
+1905,Tocketts,0.0,value,1,64071,Tocketts [Farm],Yorkshire,1.0,0.0,0.42,,,,,,NZ6117/tocketts-farm,name,False
+1906,Tollesby,0.0,value,4,64231,Tollesby,Yorkshire,1.0,0.0,0.72,,,,,,NZ5116/tollesby,name,False
+1907,Tunstall,50.0,value,1,65531,Tunstall [Farm],Yorkshire,1.0,0.0,0.64,,,,,,NZ5212/tunstall-farm,name,False
+1908,Twislebrook,13.0,value,1,65671,`Twislebrook',Yorkshire,1.0,0.0,0.4,,,,,,SE2179/twislebrook,name,False
+1909,Ulshaw,,absent,0,,,,,,,,,,,,,,
+1910,Upsall,3.0,value,2,66231,Upsall [Hall],Yorkshire,1.0,0.0,0.72,,,,,,NZ5616/upsall-hall,name,False
+1911,Walmire,,absent,0,,,,,,,,,,,,,,
+1912,Wath,0.0,value,1,67796,Wath,Yorkshire,1.0,0.0,0.54,2.867,1.1,80.0,,,SE6775/wath,name,False
+1913,Waupley,,absent,0,,,,,,,,,,,,,,
+1914,Westonby,,absent,0,,,,,,,,,,,,,,
+1915,Whorlton,21.0,value,1,69951,Whorlton,Yorkshire,1.0,0.0,0.1,,,,,,NZ4802/whorlton,name,False
+1916,Wigganthorpe,0.0,value,3,70236,Wiganthorpe [Hall],Yorkshire,0.957,0.0,0.23,,,,,,SE6672/wiganthorpe-hall,name,False
+1917,Winton,0.0,value,1,71436,Winton,Yorkshire,1.0,0.0,0.53,,,360.0,,,SE4196/winton,name,False
+1918,High Worsall,0.0,value,1,72831,[High] Worsall,Yorkshire,1.0,0.0,0.29,,,,,,NZ3809/high-worsall,name,False
+1919,Adel,0.0,value,1,346,Adel,Yorkshire,1.0,0.0,0.29,,,,,,SE2740/adel,name,False
+1920,Aismunderby,3.0,value,2,601,Aismunderby,Yorkshire,1.0,1.0,0.1,3.0,2.0,120.0,,,SE3068/aismunderby,name,False
+1921,Danthorpe,34.0,value,2,19591,Danthorpe,Yorkshire,1.0,1.0,0.72,1.0,,,,,TA2432/danthorpe,name,False
+1922,Allerton Mauleverer,0.0,value,4,1126,Allerton [Mauleverer],Yorkshire,1.0,0.0,0.5,,0.5,120.0,,,SE4157/allerton-mauleverer,name,False
+1923,Alwoodley,0.0,value,1,1586,Alwoodley,Yorkshire,1.0,0.0,1.46,,,240.0,,,SE3141/alwoodley,name,False
+1924,Azerley,3.0,value,3,3631,Azerley,Yorkshire,1.0,1.0,0.52,3.0,2.0,120.0,,,SE2574/azerley,name,False
+1925,Battersby,,absent,0,5166,Battersby [Barn],Yorkshire,1.0,0.0,4.27,,,,,,SD7052/battersby-barn,name,False
+1926,Bilham,43.0,value,2,6856,Bilham [House],Yorkshire,1.0,0.0,0.4,2.0,0.5,,,,SE4806/bilham-house,name,False
+1927,Bolton,16.0,value,1,8031,Bolton,Yorkshire,1.0,0.0,1.43,,,,,,SE1635/bolton,name,False
+1928,Borderlby,,absent,0,,,,,,,,,,,,,,
+1929,Brandon,,absent,0,,,,,,,,,,,,,,
+1930,Bustardthorpe,,absent,0,,,,,,,,,,,,,,
+1931,Byram cum Poole,,absent,0,,,,,,,,,,,,,,
+1932,Cayton,0.0,value,1,13726,Cayton,Yorkshire,1.0,0.0,0.98,,,,,,SE2963/cayton,name,False
+1933,Chevet,3.0,value,1,14816,Chevet,Yorkshire,1.0,1.0,0.0,3.0,2.0,,,,SE3415/chevet,name,False
+1934,Clareton,7.0,value,2,15671,Clareton,Yorkshire,1.0,1.0,0.1,1.0,2.0,,,,SE3959/clareton,name,False
+1935,Clotherholme,0.0,value,1,16331,Clotherholme,Yorkshire,1.0,0.0,0.36,,,240.0,,,SE2872/clotherholme,name,False
+1936,Easedike,,absent,0,,,,,,,,,,,,,,
+1937,Eavestone,41.0,value,1,22311,Eavestone,Yorkshire,1.0,0.0,0.22,,,,,,SE2268/eavestone,name,False
+1938,East Folifoot,,absent,0,,,,,,,,,,,,,,
+1939,Frickley,17.0,value,2,25881,Frickley,Yorkshire,1.0,1.0,0.67,4.25,2.5,272.0,0.25,,SE4608/frickley,name,False
+1940,Gawthorpe,,absent,0,,,,,,,,,,,,,,
+1941,Givendale,6.0,value,1,26831,Givendale,Yorkshire,1.0,1.0,0.32,6.0,3.0,120.0,,,SE3369/givendale,name,False
+1942,Grimston,81.0,value,2,27881,Grimston [Grange],Yorkshire,1.0,0.0,1.55,,,,,,SE4841/grimston-grange,name,False
+1943,Haganby,,absent,0,,,,,,,,,,,,,,
+1944,Haldenby,,absent,0,,,,,,,,,,,,,,
+1945,Hammerton,,absent,1,28856,Hammerton [Hall],Yorkshire,1.0,0.0,0.55,,,,,,SD7153/hammerton-hall,name,False
+1946,Hangthwaite,,absent,0,37711,Langthwaite,Yorkshire,0.909,0.0,0.41,,,,,,SE5506/langthwaite,name,False
+1947,Harewood,0.0,value,1,29541,Harewood,Yorkshire,1.0,0.0,1.24,,,480.0,,,SE3245/harewood,name,False
+1948,Hazelwood,3.0,value,1,30601,Hazelwood [Castle],Yorkshire,1.0,1.0,0.51,3.0,3.0,,,,SE4439/hazelwood-castle,name,False
+1949,Herleshow,41.0,value,1,,,,,,,,,,,,,,
+1950,Hornington,5.0,value,2,33281,Hornington [Manor],Yorkshire,1.0,1.0,0.3,5.0,1.0,180.0,,,SE5141/hornington-manor,name,False
+1951,Huddleston,,absent,0,,,,,,,,,,,,,,
+1952,Kirkby Ouseburn,,absent,0,,,,,,,,,,,,,,
+1953,Lead,5.0,value,1,38266,Lead,Yorkshire,1.0,1.0,0.41,5.0,3.0,360.0,,,SE4636/lead,name,False
+1954,Lofthouse,17.0,value,1,39841,Lofthouse,Yorkshire,1.0,0.0,0.32,,,120.0,,,SE3243/lofthouse,name,False
+1955,Lotherton,,absent,0,,,,,,,,,,,,,,
+1956,Mulwith,,absent,0,,,,,,,,,,,,,,
+1957,Newby,,absent,0,,,,,,,,,,,,,,
+1958,"Newsam, Temple",10.0,value,1,45261,[Temple] Newsam,Yorkshire,1.0,1.0,1.81,10.0,3.0,72.0,,,SE3630/temple-newsam,name,False
+1959,Newton Waleys,,absent,0,,,,,,,,,,,,,,
+1960,Nunwick,4.0,value,1,46441,Nunwick,Yorkshire,1.0,1.0,0.31,4.0,2.0,,,,SE3274/nunwick,name,False
+1961,Oglethorpe,21.0,value,2,46936,Oglethorpe [Hall],Yorkshire,1.0,0.0,0.5,,,,,,SE4444/oglethorpe-hall,name,False
+1962,Oulston,,absent,0,47641,Ouston [Farm],Yorkshire,0.923,0.0,0.52,,,,,,SE5042/ouston-farm,name,False
+1963,Pallathorpe,,absent,3,48096,[Palla]thorpe,Yorkshire,1.0,1.0,0.22,4.0,1.0,240.0,,,SE5142/pallathorpe,name,False
+1964,Parlington,66.0,value,2,48241,Parlington,Yorkshire,1.0,0.0,0.58,,,,,,SE4236/parlington,name,False
+1965,Ribstone Magna,0.0,value,4,,,,,,,,,,,,,,
+1966,Scagglethorpe,1.0,value,1,54126,Scagglethorpe,Yorkshire,1.0,1.0,0.72,5.0,,72.0,,,SE5455/scagglethorpe,name,False
+1967,Scawsby,13.0,value,1,54206,Scawsby,Yorkshire,1.0,1.0,0.86,13.0,5.0,,,,SE5404/scawsby,name,False
+1968,Skelton,133.0,value,2,56346,Skelton [Grange],Yorkshire,1.0,0.0,1.09,,,,,,SE3331/skelton-grange,name,False
+1969,Skibeden,0.0,value,1,,,,,,,,,,,,,,
+1970,Skinthorpe,,absent,0,,,,,,,,,,,,,,
+1971,Sleningford,8.0,value,1,56546,Sleningford,Yorkshire,1.0,0.0,0.23,,,,,,SE2777/sleningford,name,False
+1972,Stancil,,absent,0,57896,Stancil,Yorkshire,1.0,0.0,0.54,,,,,,SK6095/stancil,name,False
+1973,Stapleton,42.0,value,1,58431,Stapleton,Yorkshire,1.0,1.0,0.78,16.0,6.5,720.0,,,SE5119/stapleton,name,False
+1974,Steeton,0.0,value,1,58656,Steeton [Hall],Yorkshire,1.0,0.0,0.5,6.0,2.0,480.0,,,SE5344/steeton-hall,name,False
+1975,Stockeld,,absent,0,,,,,,,,,,,,,,
+1976,Stockton,0.0,value,1,59016,Stockton,Yorkshire,1.0,0.0,0.1,,,240.0,,,SE3345/stockton,name,False
+1977,Stotfield,4.0,value,2,,,,,,,,,,,,,,
+1978,Stubbs,7.0,value,1,,,,,,,,,,,,,,
+1979,Studley Parva,,absent,0,,,,,,,,,,,,,,
+1980,Old Thornville,8.0,value,1,62711,[Old] Thornville [Hall],Yorkshire,1.0,1.0,0.36,8.0,3.0,,,,SE4554/old-thornville-hall,name,False
+1981,Thorpe Stapleton,5.0,value,1,63151,Thorpe [Stapleton],Yorkshire,1.0,1.0,0.71,5.0,2.0,64.0,,,SE3430/thorpe-stapleton,name,False
+1982,Thorpe Underwood,0.0,value,1,63181,Thorpe [Underwood],Yorkshire,1.0,0.0,0.0,,,,,,SE4659/thorpe-underwood,name,False
+1983,Tilts,,absent,0,,,,,,,,,,,,,,
+1984,Little Timble,,absent,0,63871,Timble,Yorkshire,1.0,0.0,0.52,,,,,,SE1852/timble,name,True
+1985,Toulston,28.0,value,3,64576,Toulston,Yorkshire,1.0,1.0,0.59,5.0,2.0,240.0,,,SE4544/toulston,name,False
+1986,Walkingham,0.0,value,1,66836,Walkingham [Hill],Yorkshire,1.0,0.0,0.72,,,,,,SE3461/walkingham-hill,name,False
+1987,Wallerthwaite,,absent,0,,,,,,,,,,,,,,
+1988,Westwick,41.0,value,1,69141,Westwick,Yorkshire,1.0,0.0,1.04,,,,,,SE3466/westwick,name,False
+1989,Wharncliffe,,absent,0,,,,,,,,,,,,,,
+1990,Wheldale,6.0,value,1,69421,Wheldale,Yorkshire,1.0,1.0,0.55,3.0,3.75,180.0,,,SE4526/wheldale,name,False
+1991,Wildthorpe,1.0,value,1,70446,Wildthorpe,Yorkshire,1.0,1.0,0.71,1.0,1.0,248.0,,,SE5101/wildthorpe,name,False
+1992,Wilstrop,,absent,1,70831,Wilstrop [Hall],Yorkshire,1.0,0.0,0.8,,,,,,SE4854/wilstrop-hall,name,False
+1993,Wothersome,0.0,value,1,72981,Wothersome,Yorkshire,1.0,0.0,0.1,,,240.0,,,SE4042/wothersome,name,False
+1994,Wrangbrook,,absent,0,,,,,,,,,,,,,,
+1995,Bossall,20.0,value,1,8291,Bossall,Yorkshire,1.0,1.0,0.43,6.667,4.0,240.0,,,SE7160/bossall,name,False
+1996,Bowforth,,absent,0,,,,,,,,,,,,,,
+1997,Brandsby,12.0,value,1,9366,Brandsby,Yorkshire,1.0,1.0,0.5,12.0,6.0,240.0,,,SE5971/brandsby,name,False
+1998,Brawith,,absent,0,,,,,,,,,,,,,,
+1999,Dowthorpe,44.0,value,1,20996,Dowthorpe [Hall],Yorkshire,1.0,0.0,0.51,,,,,,TA1538/dowthorpe-hall,name,False
+2000,Breckenbrough,0.0,value,1,9621,Breckenbrough,Yorkshire,1.0,0.0,0.29,,,,,,SE3883/breckenbrough,name,False
+2001,Brough,3.0,value,1,10676,Brough [Hall],Yorkshire,1.0,1.0,0.5,3.0,2.0,96.0,,,SE2197/brough-hall,name,False
+2002,Broughton Lythe,,absent,0,,,,,,,,,,,,,,
+2003,Little Broughton,27.0,value,1,10806,[Little] Broughton,Yorkshire,1.0,1.0,0.6,3.0,1.111,,,,NZ5606/little-broughton,name,False
+2004,Burton on Ure,,absent,0,,,,,,,,,,,,,,
+2005,Little Busby,27.0,value,2,12191,[Little] Busby,Yorkshire,1.0,1.0,0.3,3.0,1.111,,,,NZ5104/little-busby,name,False
+2006,Byland,8.0,value,1,12366,[Old] Byland,Yorkshire,1.0,1.0,1.73,8.0,3.0,192.0,,,SE5585/old-byland,name,False
+2007,Carlton in Stanwick,8.0,value,1,,,,,,,,,,,,,,
+2008,Carlton in Stockton,,absent,0,,,,,,,,,,,,,,
+2009,Catto,,absent,0,,,,,,,,,,,,,,
+2010,Cawthorn,0.0,value,2,13671,Cawthorn,Yorkshire,1.0,0.0,0.45,,,,,,SE7789/cawthorn,name,False
+2011,Clifton in Ure,3.0,value,1,16191,Clifton [on Ure],Yorkshire,0.917,1.0,0.33,3.0,2.5,60.0,,,SE2184/clifton-on-ure,name,False
+2012,West Coatham,,absent,0,,,,,,,,,,,,,,
+2013,Corburn,7.0,value,1,17571,`Corburn',Yorkshire,1.0,0.0,0.72,,,,,,SE5759/corburn,name,False
+2014,Cornborough,,absent,0,17631,Cornbrough [House],Yorkshire,0.952,0.0,0.72,1.0,1.0,24.0,,,SE6367/cornbrough-house,name,False
+2015,Coulby,16.0,value,1,18016,Coulby,Yorkshire,1.0,0.0,0.32,,,,,,NZ5013/coulby,name,False
+2016,South Cowton,26.0,value,1,18241,[South] Cowton,Yorkshire,1.0,0.0,0.32,,,,,,NZ2902/south-cowton,name,False
+2017,Crakehill,51.0,value,1,18311,Crakehill,Yorkshire,1.0,0.0,0.52,,,,,,SE4273/crakehill,name,False
+2018,Crosby,0.0,value,2,18831,Crosby [Grange],Yorkshire,1.0,0.0,0.14,,,60.0,,,SE4088/crosby-grange,name,False
+2019,Crossthwaite,,absent,0,,,,,,,,,,,,,,
+2020,Dalby,6.0,value,3,19426,Dalby,Yorkshire,1.0,1.0,0.32,6.0,3.0,,1.0,,SE6371/dalby,name,False
+2021,Dale Town,0.0,value,2,19451,Dale [Town],Yorkshire,1.0,0.0,0.0,,,96.0,,,SE5388/dale-town,name,False
+2022,West Dalton,,absent,0,19511,Dalton,Yorkshire,1.0,0.0,0.0,,,36.0,,,NZ1108/dalton,name,True
+2023,Danby in Cleveland,8.0,value,2,,,,,,,,,,,,,,
+2024,Danby on Ure,,absent,0,,,,,,,,,,,,,,
+2025,Little Danby,,absent,0,19566,Danby [Wiske],Yorkshire,1.0,0.0,2.34,3.0,2.0,120.0,,,SE3398/danby-wiske,name,True
+2026,Deepdale,41.0,value,1,,,,,,,,,,,,,,
+2027,Didderston,19.0,value,1,20256,Didderston [Grange],Yorkshire,1.0,0.0,0.72,,,,,,NZ1807/didderston-grange,name,False
+2028,Dromonby,27.0,value,1,21271,Dromonby [Hall],Yorkshire,1.0,1.0,0.22,3.0,1.111,,,,NZ5305/dromonby-hall,name,False
+2029,Easby in Bladesby,7.0,value,1,,,,,,,,,,,,,,
+2030,Easby in Richmond,,absent,0,,,,,,,,,,,,,,
+2031,Easthorpe,30.0,value,1,21996,Easthorpe [House],Yorkshire,1.0,0.0,0.22,,,,,,SE7371/easthorpe-house,name,False
+2032,Ebberston,30.0,value,1,22316,Ebberston,Yorkshire,1.0,0.0,0.85,,,,,,SE8982/ebberston,name,False
+2033,Little Edstone,0.0,value,1,22646,[Little] Edstone,Yorkshire,1.0,0.0,0.72,,,,,,SE7184/little-edstone,name,False
+2034,Eldmire,,absent,0,,,,,,,,,,,,,,
+2035,Ellenthorpe,,absent,0,22916,Ellenthorpe [Hall],Yorkshire,1.0,0.0,0.37,,,,,,SE4167/ellenthorpe-hall,name,False
+2036,Ellerton,0.0,value,1,22956,Ellerton [Abbey],Yorkshire,1.0,0.0,0.43,,,,,,SE0797/ellerton-abbey,name,False
+2037,Etersthorpe,,absent,0,23676,{Eterstorp},Yorkshire,0.9,0.0,1.74,,,,,,TA0881/eterstorp,name,False
+2038,Fornthorpe,,absent,0,,,,,,,,,,,,,,
+2039,Fors,0.0,value,1,,,,,,,,,,,,,,
+2040,Girlington,26.0,value,1,26781,Girlington [Hall],Yorkshire,1.0,0.0,0.43,,,,,,NZ1213/girlington-hall,name,False
+2041,Greenberry,,absent,0,,,,,,,,,,,,,,
+2042,Griff,0.0,value,1,27786,Griff [Farm],Yorkshire,1.0,0.0,0.45,,,,,,SE5883/griff-farm,name,False
+2043,Grimsby,,absent,0,,,,,,,,,,,,,,
+2044,Grimston,45.0,value,1,27866,Grimston,Yorkshire,1.0,1.0,0.51,2.867,1.1,80.0,,,SE6074/grimston,name,False
+2045,Gristhwaite,,absent,0,,,,,,,,,,,,,,
+2046,Halnaby,,absent,0,,,,,,,,,,,,,,
+2047,West Harlsey,,absent,0,29651,[West] Harlsey,Yorkshire,1.0,0.0,0.4,,,,,,SE4198/west-harlsey,name,False
+2048,Hatterboard,,absent,0,,,,,,,,,,,,,,
+2049,West Hauxwell,0.0,value,1,30326,[East] Hauxwell,Yorkshire,1.0,0.0,0.5,,,,,,SE1693/east-hauxwell,name,True
+2050,Hessleton,,absent,0,31421,Hesselton,Yorkshire,0.889,0.0,0.51,10.0,8.0,180.0,,,SE1991/hesselton,name,False
+2051,Hinderskelfe,,absent,0,31146,Henderskelfe,Yorkshire,0.917,0.0,0.65,,2.0,60.0,,,SE7170/henderskelfe,name,False
+2052,North Holme,0.0,value,2,32646,[North] Holme [House],Yorkshire,1.0,0.0,0.2,,,,,,SE7080/north-holme-house,name,False
+2053,Holtby,0.0,value,1,32731,Holtby [Hall],Yorkshire,1.0,0.0,0.43,,,,,,SE2692/holtby-hall,name,False
+2054,Hornby,0.0,value,1,33231,Hornby,Yorkshire,1.0,0.0,0.37,,,,,,SE2293/hornby,name,False
+2055,Hoverton,,absent,0,33686,`Hoveton',Yorkshire,0.933,0.0,0.5,,,,,,SE6786/hoveton,name,False
+2056,Howe,0.0,value,1,,,,,,,,,,,,,,
+2057,Howgrave,21.0,value,1,33746,Howgrave,Yorkshire,1.0,0.0,0.2,10.5,6.25,300.0,,,SE3179/howgrave,name,False
+2058,Howthorpe,45.0,value,1,33771,Howthorpe [Farm],Yorkshire,1.0,1.0,0.1,2.867,1.1,80.0,,,SE6772/howthorpe-farm,name,False
+2059,Humberton,,absent,0,33956,[Hum]burton,Yorkshire,0.889,0.0,0.33,7.0,3.0,96.0,,,SE4268/humburton,name,False
+2060,Hutton Bonville,0.0,value,1,34296,Hutton [Bonville],Yorkshire,1.0,0.0,0.32,,,240.0,,,NZ3300/hutton-bonville,name,False
+2061,Hutton Hill,,absent,0,,,,,,,,,,,,,,
+2062,Ingleby,16.0,value,1,34846,Ingleby [Hill],Yorkshire,1.0,0.0,1.53,,,,,,NZ4412/ingleby-hill,name,False
+2063,Irby,,absent,0,35021,Irby [Manor],Yorkshire,1.0,0.0,0.72,,,,,,NZ4103/irby-manor,name,False
+2064,Islebeck,4.0,value,1,35106,Islebeck [Grange],Yorkshire,1.0,0.0,0.83,,,,,,SE4577/islebeck-grange,name,False
+2065,Jolby,,absent,0,,,,,,,,,,,,,,
+2066,Killerby,,absent,0,36006,Killerby [Hall],Yorkshire,1.0,0.0,0.3,,,,,,TA0682/killerby-hall,name,False
+2067,Killerby by Catterick,47.0,value,1,13511,Catterick,Yorkshire,0.643,1.0,2.16,47.0,17.5,,,,SE2497/catterick,reference+name,False
+2068,Kilton Thorpe,0.0,value,2,62946,[Kilton] Thorpe,Yorkshire,1.0,0.0,0.29,,,,,,NZ6917/kilton-thorpe,name,False
+2069,North Kilvington,0.0,value,2,36136,[North] Kilvington,Yorkshire,1.0,0.0,0.21,,,,,,SE4285/north-kilvington,name,False
+2070,Kingthorpe,30.0,value,1,36436,Kingthorpe [House],Yorkshire,1.0,0.0,0.3,,,,,,SE8385/kingthorpe-house,name,False
+2071,Kirkby,6.0,value,1,36691,Kirkby [Hall],Yorkshire,1.0,1.0,0.51,6.0,3.0,192.0,,,SE2895/kirkby-hall,name,False
+2072,Kneeton,0.0,value,1,36966,Kneeton [Hall],Yorkshire,1.0,0.0,0.45,,,,,,NZ2106/kneeton-hall,name,False
+2073,Landmoth,0.0,value,1,37421,Landmoth,Yorkshire,1.0,0.0,0.2,,,,,,SE4292/landmoth,name,False
+2074,Little Langton,0.0,value,1,37761,[Little] Langton,Yorkshire,1.0,0.0,0.36,,,,,,SE3095/little-langton,name,False
+2075,Laysthorpe,2.0,value,1,38171,Laysthorpe [Lodge],Yorkshire,1.0,1.0,0.41,2.0,2.0,,,,SE6378/laysthorpe-lodge,name,False
+2076,Lazenby,0.0,value,1,38211,Lazenby [Hall],Yorkshire,1.0,0.0,0.52,,,,,,SE3398/lazenby-hall,name,False
+2077,Leake,0.0,value,2,38296,Leake,Yorkshire,1.0,0.0,0.23,,,,,,SE4390/leake,name,False
+2078,"Leavington, Castle",0.0,value,2,38356,[Castle] Leavington,Yorkshire,1.0,0.0,0.46,,,60.0,,,NZ4610/castle-leavington,name,False
+2079,Leckby,,absent,0,38381,Leckby [Palace],Yorkshire,1.0,0.0,0.0,,,,,,SE4174/leckby-palace,name,False
+2080,East Lilling,3.0,value,4,39191,[East] Lilling,Yorkshire,1.0,1.0,0.1,0.6,0.2,,,,SE6664/east-lilling,name,False
+2081,Marderby,8.0,value,1,41441,Marderby [Hall],Yorkshire,1.0,1.0,0.51,8.0,5.0,240.0,,,SE4683/marderby-hall,name,False
+2082,Martin,,absent,0,,,,,,,,,,,,,,
+2083,Marton in the Forest,20.0,value,1,41976,Marton [in the Forest],Yorkshire,1.0,1.0,0.37,20.0,7.0,192.0,,,SE6068/marton-in-the-forest,name,False
+2084,Mortham,26.0,value,1,44031,Mortham [Tower],Yorkshire,1.0,0.0,0.32,,,,,,NZ0814/mortham-tower,name,False
+2085,Morton,0.0,value,3,44116,Morton [Grange],Yorkshire,1.0,0.0,0.0,,,,,,NZ5514/morton-grange,name,False
+2086,Mowthorpe,5.0,value,0,44301,[Low] Mowthorpe [Farm],Yorkshire,1.0,0.0,0.5,,,,,,SE6869/low-mowthorpe-farm,name,False
+2087,Moxby,17.0,value,1,44306,Moxby [Hall],Yorkshire,1.0,0.0,0.45,,,,,,SE5966/moxby-hall,name,False
+2088,Newby on Swale,,absent,0,,,,,,,,,,,,,,
+2089,Newham,0.0,value,3,45141,Newham [Hall],Yorkshire,1.0,0.0,0.29,,,120.0,,,NZ5113/newham-hall,name,False
+2090,Newsham by Breckenbrough,,absent,0,,,,,,,,,,,,,,
+2091,Newsham by Butterwick,66.0,value,5,45281,Newsham,Yorkshire,0.538,2.0,0.72,9.867,4.1,140.0,,,SE7476/newsham,reference+name,False
+2092,Newton Picot,1.0,value,1,45636,`Newton [Picot]',Yorkshire,1.0,0.0,0.31,,,,,,SE3189/newton-picot,name,False
+2093,West Newton,0.0,value,1,45531,[East] Newton,Yorkshire,1.0,0.0,0.0,2.867,1.1,200.0,,,SE6479/east-newton,name,True
+2094,Norton Conyers,21.0,value,1,46241,Norton [Conyers],Yorkshire,1.0,0.0,0.29,,,,,,SE3176/norton-conyers,name,False
+2095,Osgodby,,absent,0,47391,Osgoodby [Hall],Yorkshire,0.933,0.0,0.72,,,,,,SE4980/osgoodby-hall,name,False
+2096,North Otterington,0.0,value,1,47536,[North] Otterington,Yorkshire,1.0,0.0,0.29,,,,,,SE3689/north-otterington,name,False
+2097,Pinchinthorpe,,absent,0,49286,[Pinchin]thorpe [Hall],Yorkshire,0.867,0.0,0.43,,,,,,NZ5714/pinchinthorpe-hall,name,False
+2098,Prestby,51.0,value,1,50106,`Prestby',Yorkshire,1.0,0.0,0.14,,,,,,NZ9011/prestby,name,False
+2099,Preston,41.0,value,1,50231,Preston [Hill],Yorkshire,1.0,0.0,0.2,,,,,,SE9784/preston-hill,name,False
+2100,Raventhorpe,,absent,0,51231,Ravensthorpe [Manor],Yorkshire,0.957,0.0,1.82,,,,,,SE4985/ravensthorpe-manor,name,False
+2101,Riccal,0.0,value,1,51691,Riccal [House],Yorkshire,1.0,0.0,0.14,,,,,,SE6780/riccal-house,name,False
+2102,Roberthorpe,,absent,0,,,,,,,,,,,,,,
+2103,Rokeby,0.0,value,1,52381,Rokeby [Hall],Yorkshire,1.0,0.0,0.14,,,,,,NZ0814/rokeby-hall,name,False
+2104,Rook Barugh,,absent,0,,,,,,,,,,,,,,
+2105,Rookwith,0.0,value,1,52481,Rookwith,Yorkshire,1.0,0.0,0.87,,,,,,SE2086/rookwith,name,False
+2106,Rotherford,,absent,0,,,,,,,,,,,,,,
+2107,Roxby by Thornton le Dale,30.0,value,1,,,,,,,,,,,,,,
+2108,Roxby in Pickhill,,absent,0,,,,,,,,,,,,,,
+2109,Ruswick,0.0,value,1,53201,Ruswick,Yorkshire,1.0,0.0,0.0,,,,,,SE1989/ruswick,name,False
+2110,Drewton,11.0,value,1,21186,Drewton,Yorkshire,1.0,1.0,0.2,11.0,4.0,384.0,,,SE9233/drewton,name,False
+2111,Dyke,53.0,value,1,38756,[Lelley] Dyke,Yorkshire,1.0,0.0,0.37,,,,,,TA2133/lelley-dyke,name,False
+2112,Eastburn,0.0,value,1,21931,Eastburn,Yorkshire,1.0,0.0,0.41,,,,,,SE9955/eastburn,name,False
+2113,Easthorpe,5.0,value,2,21991,Easthorpe,Yorkshire,1.0,1.0,0.42,5.0,4.0,192.0,2.0,,SE8845/easthorpe,name,False
+2114,Easton,8.0,value,2,22081,Easton,Yorkshire,1.0,0.0,0.57,,,120.0,,,TA1568/easton,name,False
+2115,Eddlethorpe,0.0,value,2,22461,Eddlethorpe,Yorkshire,1.0,0.0,0.45,,,120.0,,,SE7766/eddlethorpe,name,False
+2116,Enthorpe,,absent,0,,,,,,,,,,,,,,
+2117,Eske,7.0,value,1,23596,Eske,Yorkshire,1.0,1.0,0.97,7.0,2.0,,,,TA0643/eske,name,False
+2118,Etherdwick,55.0,value,1,23686,Etherdwick,Yorkshire,1.0,0.0,0.36,,,,,,TA2337/etherdwick,name,False
+2119,East Flotmanby,27.0,value,2,,,,,,,,,,,,,,
+2120,West Flotmanby,27.0,value,2,,,,,,,,,,,,,,
+2121,Fosham,44.0,value,1,25531,Fosham,Yorkshire,1.0,0.0,0.6,,,,,,TA2038/fosham,name,False
+2122,Gardham,53.0,value,2,26411,Gardham,Yorkshire,1.0,0.0,1.58,,,,,,SE9542/gardham,name,False
+2123,Garrowby,2.0,value,2,26441,Garrowby [Hall],Yorkshire,1.0,1.0,1.01,2.0,2.0,96.0,,,SE7957/garrowby-hall,name,False
+2124,Little Givendale,0.0,value,0,26841,[Little] Givendale,Yorkshire,1.0,0.0,0.45,,,,,,SE8253/little-givendale,name,False
+2125,Goxhill,34.0,value,1,27356,Goxhill,Yorkshire,1.0,0.0,0.3,,,,,,TA1844/goxhill,name,False
+2126,Greenoak,,absent,0,,,,,,,,,,,,,,
+2127,Grimston in Garton,36.0,value,2,,,,,,,,,,,,,,
+2128,"Grimston, Hanging",0.0,value,2,27891,[Hanging] Grimston,Yorkshire,1.0,0.0,0.72,,,36.0,,,SE8060/hanging-grimston,name,False
+2129,Grimthorpe,38.0,value,1,27901,Grimthorpe [Manor],Yorkshire,1.0,0.0,0.57,,,,,,SE8152/grimthorpe-manor,name,False
+2130,Gunby,3.0,value,1,28106,Gunby,Yorkshire,1.0,1.0,0.46,3.0,2.0,720.0,,,SE7035/gunby,name,False
+2131,Hartburn,,absent,0,,,,,,,,,,,,,,
+2132,Hilderthorpe,14.0,value,2,31756,Hilderthorpe,Yorkshire,1.0,1.0,0.14,6.0,1.0,120.0,,,TA1765/hilderthorpe,name,False
+2133,Holm Archiepiscopi,,absent,0,,,,,,,,,,,,,,
+2134,Houghton,18.0,value,3,33596,Houghton,Yorkshire,1.0,1.0,1.07,5.0,1.5,240.0,,,SE8939/houghton,name,False
+2135,Hundeburton,,absent,0,,,,,,,,,,,,,,
+2136,Hunsley,6.0,value,2,,,,,,,,,,,,,,
+2137,"Keeling, Nun",2.0,value,2,46411,[Nun]keeling,Yorkshire,1.0,1.0,0.36,1.0,,,,,TA1450/nunkeeling,name,False
+2138,Kelleythorpe,0.0,value,2,35391,Kelleythorpe,Yorkshire,1.0,0.0,0.31,,,,1.0,,TA0156/kelleythorpe,name,False
+2139,Kettlethorpe,0.0,value,2,35811,[Kettle]thorpe,Yorkshire,1.0,0.0,0.14,,,,,,SE9133/kettlethorpe,name,False
+2140,Kilnwick Percy,38.0,value,2,36086,Kilnwick [Percy],Yorkshire,1.0,0.0,0.23,,,,,,SE8249/kilnwick-percy,name,False
+2141,Kiplingcotes,0.0,value,3,36541,Kipling Cotes,Yorkshire,1.0,0.0,0.55,,,,,,SE9047/kipling-cotes,name,False
+2142,Kirkham,13.0,value,2,36761,Kirkham,Yorkshire,1.0,1.0,0.5,13.0,6.0,480.0,1.0,,SE7366/kirkham,name,False
+2143,Linton,0.0,value,0,39386,Linton,Yorkshire,1.0,0.0,0.51,,,,,,SE9070/linton,name,False
+2144,East Linton,,absent,0,22146,Eastrington,Yorkshire,0.857,0.0,1.3,,,,,,SE7929/eastrington,name,True
+2145,West Linton,,absent,0,,,,,,,,,,,,,,
+2146,"Lund, Garth",,absent,0,,,,,,,,,,,,,,
+2147,Meaux,44.0,value,1,42181,Meaux,Yorkshire,1.0,0.0,0.22,,,,,,TA0940/meaux,name,False
+2148,Menethorpe,18.0,value,3,42451,Menethorpe,Yorkshire,1.0,1.0,0.56,18.0,6.0,60.0,1.0,,SE7667/menethorpe,name,False
+2149,Metham,,absent,0,,,,,,,,,,,,,,
+2150,Monkwith,6.0,value,1,43711,Monkwith,Yorkshire,1.0,1.0,0.59,6.0,3.0,120.0,,,TA3032/monkwith,name,False
+2151,Moreby,17.0,value,2,43871,Moreby [Hall],Yorkshire,1.0,2.0,0.2,5.857,1.714,36.0,,,SE5943/moreby-hall,name,False
+2152,Mowthorpe,5.0,value,1,44296,[Low] Mowthorpe,Yorkshire,1.0,0.0,0.5,,,,,,SE8967/low-mowthorpe,name,False
+2153,Neswick,0.0,value,1,44876,Neswick [Hall],Yorkshire,1.0,0.0,0.32,,,,,,SE9752/neswick-hall,name,False
+2154,Newsham,,absent,0,,,,,,,,,,,,,,
+2155,Newsome Mowthorne,17.0,value,1,,,,,,,,,,,,,,
+2156,Newton in Cottingham,,absent,0,,,,,,,,,,,,,,
+2157,Newton in Paull,53.0,value,1,,,,,,,,,,,,,,
+2158,"Newton, Place",0.0,value,1,45486,Newton,Yorkshire,1.0,0.0,0.1,,,,,,SE8872/newton,name,False
+2159,Nuthill,53.0,value,1,46486,Nuthill,Yorkshire,1.0,0.0,0.5,,,,,,TA2129/nuthill,name,False
+2160,Octon,0.0,value,1,46781,Octon,Yorkshire,1.0,0.0,0.59,,,,,,TA0369/octon,name,False
+2161,Ousethorpe,38.0,value,1,,,,,,,,,,,,,,
+2162,Owsthorpe,99.0,value,1,47836,Owsthorpe,Yorkshire,1.0,0.0,0.72,,,,,,SE8030/owsthorpe,name,False
+2163,Penisthorpe,,absent,0,,,,,,,,,,,,,,
+2164,Pockthorpe,13.0,value,1,49576,Pockthorpe,Yorkshire,1.0,0.0,0.53,,,,,,TA0463/pockthorpe,name,False
+2165,Raisthorpe,50.0,value,3,50986,Raisthorpe,Yorkshire,1.0,0.0,0.2,,,480.0,,,SE8561/raisthorpe,name,False
+2166,Ravenserod,,absent,0,,,,,,,,,,,,,,
+2167,Ravensthorpe,14.0,value,2,,,,,,,,,,,,,,
+2168,Ringborough,117.0,value,3,51871,Ringbrough,Yorkshire,0.952,0.0,0.21,,,,,,TA2737/ringbrough,name,False
+2169,Riplingham,19.0,value,1,51976,Riplingham,Yorkshire,1.0,0.0,0.72,,,,,,SE9632/riplingham,name,False
+2170,Risby,0.0,value,1,52046,Risby,Yorkshire,1.0,0.0,0.72,,,,,,TA0034/risby,name,False
+2171,Rotsea,0.0,value,0,52661,Rotsea,Yorkshire,1.0,0.0,0.1,,,,,,TA0651/rotsea,name,False
+2172,Rowley,,absent,0,,,,,,,,,,,,,,
+2173,Rowton,44.0,value,1,52816,Rowton [Farm],Yorkshire,1.0,0.0,0.43,,,,,,TA1340/rowton-farm,name,False
+2174,Scorborough,53.0,value,1,54306,Scorborough,Yorkshire,1.0,0.0,0.0,,,,,,TA0145/scorborough,name,False
+2175,Scoreby,6.0,value,1,54311,Scoreby [Manor],Yorkshire,1.0,1.0,0.5,6.0,4.0,480.0,,,SE6952/scoreby-manor,name,False
+2176,Sewerby,1.0,value,3,54836,Sewerby,Yorkshire,1.0,0.0,0.94,,,,,,TA1968/sewerby,name,False
+2177,Skeckling,53.0,value,0,56271,Skeckling,Yorkshire,1.0,0.0,0.72,,,,,,TA2228/skeckling,name,False
+2178,High Skirlington,18.0,value,1,56461,[High] Skirlington,Yorkshire,1.0,0.0,0.52,,,,,,TA1852/high-skirlington,name,False
+2179,Sledmere,0.0,value,2,56541,Sledmere,Yorkshire,1.0,0.0,0.51,,,,,,SE9364/sledmere,name,False
+2180,Southorpe,18.0,value,1,57301,[Sou]thorpe,Yorkshire,1.0,0.0,0.2,,,,,,TA1946/southorpe,name,False
+2181,Storkhill,2.0,value,1,59586,Stork[hill],Yorkshire,1.0,1.0,0.86,2.0,1.0,,,,TA0442/storkhill,name,False
+2182,Sunderlandwick,0.0,value,2,60476,[Old] Sunderlandwick,Yorkshire,1.0,0.0,0.6,,,84.0,,,TA0154/old-sunderlandwick,name,False
+2183,Sutton,7.0,value,4,60716,Sutton [Grange],Yorkshire,1.0,0.0,0.1,,,120.0,,,SE7970/sutton-grange,name,False
+2184,Swaythorpe,0.0,value,1,61086,Swaythorpe,Yorkshire,1.0,0.0,0.54,,,,,,TA0369/swaythorpe,name,False
+2185,Tansterne,55.0,value,1,61536,Tansterne,Yorkshire,1.0,0.0,0.23,,,,,,TA2237/tansterne,name,False
+2186,Thirkleby,5.0,value,2,62201,Thirkleby [Manor],Yorkshire,1.0,0.0,0.55,,,,,,SE9268/thirkleby-manor,name,False
+2187,Thoralby in Bugthorpe,0.0,value,1,,,,,,,,,,,,,,
+2188,Thoralby in Kirby Grindalythe,,absent,0,,,,,,,,,,,,,,
+2189,Thornthorpe,0.0,value,1,62571,Thornthorpe,Yorkshire,1.0,0.0,0.43,,,,,,SE7867/thornthorpe,name,False
+2190,Thorpe in Rudston,0.0,value,0,,,,,,,,,,,,,,
+2191,Thorpe le Street,0.0,value,2,62966,Thorpe [le Street],Yorkshire,1.0,0.0,0.54,,,,,,SE8344/thorpe-le-street,name,False
+2192,Thorpe Lidget,99.0,value,1,62976,Thorpe [Lidget],Yorkshire,1.0,0.0,0.0,,,,,,SE7629/thorpe-lidget,name,False
+2193,Totleys,44.0,value,1,64521,Totleys [Farm],Yorkshire,1.0,0.0,0.42,,,,,,TA2327/totleys-farm,name,False
+2194,Towthorpe in Londesborough,22.0,value,0,,,,,,,,,,,,,,
+2195,Towthorpe in Wharram Percy,0.0,value,1,,,,,,,,,,,,,,
+2196,Tranby,,absent,0,,,,,,,,,,,,,,
+2197,Waplington,38.0,value,1,67296,Waplington [Hall],Yorkshire,1.0,0.0,0.0,,,,,,SE7746/waplington-hall,name,False
+2198,Wauldby,59.0,value,1,67861,Wauldby,Yorkshire,1.0,0.0,0.95,,,,,,SE9629/wauldby,name,False
+2199,Weedley,,absent,0,,,,,,,,,,,,,,
+2200,Welham,12.0,value,3,68211,Welham,Yorkshire,1.0,0.0,0.29,,,,,,SE7869/welham,name,False
+2201,Wharram Percy,0.0,value,2,69296,Wharram [Percy],Yorkshire,1.0,0.0,0.43,,,840.0,,,SE8564/wharram-percy,name,False
+2202,Willerby,8.0,value,1,70506,Willerby,Yorkshire,1.0,0.0,0.37,,,,,,TA0079/willerby,name,False
+2203,Wilsthorpe,8.0,value,2,70826,Wilsthorpe,Yorkshire,1.0,0.0,0.72,,,,,,TA1764/wilsthorpe,name,False
+2204,Winkton,1.0,value,1,71146,`Winkton',Yorkshire,1.0,0.0,0.76,,,,,,TA1559/winkton,name,False
+2205,Wolfreton,19.0,value,1,71906,Wolfreton,Yorkshire,1.0,0.0,0.9,,,,,,TA0329/wolfreton,name,False
+2206,Ainderby Mires,59.0,value,1,531,Ainderby [Mires],Yorkshire,1.0,0.0,0.29,12.0,5.0,480.0,,,SE2592/ainderby-mires,name,False
+2207,Airyholme,,absent,0,,,,,,,,,,,,,,
+2208,Akebar,,absent,0,,,,,,,,,,,,,,
+2209,Allerthorpe,38.0,value,1,1096,Allerthorpe [Hall],Yorkshire,1.0,0.0,0.6,,,,,,SE3286/allerthorpe-hall,name,False
+2210,East Appleton,0.0,value,1,1976,[East] Appleton,Yorkshire,1.0,0.0,0.22,,2.0,60.0,,,SE2395/east-appleton,name,False
+2211,West Appleton,,absent,0,1976,[East] Appleton,Yorkshire,1.0,0.0,2.03,,2.0,60.0,,,SE2395/east-appleton,name,True
+2212,Aske,8.0,value,1,2886,Aske [Hall],Yorkshire,1.0,1.0,0.74,8.0,3.0,,,,NZ1703/aske-hall,name,False
+2213,Baldersby,0.0,value,1,3966,Baldersby,Yorkshire,1.0,0.0,0.1,,,,,,SE3578/baldersby,name,False
+2214,Barforth on Tees,26.0,value,1,,,,,,,,,,,,,,
+2215,Barnaby,0.0,value,1,4406,Barnaby,Yorkshire,1.0,0.0,0.79,,,,,,NZ5716/barnaby,name,False
+2216,Barnby,20.0,value,1,4451,Barnby [House],Yorkshire,1.0,1.0,0.51,6.667,4.0,240.0,,,SE7260/barnby-house,name,False
+2217,Barwick,16.0,value,1,4931,Barwick,Yorkshire,1.0,0.0,0.33,,,,,,NZ4314/barwick,name,False
+2218,Baxby,54.0,value,2,5266,Baxby,Yorkshire,1.0,0.0,0.43,,,,,,SE5175/baxby,name,False
+2219,Birkby,0.0,value,1,7151,Birkby,Yorkshire,1.0,0.0,0.52,,,,,,NZ3302/birkby,name,False
+2220,Birkhou,,absent,0,,,,,,,,,,,,,,
+2221,East Bolton,,absent,0,8046,[Castle] Bolton,Yorkshire,1.0,0.0,0.86,,,,,,SE0391/castle-bolton,name,True
+2222,West Bolton,0.0,value,1,8076,[West] Bolton,Yorkshire,1.0,0.0,0.72,,,,,,SE0290/west-bolton,name,False
