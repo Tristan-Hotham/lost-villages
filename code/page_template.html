@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Villages That Vanished</title>
+<meta name="description" content="England's {{n_sites|int}} deserted medieval villages, mapped from Beresford's Lost Villages and set against Domesday Book. Where they were, how big they were in 1086, and when and why they emptied.">
+<meta property="og:title" content="The Villages That Vanished">
+<meta property="og:description" content="{{n_sites|int}} lost villages of England. The doomed were already smaller in 1086, and most dated desertions came long after the Black Death.">
+<meta property="og:image" content="https://tristan-hotham.github.io/lost-villages/header.png">
+<meta property="og:url" content="https://tristan-hotham.github.io/lost-villages/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Pasture over earthworks. Period colours: violet before the Black Death, rust for the plague century,
+   fleece gold for the enclosure century, green for 1550 to 1699, blue for 1700 onwards, ghost grey undated. */
+:root{
+  --bg:#EEEDE3; --panel:#E3E2D4; --fg:#1C1D18; --muted:#65665A; --rule:#D2D1C1; --card:#F8F7F0; --border:#C2C1AC;
+  --hot:#B4441C; --sage:#56744A; --gold:#A87400;
+  --p0:#6B5B95; --p1:#B4441C; --p2:#C28A12; --p3:#3F7F5E; --p4:#2F6699; --pn:#9C9A88;
+  --t0:#1C1D18; --t1:#56744A; --t2:#B4441C; --t3:#2F6699;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141612; --panel:#1D201A; --fg:#E9E9DE; --muted:#A3A495; --rule:#33362D; --card:#1F221B; --border:#45493D;
+  --hot:#EE7444; --sage:#8DB07A; --gold:#DDAA3E;
+  --p0:#A898D8; --p1:#F07A4C; --p2:#E8B640; --p3:#6CC096; --p4:#71A9E6; --pn:#6B6C5F;
+  --t0:#E9E9DE; --t1:#8DB07A; --t2:#EE7444; --t3:#71A9E6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141612; --panel:#1D201A; --fg:#E9E9DE; --muted:#A3A495; --rule:#33362D; --card:#1F221B; --border:#45493D;
+  --hot:#EE7444; --sage:#8DB07A; --gold:#DDAA3E;
+  --p0:#A898D8; --p1:#F07A4C; --p2:#E8B640; --p3:#6CC096; --p4:#71A9E6; --pn:#6B6C5F;
+  --t0:#E9E9DE; --t1:#8DB07A; --t2:#EE7444; --t3:#71A9E6; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1080px,calc(100vw - 32px));margin-left:calc((100% - min(1080px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+header.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 24px;align-items:end;border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(48px,12vw,104px)/.88 var(--display);letter-spacing:-.02em;margin:0;text-wrap:balance;font-variation-settings:"SOFT" 50}
+h1 em{font-style:normal;color:var(--hot)}
+h1 .ghost{opacity:.38}
+.mark{width:clamp(84px,19vw,160px);height:auto;display:block}
+.dek{grid-column:1/-1;font-size:21px;line-height:1.42;margin:8px 0 0;max-width:46ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--hot)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(28px,6vw,40px)/1 var(--display);color:var(--fg)}
+.stats b.h{color:var(--hot)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:270px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset:2px}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:3px;overflow:hidden;max-width:100%}
+.seg .btn{border:0;border-radius:0;border-right:1px solid var(--border)}
+.seg .btn:last-child{border-right:0}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:16px;padding:7px 10px 7px 8px;cursor:pointer;min-height:32px;display:inline-flex;align-items:center;gap:6px}
+.chip i{width:11px;height:11px;border-radius:50%;display:inline-block}
+.chip[aria-pressed="false"]{opacity:.42;text-decoration:line-through}
+select{font:400 13px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px;min-height:36px;max-width:100%}
+.searchbox{position:relative;flex:1 1 200px;min-width:0}
+input[type=search]{font:400 14px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:9px 10px;min-height:36px;width:100%}
+.suggest{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:var(--card);border:1px solid var(--border);z-index:1001;font:400 13px/1.3 var(--mono);display:none;max-height:300px;overflow:auto}
+.suggest li{padding:8px 10px;cursor:pointer;border-bottom:1px solid var(--rule)}
+.suggest li span{color:var(--muted)}
+.suggest li[aria-selected="true"],.suggest li:hover{background:var(--panel)}
+.count{font:400 12px/1.3 var(--mono);color:var(--muted);margin:6px 0 8px}
+#lmap{height:660px;border:1px solid var(--border);background:var(--panel);border-radius:2px}
+@media (max-width:600px){#lmap{height:500px}}
+.leaflet-container{font:400 12px/1.4 var(--mono);background:var(--panel)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--card);color:var(--fg);border-radius:3px;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.leaflet-popup-content{margin:12px 14px;font:400 12.5px/1.45 var(--mono);min-width:220px}
+.leaflet-container a.leaflet-popup-close-button{color:var(--muted)}
+.leaflet-bar a,.leaflet-bar a:hover{background:var(--card);color:var(--fg);border-bottom-color:var(--border)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)}
+.leaflet-control-attribution a{color:var(--fg)}
+.pop b.t{font:600 18px/1.2 var(--display);display:block;margin-bottom:2px}
+.pop .c{color:var(--muted);margin-bottom:6px}
+.pop .ty{display:inline-block;font-weight:500;padding:2px 6px;border-radius:2px;color:#fff;margin:2px 0 4px}
+.pop dl{display:grid;grid-template-columns:auto 1fr;gap:1px 10px;margin:4px 0 6px}
+.pop dt{color:var(--muted)}.pop dd{margin:0}
+.pop .sec{font-weight:500;margin-top:8px;border-top:1px solid var(--rule);padding-top:6px}
+.pop .q{font:italic 400 13.5px/1.45 var(--body);margin:6px 0;max-height:150px;overflow:auto}
+.pop .pnote{font-size:11.5px;color:var(--muted);margin:4px 0}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px;border:1px solid var(--bg)}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--hot);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right;white-space:nowrap}
+table.t td small{color:var(--muted);display:block}
+.tablewrap{overflow-x:auto}
+@media (max-width:600px){table.t .wide{display:none}}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}
+@media (max-width:600px){.cards{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--border);border-top:4px solid var(--p1);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card.enclosure,.card.pasture{border-top-color:var(--p2)}.card.water{border-top-color:var(--p4)}.card.sea{border-top-color:var(--p3)}
+.card b{font:600 20px/1.2 var(--display);display:block;margin-bottom:2px}
+.card .k{color:var(--muted);margin-bottom:6px}
+.card blockquote{margin:6px 0;font:italic 400 15px/1.45 var(--body)}
+.card .go{font:500 12px/1 var(--mono);margin-top:8px;display:inline-block;cursor:pointer;text-decoration:underline;text-decoration-color:var(--hot);background:none;border:0;padding:0;color:var(--fg)}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1002}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>History × data</span><span>England, 1086 to 1945</span></div>
+<header class="hero">
+  <h1>The villages that <em>vanished</em></h1>
+  <svg class="mark" viewBox="-100 -100 200 200" aria-hidden="true"><g id="heroMark"></g></svg>
+  <p class="dek">England is scattered with the ghosts of villages: house platforms under pasture, a church alone in a field, a name on an old tax roll. I mapped all {{n_sites|int}} in Beresford's Lost Villages and set them against Domesday Book to ask where they were, how big they were, and when and why they emptied.</p>
+</header>
+<div class="byline">Dr Tristan Hotham, Independent researcher · October 2026 · Data: Beresford's Lost Villages (University of Hull), Hull Domesday Project</div>
+
+<div class="stats">
+  <div><b>{{n_sites|int}}</b><span>lost village sites mapped, {{n_deserted|int}} of them deserted villages or hamlets</span></div>
+  <div><b class="h">{{hh_lost_median|f0}} v {{hh_surv_median|f0}}</b><span>median households in 1086: places later deserted against places that survived</span></div>
+  <div><b class="h">{{hh_lost_below_county_median|pct}}</b><span>of doomed Domesday places were smaller than the middle place in their county</span></div>
+  <div><b>{{periods.1.share|pct}}</b><span>of dated depopulation falls in the century after the Black Death (1348 to 1449)</span></div>
+</div>
+
+<p class="lede">Walk across a sheep pasture in Northamptonshire or the Yorkshire Wolds on a low winter afternoon and the ground starts to talk. A sunken lane runs between grassy banks. Rectangles of raised turf mark where houses stood. Ridge and furrow, the ploughland of a vanished open field, runs up to the edge of it all. These are deserted medieval villages, and England has thousands of them.</p>
+<p>In 1954 the historian Maurice Beresford brought them to national attention, and with the archaeologist John Hurst he compiled the first county-by-county gazetteer. The University of Hull has turned that 1968 list into an open database, <a href="https://dmv.wordpress.hull.ac.uk/">Beresford's Lost Villages</a>, with a location for every site and, for some counties, its full documentary record: Domesday Book, the medieval tax rolls, the census, and a written account of what is known.</p>
+<p>The popular story is simple: the Black Death came in 1348, the villagers died, the village was gone. The textbook answer is that lords later turned the fields over to sheep. I wanted to see what the record itself says, site by site, and to ask a question that needs a second dataset: were the doomed villages already different in 1086?</p>
+
+<h2><span class="n">01 · The map</span>Every lost village in the gazetteer</h2>
+<p>Each dot is a site. Colour shows the presumed date of depopulation where the record gives one; grey dots have none, because the full written record has so far been completed for only {{n_full_counties|int}} counties. Filter by date or type, search for a place, or tap any dot for its figures and a snippet of the record's own description.</p>
+<div class="figure bleed">
+  <div class="controls">
+    <div class="chips" id="pchips" role="group" aria-label="Presumed date of depopulation"></div>
+  </div>
+  <div class="controls">
+        <select id="tsel" aria-label="Site type"><option value="all">All site types</option></select>
+    <div class="seg" role="group" aria-label="Colour the dots by"><button class="btn" data-mode="date" aria-pressed="true">Colour by date</button><button class="btn" data-mode="type" aria-pressed="false">By type</button></div>
+    <div class="searchbox">
+      <input type="search" id="q" placeholder="Find a site, e.g. Wharram Percy" aria-label="Find a lost village" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="sug">
+      <ul class="suggest" id="sug" role="listbox"></ul>
+    </div>
+  </div>
+  <div class="count" id="count"></div>
+  <div id="lmap" role="region" aria-label="Map of {{n_sites|int}} lost village sites in England"></div>
+  <div class="legend" id="legend"></div>
+  <div class="src">Positions from the Hull database. For {{position_fixed|int}} sites its three position fields disagree; I used the one that a second field confirms (see the method). Click the map to let the scroll wheel zoom it.</div>
+</div>
+
+<h2><span class="n">02 · Where</span>A belt of loss</h2>
+<p>The gazetteer is densest in {{top_counties.0.county}} ({{top_counties.0.n|int}} sites), {{top_counties.1.county}} ({{top_counties.1.n|int}}) and {{top_counties.2.county}} ({{top_counties.2.n|int}}). But raw counts mix two things: how many villages a county had, and how hard people have looked. A fairer measure asks what share of each county's Domesday places later became lost villages.</p>
+<p>On that measure the pattern is stark. In {{dom_county_share.0.county}}, {{dom_county_share.0.share|pct}} of the places named in Domesday Book are now in the gazetteer as deserted; in {{dom_county_share.1.county}} and {{dom_county_share.2.county}}, nearly as many. In {{dom_county_share.-1.county}}, {{dom_county_share.-2.county}} and {{dom_county_share.-3.county}}, almost none are. Of {{dom_counties_n|int}} Domesday counties, {{dom_counties_over10|int}} lost one place in ten or more, and {{dom_counties_under3|int}} lost fewer than one in thirty.</p>
+<div class="figure">
+  <div class="controls"><div class="seg" role="group" aria-label="County measure">
+    <button class="btn" data-c="share" aria-pressed="true">Share of Domesday places lost</button>
+    <button class="btn" data-c="n" aria-pressed="false">Sites in the gazetteer</button></div></div>
+  <div class="fig-h" id="ctyH"></div>
+  <div class="fig-sub" id="ctyS"></div>
+  <div class="chart" id="county"></div>
+</div>
+<p>This is the old map of English farming. The losses run through the champion country of nucleated villages and great open fields, from Lincolnshire and the Midlands down to Hampshire and Berkshire. In the west and south-west, where people lived in scattered hamlets and farms, there were fewer villages to lose and fewer that the 1968 searchers recognised. I cannot fully separate those two causes, and the Hull team itself expects the list to grow.</p>
+
+<h2><span class="n">03 · 1086</span>Were the doomed already different?</h2>
+<p>Domesday Book lets us look at these villages long before they emptied. I matched each lost site to the Domesday place of the same name within 5 km, using the Hull Domesday Project data as prepared for my <a href="https://tristan-hotham.github.io/domesday-destiny/">Is Domesday Destiny?</a> study. {{matched_sites|int}} sites found a match. Leaving aside shrunken, shifted and doubtful sites, and matches where a "Little" or "North" site met a plain Domesday name, that gives {{dom_lost|int}} Domesday places later deserted, against {{dom_survivors|int}} that were not.</p>
+<p>The doomed were smaller, though not tiny. The median deserted place had {{hh_lost_median|f0}} households in 1086 (heads of household, not people), against {{hh_surv_median|f0}} for the places that survived. Because the deserted places cluster in particular counties, the fairer test is within each county: ranked against its own county's Domesday places, the typical doomed village sat at the {{hh_lost_county_pct_median|ordpct}} percentile, and {{hh_lost_below_county_median|pct}} were below the county's middle place.</p>
+<div class="figure">
+  <div class="fig-h">Share of Domesday places later deserted, by size in 1086</div>
+  <div class="fig-sub">Located Domesday places with a household figure, grouped by households recorded in 1086.</div>
+  <div class="chart" id="sizes"></div>
+  <div class="src">N = {{hh_lost_n|int}} later deserted, {{hh_surv_n|int}} survivors. A place counts as deserted when a deserted village or hamlet in the gazetteer matches it.</div>
+</div>
+<p>The risk peaked in the middle. {{loss_mid_share|pct}} of places with 6 to 20 households in 1086 later appear as deserted, against {{loss_by_size.4.share|pct1}} of places with more than 40. Big villages almost never vanished. The very smallest places, with 5 households or fewer, were not the most at risk either; many of them were outlying farms or manors that were never villages, and their loss would rarely leave earthworks that someone in 1968 would list.</p>
+<p>The doomed were poorer in the other measures too. The median deserted place had {{pt_lost_median|f1}} plough teams against {{pt_surv_median|f1}}, and was valued at {{val_lost_median|money}} against {{val_surv_median|money}}. But per household they ploughed about the same ({{ptph_lost_median|f2}} teams against {{ptph_surv_median|f2}}). They were not worse farms; they were smaller communities, with less to hold on with when hard times came.</p>
+<p class="pull">The villages that vanished were not marginal places. They were ordinary, smallish villages in good farming country.</p>
+
+<h2><span class="n">04 · Setting</span>Not on the margins</h2>
+<p>A classic explanation for desertion is that villages pushed onto poor, high or wet land in the land-hungry thirteenth century were the first to go. I measured the ground under every Domesday place: height, local relief within a kilometre, distance to the nearest watercourse and to the nearest Roman road.</p>
+<div class="figure">
+  <div class="tablewrap"><table class="t" id="env"></table></div>
+  <div class="src">Medians. "Within county" is the median rank of a deserted place among all its county's Domesday places on that measure: 50% means exactly typical.</div>
+</div>
+<p>The raw medians differ a little: deserted places sat on gentler ground and slightly further from water. But within each county almost all of that disappears; on every measure the typical deserted place ranks between the {{env.roman_m.lost_county_pct|ordpct}} and the {{env.elev_m.lost_county_pct|ordpct}} percentile. The differences reflect where the lost villages are, in the lowland champion belt, not where in their own landscape they were set. The median site in the whole gazetteer lies at {{lv_elev_median|f0}} m above sea level, and only {{lv_over_200m|int}} lie above 200 m.</p>
+
+<h2><span class="n">05 · Fading</span>Watching a village disappear from the tax rolls</h2>
+<p>For many sites the gazetteer copies each appearance in the national tax records. They let us watch villages thin out. The figures are not like for like: the 1377 poll tax counted nearly every adult over fourteen, while the 1524 and 1525 subsidies missed the poorest. Still, the drop is telling.</p>
+<div class="stats">
+  <div><b>{{poll1377_median|f0}}</b><span>median taxpayers in 1377, across {{poll1377_n|int}} lost villages with a count</span></div>
+  <div><b>{{sub1524_median|f0}}</b><span>median taxpayers in 1524, across {{sub1524_n|int}} with a count</span></div>
+  <div><b class="h">{{p1377_absent_1524_share|pct}}</b><span>of villages taxed in 1377 are not recorded at all in 1524 (of {{p1377_then_1524_n|int}})</span></div>
+  <div><b>{{sched_share|pct}}</b><span>of sites with a recorded status are scheduled monuments ({{sched_n|int}} of {{sched_known|int}})</span></div>
+</div>
+<p>Of the {{pair_1377_1524_n|int}} villages with a count in both years, the median fell from {{pair_1377_median|f0}} poll-tax payers to {{pair_1524_median|f0}} subsidy payers. Below are the biggest of them in 1377, with their Domesday figure (the minimum number of people the gazetteer counts there) and the 1801 census.</p>
+<div class="figure">
+  <div class="fig-h">The biggest lost villages of 1377, and what came after</div>
+  <div class="fig-sub">Sites with a count in Domesday, 1377 and 1524 ({{traj_n|int}} in all), by taxpayers in 1377.</div>
+  <div class="tablewrap"><table class="t" id="traj"></table></div>
+  <div class="src">A place can be "lost" yet keep a large parish population, because a census parish may cover several settlements; and a big 1377 count can cover a whole township. Read these as the record's figures for the named unit.</div>
+</div>
+<p>The name usually outlived the village. The National Archives' E179 database of tax records gives a last document year for {{e179_n|int}} of these places, and for {{e179_after1600|pct}} of them the last document is after 1600. The median last appearance is {{e179_median|raw}}. A township went on paying tax as a unit long after its houses had gone, which is one reason desertion is so hard to date from the documents alone.</p>
+
+<h2><span class="n">06 · When</span>After the plague, not because of it</h2>
+<p>For {{dated_n|int}} sites, all in the {{n_full_counties|int}} fully recorded counties, the record gives a presumed date of depopulation. Most are ranges ("1350-1450", "15th-16th century"), with a median width of {{dated_width_median|int}} years, so I spread each site's weight evenly across its range and added them up.</p>
+<div class="figure bleed">
+  <div class="fig-h">When the record says villages emptied</div>
+  <div class="fig-sub">Each dated site counts once, spread over its presumed date range. Sum by decade, {{dated_parsed|int}} sites with a usable date.</div>
+  <div class="chart" id="timeline"></div>
+  <div class="src">Undated text such as "Medieval" or "pre 17th century" is left out ({{dated_vague|int}} sites). "Post 1761" is read as 1761 to 1810. See the method.</div>
+</div>
+<p>The Black Death does not dominate. Only {{periods.1.share|pct}} of the dated weight falls in the century from 1348 to 1449, and {{periods.0.share|pct}} before it. In all, {{share_after_1450|pct}} falls after 1450. More falls in the century from 1450 to 1549, the age of the enclosure complaints ({{periods.2.share|pct}}), and the busiest single decade is the {{peak_decade|raw}}s. A good deal comes later still: {{periods.3.share|pct}} between 1550 and 1699, and {{periods.4.share|pct}} from 1700 onwards, when villages were cleared for landscape parks and enclosed by Act of Parliament.</p>
+<p>That fits what historians have argued since Beresford: the plague and the long fall in population afterwards weakened many villages, but the final blow usually came generations later, when a lord or a grazier turned the open fields into sheep pasture. Wharram Percy, the most famous lost village of all, tells the story in miniature.</p>
+<div class="cards" id="stories"></div>
+
+<h2><span class="n">07 · Why</span>What the record says</h2>
+<p>For {{desc_n|int}} sites the gazetteer has a written account. I searched those accounts for the main stories of desertion. A mention is not a verdict: an account may raise enclosure only to doubt it. But the counts show what the evidence keeps returning to.</p>
+<div class="figure">
+  <div class="fig-h">Sites whose written account mentions...</div>
+  <div class="fig-sub">Of {{desc_n|int}} sites with a description. A site can mention several.</div>
+  <div class="chart" id="causes"></div>
+  <div class="src">Pattern searches on the full description text; the exact patterns are in code/04_analyse.py. {{desc_any_cause|int}} sites mention at least one.</div>
+</div>
+<p>Enclosure and conversion to pasture ({{causes.0.n|int}} sites) and emparking ({{causes.1.n|int}}) come first, with monastic landholders ({{causes.3.n|int}}) close behind; some monastic houses, the Cistercians above all, cleared villages to make granges. The Black Death or plague is mentioned for {{causes.2.n|int}}, and the sea or flooding for {{causes.4.n|int}}, including the lost port of Ravenserod at the mouth of the Humber.</p>
+
+<h2><span class="n">08 · Limits</span>What this cannot tell you</h2>
+<p>The gazetteer is the 1968 list, digitised. It is not every lost village: the Hull team expects the sites identified since 1968 to at least double the total, and plans to add them. Coverage reflects where people searched as well as where villages died. The full documentary record exists only for {{n_full_counties|int}} counties ({{n_full_sites|int}} sites), so the dates, descriptions and scheduled status describe that sample, which leans to the south and east and to the East Riding of Yorkshire. Presumed dates are the record's judgement, often broad. Domesday counts heads of household on manors, not people in villages, and a lost village's households may sit inside a neighbour's entry. Name matching can err.</p>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>The gazetteer.</b> I read all {{n_sites|int}} records from the Village Explorer feature service of <a href="https://dmv.wordpress.hull.ac.uk/">Beresford's Lost Villages</a> (University of Hull). The service gives each site three positions (a grid reference, grid coordinates and latitude and longitude). For {{position_fixed|int}} sites they disagree; I kept the position that a second field confirms to within 1 km, preferring the grid reference. Site types: {{types.DMV|int}} deserted villages, {{types.DMH|int}} deserted hamlets, {{types.Shrunken|int}} shrunken, {{types.Shifted|int}} shifted and {{types.Migrated|int}} migrated villages, and {{types.Doubtful|int}} doubtful sites. The database's own ID number is not unique (some numbers are shared by sites in two counties), so I key sites by the service's row id.</p>
+  <p><b>Cleaning the figures.</b> Each documentary field is free text. A bare number is used as a value. A number with a note in brackets ("896 (Holme with)") usually means a figure shared with other places, so it counts as recorded but is not used as a size. "Not recorded" means the source survives but the place is not in it; "No surviving record" and blanks are left out of every denominator. Money is in pence, as in the source.</p>
+  <p><b>Dates.</b> "1350-1450" is read as written; "15th century" as 1400 to 1499; "early", "mid" and "late" as the first 40, middle 40 and last 40 years of a century; "post 1761" as 1761 to 1810; text naming several phases gives several ranges. Each site's weight of one is spread evenly over its years.</p>
+  <p><b>Domesday.</b> Each site is matched to a Domesday place within 5 km whose name agrees (after setting aside brackets, Great/Little and similar, and allowing small spelling differences), or that shares a Domesday entry with the site's own Domesday reference. Where both figures exist, my matched household count and the gazetteer's own minimum of individuals agree within one for {{check_within1|pct}} of {{check_both_n|int}} sites (rank correlation {{check_spearman|f2}}). {{qualifier_mismatch_sites|int}} matches where the site's name has a qualifier the Domesday name lacks are left out of the comparison.</p>
+  <p><b>Setting.</b> Height and relief from the AWS Terrain Tiles (about 100 m cells here); watercourses from OS Open Rivers, without canals; Roman roads from Itiner-e. Comparisons use medians, Mann-Whitney tests and within-county ranks.</p>
+</div>
+<div class="cta">
+  <a class="p" href="https://github.com/Tristan-Hotham/lost-villages">Data and code</a>
+  <a href="https://doi.org/10.5281/zenodo.23677161">Paper (Zenodo)</a>
+  <a href="https://dmv.wordpress.hull.ac.uk/">Beresford's Lost Villages</a>
+  <a href="https://tristan-hotham.github.io/domesday-destiny/">Is Domesday Destiny?</a>
+  <a href="https://blog.tristanhotham.com/">Blog</a>
+</div>
+<footer>
+  <p>Dr Tristan Hotham, Independent researcher. ORCID 0000-0003-4931-9349. Cite as: Hotham, T. (2026) The Villages That Vanished. Zenodo. <a href="https://doi.org/10.5281/zenodo.23677161">https://doi.org/10.5281/zenodo.23677161</a></p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+  <p>Lost villages: Beresford's Lost Villages, University of Hull (CC BY-NC-SA 4.0), built on Beresford and Hurst's 1968 gazetteer; descriptions quoted from it. Domesday data: Hull Domesday Project, Professor J.J.N. Palmer, George Slater and the University of Hull (CC BY-NC-SA), via the realm-domesday repository (embabel-worlds); place links: Open Domesday by Anna Powell-Smith. Elevation: AWS Terrain Tiles (Mapzen/Tilezen). Rivers: OS Open Rivers, contains OS data © Crown copyright and database right (OGL v3). Roman roads: Itiner-e (de Soto, Pažout, Brughmans and others 2025, CC BY 4.0). Base map tiles © Esri, HERE, Garmin, © OpenStreetMap contributors, and the GIS user community.</p>
+  <p>Because the main sources are CC BY-NC-SA, the derived data and the text of this page are released under CC BY-NC-SA 4.0. The code is released under the MIT licence. More studies: <a href="https://blog.tristanhotham.com/">blog.tristanhotham.com</a>.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const D = /*SITE*/;
+const R = /*RESULTS*/;
+const NS = "http://www.w3.org/2000/svg";
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const fmt = n => n == null ? "n/a" : Math.round(n).toLocaleString("en-GB");
+const fx = (x, d = 1) => x == null ? "n/a" : (x >= 100 ? fmt(x) : (Number.isInteger(x) ? String(x) : x.toFixed(x >= 10 ? 0 : d)));
+const pc = (x, d = 0) => (x * 100).toFixed(d) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const money = p => { if (p == null) return "n/a"; const d = Math.round(p), L = Math.floor(d / 240), s = Math.floor((d % 240) / 12), dd = d % 12; return [L ? "£" + L : "", s ? s + "s" : "", dd ? dd + "d" : ""].filter(Boolean).join(" ") || "0"; };
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+function hover(node, h) { node.style.cursor = "pointer"; node.setAttribute("tabindex", "0"); const s = () => { const r = node.getBoundingClientRect(); showTip(h, r.left + r.width / 2, r.top); }; node.addEventListener("pointerenter", s); node.addEventListener("pointerleave", hideTip); node.addEventListener("focus", s); node.addEventListener("blur", hideTip); node.addEventListener("click", e => { s(); e.stopPropagation(); }); }
+document.addEventListener("click", hideTip);
+const redraws = [];
+function resp(box, render) { let last = 0; const go = (force) => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); go(); redraws.push(() => go(true)); }
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+document.getElementById("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = isDark() ? "light" : "dark"; redraws.forEach(f => f()); };
+
+/* hero mark: a ghost village plan, a hollow way with house platforms fading out */
+(() => { const g = document.getElementById("heroMark");
+  el("path", { d: "M-92 30 C -40 10, 10 20, 92 -18", stroke: "var(--fg)", "stroke-width": 7, fill: "none", opacity: .18, "stroke-linecap": "round" }, g);
+  const plots = [[-78, 0], [-56, -6], [-34, -9], [-12, -9], [10, -12], [32, -17], [54, -24], [-70, 46], [-46, 40], [-22, 36], [2, 34], [26, 28], [50, 20]];
+  plots.forEach(([x, y], i) => { const up = y < 20; el("rect", { x: x - 9, y: up ? y - 26 : y, width: 18, height: 24, rx: 2, fill: i % 4 === 1 ? "var(--hot)" : "var(--fg)", opacity: (0.85 - i % 7 * 0.11).toFixed(2), transform: `rotate(${up ? -8 : -6} ${x} ${y})` }, g); });
+  for (let k = 0; k < 7; k++) el("line", { x1: -90 + k * 26, y1: 74, x2: -74 + k * 26, y2: 96, stroke: "var(--sage)", "stroke-width": 3, opacity: .5 }, g);
+})();
+
+/* ===== map ===== */
+const CO = D.counties, PER = D.periods, PCOL = ["--p0", "--p1", "--p2", "--p3", "--p4", "--pn", "--pn"];
+const TCOL = ["--t0", "--t1", "--t2", "--t2", "--t2", "--t3"];
+const S = D.sites.map((a, i) => ({ i, lat: a[0], lng: a[1], name: a[2], type: a[3], county: CO[a[4]], dom: a[5], s1334: a[6], p1377: a[7], s1524: a[8], c1801: a[9], per: a[10], dep: a[11], sch: a[12], snip: a[13], hh: a[14], path: a[15], parish: a[16], elev: a[17], dname: a[18] }));
+let mode = "date", lmap, tiles, markers = [];
+const perOn = PER.map(() => true); let typeSel = "all";
+function colOf(p) { return css(mode === "date" ? PCOL[p.per] : TCOL[p.type]); }
+function visible(p) { return perOn[p.per] && (typeSel === "all" || String(p.type) === typeSel); }
+function rad(z) { return Math.max(2.4, Math.min(9, 2.4 * Math.pow(1.35, z - 6))); }
+function popup(p) {
+  const row = (k, v) => v == null || v === "" ? "" : `<dt>${k}</dt><dd>${v}</dd>`;
+  let h = `<div class="pop"><b class="t">${esc(p.name)}</b><div class="c">${esc(p.county)}${p.parish ? ", parish of " + esc(p.parish) : ""}</div>`;
+  h += `<span class="ty" style="background:${css(TCOL[p.type])}">${esc(D.typeLabels[p.type])}</span>`;
+  h += `<dl>${row("Presumed depopulation", p.dep ? esc(p.dep) : null)}${row("Scheduled monument", p.sch === 1 ? "Yes" : p.sch === 0 ? "No" : null)}${row("Ground height", p.elev != null ? fmt(p.elev) + " m" : null)}</dl>`;
+  const any = [p.dom, p.s1334, p.p1377, p.s1524, p.c1801].some(v => v != null);
+  if (any) h += `<div class="sec">The record</div><dl>${row("Domesday 1086", p.dom != null ? (p.dom === 0 ? "named, no people recorded" : fx(p.dom) + " people (minimum)") : null)}${row("Lay subsidy 1334", p.s1334 != null ? money(p.s1334) + " paid" : null)}${row("Poll tax 1377", p.p1377 != null ? fx(p.p1377) + " taxpayers" : null)}${row("Lay subsidy 1524", p.s1524 != null ? fx(p.s1524) + " taxpayers" : null)}${row("Census 1801", p.c1801 != null ? fmt(p.c1801) + " people" : null)}</dl>`;
+  if (p.snip) h += `<div class="q">"${esc(p.snip)}"</div><div class="pnote">From the Beresford's Lost Villages description.</div>`;
+  if (p.path) h += `<div class="sec">Domesday match: ${esc(p.dname.replace(/[\[\]`']/g, ""))}</div><dl>${row("Households 1086", p.hh != null ? fx(p.hh) : "no figure")}</dl><a href="https://opendomesday.org/place/${encodeURI(p.path)}/" target="_blank" rel="noopener">Open Domesday entry</a>`;
+  return h + "</div>";
+}
+function legend() {
+  const box = document.getElementById("legend");
+  if (mode === "date") box.innerHTML = "<span>Presumed date of depopulation:</span>" + PER.slice(0, 5).map((c, i) => `<span><i style="background:var(${PCOL[i]})"></i>${c}</span>`).join("") + `<span><i style="background:var(--pn)"></i>No usable date</span>`;
+  else box.innerHTML = "<span>Site type:</span>" + [[0, "Deserted village"], [1, "Deserted hamlet"], [2, "Shrunken, shifted or migrated"], [5, "Doubtful"]].map(([i, t]) => `<span><i style="background:var(${TCOL[i]})"></i>${t}</span>`).join("");
+}
+function refresh() {
+  if (!lmap) return; const z = lmap.getZoom(); let n = 0;
+  markers.forEach(m => { const v = visible(m.p); if (v) { n++; m.setStyle({ fillColor: colOf(m.p), color: css("--bg"), radius: rad(z) }); if (!lmap.hasLayer(m)) m.addTo(lmap); } else if (lmap.hasLayer(m)) m.remove(); });
+  document.getElementById("count").textContent = `Showing ${fmt(n)} of ${fmt(S.length)} sites`; legend();
+}
+function tileUrl() { return `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${isDark() ? "Dark" : "Light"}_Gray_Base/MapServer/tile/{z}/{y}/{x}`; }
+(() => {
+  const pc_ = document.getElementById("pchips"); const cnt = PER.map((_, k) => S.filter(p => p.per === k).length);
+  PER.forEach((t, k) => { if (k === 5) return; const b = document.createElement("button"); b.className = "chip"; b.setAttribute("aria-pressed", "true");
+    b.innerHTML = `<i style="background:var(${PCOL[k]})"></i>${k === 6 ? "No date" : t} <span style="color:var(--muted)">${fmt(k === 6 ? cnt[5] + cnt[6] : cnt[k])}</span>`;
+    b.onclick = () => { const on = b.getAttribute("aria-pressed") !== "true"; b.setAttribute("aria-pressed", on); perOn[k] = on; if (k === 6) perOn[5] = on; refresh(); }; pc_.appendChild(b); });
+  const ts = document.getElementById("tsel"); D.typeLabels.forEach((t, i) => { const o = document.createElement("option"); o.value = i; o.textContent = `${t}s (${fmt(S.filter(p => p.type === i).length)})`; ts.appendChild(o); });
+  ts.onchange = () => { typeSel = ts.value; refresh(); };
+  if (!window.L) { document.getElementById("lmap").innerHTML = '<p style="padding:16px">The map library did not load.</p>'; return; }
+  lmap = L.map("lmap", { preferCanvas: true, zoomSnap: 0.5, minZoom: 5, maxZoom: 15, scrollWheelZoom: false });
+  lmap.fitBounds([[50.1, -5.6], [55.7, 1.8]], { padding: innerWidth < 600 ? [0, 0] : [10, 10] });
+  tiles = L.tileLayer(tileUrl(), { attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, and the GIS user community', maxZoom: 16 }).addTo(lmap);
+  const rend = L.canvas({ padding: 0.5, tolerance: 4 }), z = lmap.getZoom();
+  [...S].sort((a, b) => (b.per === 6) - (a.per === 6)).forEach(p => { const m = L.circleMarker([p.lat, p.lng], { renderer: rend, radius: rad(z), weight: 0.7, color: css("--bg"), opacity: 0.9, fillColor: colOf(p), fillOpacity: p.per >= 5 ? 0.62 : 0.92 });
+    m.p = p; p.m = m; m.bindPopup(() => popup(p), { maxWidth: 310, autoPanPadding: [20, 20] }); m.addTo(lmap); markers.push(m); });
+  lmap.on("zoomend", refresh); lmap.on("click focus", () => lmap.scrollWheelZoom.enable());
+  lmap.getContainer().addEventListener("mouseleave", () => lmap.scrollWheelZoom.disable());
+  document.querySelectorAll("[data-mode]").forEach(b => b.onclick = () => { mode = b.dataset.mode; document.querySelectorAll("[data-mode]").forEach(x => x.setAttribute("aria-pressed", x === b)); refresh(); });
+  redraws.push(() => { tiles.setUrl(tileUrl()); refresh(); });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => redraws.forEach(f => f()));
+  refresh();
+})();
+function flyTo(p) { if (!lmap) return; if (!visible(p)) { perOn.fill(true); typeSel = "all"; document.getElementById("tsel").value = "all"; document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", "true")); refresh(); } document.getElementById("lmap").scrollIntoView({ behavior: "smooth", block: "center" }); lmap.setView([p.lat, p.lng], 12); setTimeout(() => p.m.openPopup(), 400); }
+
+/* search */
+(() => {
+  const q = document.getElementById("q"), sug = document.getElementById("sug");
+  const norm = s => s.toLowerCase().replace(/[\[\]{}`'.,()]/g, "").replace(/\s+/g, " ").trim();
+  S.forEach(p => p.key = norm(p.name));
+  let list = [], sel = -1;
+  function go(p) { sug.style.display = "none"; q.setAttribute("aria-expanded", "false"); q.value = p.name; flyTo(p); }
+  function render() { sug.innerHTML = list.map((p, i) => `<li role="option" aria-selected="${i === sel}" data-i="${i}">${esc(p.name)} <span>${esc(p.county)}</span></li>`).join(""); sug.style.display = list.length ? "block" : "none"; q.setAttribute("aria-expanded", list.length > 0); }
+  q.addEventListener("input", () => { const t = norm(q.value); sel = -1; if (t.length < 2) { list = []; render(); return; }
+    const a = S.filter(p => p.key.startsWith(t)), b = S.filter(p => !p.key.startsWith(t) && p.key.includes(t)); list = [...a, ...b].slice(0, 10); render(); });
+  q.addEventListener("keydown", e => { if (!list.length) return; if (e.key === "ArrowDown") { sel = Math.min(list.length - 1, sel + 1); render(); e.preventDefault(); } else if (e.key === "ArrowUp") { sel = Math.max(0, sel - 1); render(); e.preventDefault(); } else if (e.key === "Enter") { go(list[Math.max(0, sel)]); e.preventDefault(); } else if (e.key === "Escape") { list = []; render(); } });
+  sug.addEventListener("click", e => { const li = e.target.closest("li"); if (li) go(list[+li.dataset.i]); e.stopPropagation(); });
+  document.addEventListener("click", e => { if (e.target !== q) { sug.style.display = "none"; q.setAttribute("aria-expanded", "false"); } });
+})();
+
+/* ===== county chart ===== */
+(() => { let cm = "share"; const box = document.getElementById("county"), H3 = document.getElementById("ctyH"), Sb = document.getElementById("ctyS");
+  function draw() { box.innerHTML = "";
+    const rs = cm === "share" ? R.dom_county_share.map(r => ({ c: r.county, v: r.share, t: `${fmt(r.lost)} of ${fmt(r.n)} located Domesday places later deserted` })) : R.by_county.map(r => ({ c: r.county, v: r.n, t: `${fmt(r.n)} sites in the gazetteer` }));
+    H3.textContent = cm === "share" ? "Share of each county's Domesday places that later became deserted villages" : "Lost village sites in the gazetteer, by historic county";
+    Sb.textContent = cm === "share" ? "Domesday counties with at least 100 located places. The far north was not surveyed in 1086." : "Yorkshire, Lincolnshire, Suffolk and Sussex counted whole; Isle of Wight with Hampshire.";
+    const W = Math.max(280, box.clientWidth), nar = W < 560, rowH = nar ? 19 : 20, m = { l: nar ? 116 : 150, r: 46, t: 4, b: 6 }, H = rs.length * rowH + m.t + m.b;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": H3.textContent }, box);
+    const max = Math.max(...rs.map(r => r.v)), X = v => m.l + v / max * (W - m.l - m.r);
+    rs.forEach((r, i) => { const y = m.t + i * rowH; lbl(svg, m.l - 8, y + 13, r.c, nar ? "lab s" : "lab", "end");
+      const b = el("rect", { x: m.l, y: y + 3, width: Math.max(1.5, X(r.v) - m.l), height: rowH - 6, rx: 2, fill: cm === "share" ? "var(--hot)" : "var(--sage)", opacity: cm === "share" ? (0.35 + 0.65 * r.v / max).toFixed(2) : 0.85 }, svg); hover(b, `<b>${esc(r.c)}</b><br>${r.t}`);
+      lbl(svg, X(r.v) + 5, y + 13, cm === "share" ? pc(r.v) : fmt(r.v), "lab s"); });
+  }
+  document.querySelectorAll("[data-c]").forEach(b => b.onclick = () => { cm = b.dataset.c; document.querySelectorAll("[data-c]").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); });
+  new ResizeObserver(draw).observe(box); draw(); redraws.push(draw);
+})();
+
+/* ===== size chart ===== */
+resp(document.getElementById("sizes"), (W, nar) => {
+  const rows = R.loss_by_size, rowH = 46, m = { l: nar ? 0 : 170, r: 60, t: 4, b: 26 }, H = rows.length * rowH + m.t + m.b;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Share of Domesday places later deserted, by 1086 households" }, document.getElementById("sizes"));
+  const max = 0.14, X = v => m.l + v / max * (W - m.l - m.r);
+  [0, .05, .1].forEach(t => { el("line", { x1: X(t), x2: X(t), y1: m.t, y2: H - m.b, stroke: "var(--rule)" }, svg); lbl(svg, X(t), H - 8, pc(t), "lab m s", "middle"); });
+  rows.forEach((r, i) => { const y = m.t + i * rowH + (nar ? 18 : 10);
+    lbl(svg, nar ? 0 : m.l - 10, nar ? y - 5 : y + 13, `${r.band} households`, "lab", nar ? "start" : "end");
+    const b = el("rect", { x: m.l, y, width: Math.max(2, X(r.share) - m.l), height: 18, rx: 2, fill: "var(--hot)", opacity: (0.4 + 0.6 * r.share / max).toFixed(2) }, svg);
+    hover(b, `<b>${r.band} households in 1086</b><br>${fmt(r.lost)} of ${fmt(r.n)} places later deserted (${pc(r.share, 1)})`);
+    lbl(svg, X(r.share) + 6, y + 13, pc(r.share, 1), "lab b"); });
+});
+
+/* ===== setting table ===== */
+(() => { const E = R.env, rows = [["Height above sea level", "elev_m", " m"], ["Local relief within 1 km", "relief_m", " m"], ["Distance to a watercourse", "river_m", " m"], ["Distance to a Roman road", "roman_m", " m"], ["Nearest other Domesday place", "nn_dom_km", " km"]];
+  document.getElementById("env").innerHTML = `<thead><tr><th>Measure</th><th class="num">Deserted</th><th class="num">Survived</th><th class="num">Within county</th></tr></thead><tbody>` + rows.map(([t, k, u]) => `<tr><td>${t}</td><td class="num">${fx(E[k].lost)}${u}</td><td class="num">${fx(E[k].surv)}${u}</td><td class="num">${pc(E[k].lost_county_pct)}</td></tr>`).join("") + "</tbody>"; })();
+
+/* ===== trajectory table ===== */
+document.getElementById("traj").innerHTML = `<thead><tr><th>Lost village</th><th class="num">1086</th><th class="num">1377</th><th class="num">1524</th><th class="num wide">1801</th></tr></thead><tbody>` + R.traj_examples.map(r => `<tr><td>${esc(r.name)}<small>${esc(r.county)}</small></td><td class="num">${fx(r.d1086)}</td><td class="num">${fx(r.p1377)}</td><td class="num">${fx(r.s1524)}</td><td class="num wide">${r.c1801 != null ? fmt(r.c1801) : "n/a"}</td></tr>`).join("") + `</tbody>`;
+
+/* ===== timeline ===== */
+resp(document.getElementById("timeline"), (W, nar) => {
+  const H = nar ? 320 : 380, m = { l: 40, r: 12, t: 54, b: 34 };
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Presumed depopulation by decade, 1100 to 1999" }, document.getElementById("timeline"));
+  const dec = R.decades, y0 = 1100, y1 = 2000, max = Math.ceil(Math.max(...dec.map(d => d[1])) / 2) * 2;
+  const X = y => m.l + (y - y0) / (y1 - y0) * (W - m.l - m.r), Y = v => H - m.b - v / max * (H - m.t - m.b);
+  const bands = [[1348, 1450, "--p1", nar ? "Plague" : "Black Death century"], [1450, 1550, "--p2", nar ? "Enclosure" : "Enclosure century"]];
+  bands.forEach(([a, b, c, t]) => { el("rect", { x: X(a), y: m.t - 4, width: X(b) - X(a), height: H - m.b - m.t + 4, fill: `var(${c})`, opacity: .12 }, svg); const top = c === "--p1"; lbl(svg, top ? X(b) - 4 : X(a) + 4, top ? m.t - 30 : m.t - 12, t, "lab s b", top ? "end" : "start"); el("line", { x1: top ? X(b) - 1 : X(a) + 1, x2: top ? X(b) - 1 : X(a) + 1, y1: top ? m.t - 26 : m.t - 8, y2: m.t - 4, stroke: `var(${c})`, "stroke-width": 2 }, svg); });
+  for (let v = 0; v <= max; v += 2) { el("line", { x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(v) + 4, v, "lab m s", "end"); }
+  for (let y = 1100; y <= 2000; y += (nar ? 200 : 100)) lbl(svg, X(y), H - m.b + 18, y, "lab m s", "middle");
+  const bw = (X(1110) - X(1100));
+  dec.forEach(([y, v]) => { const per = y < 1348 ? 0 : y < 1450 ? 1 : y < 1550 ? 2 : y < 1700 ? 3 : 4; const r = el("rect", { x: X(y) + 0.5, y: Y(v), width: Math.max(1, bw - 1), height: Y(0) - Y(v), fill: `var(${PCOL[per]})` }, svg);
+    if (v > 0) hover(r, `<b>${y}s</b><br>${v.toFixed(1)} sites' worth of presumed depopulation`); });
+  const yl = lbl(svg, 0, 0, "Sites per decade", "lab m s", "middle"); yl.setAttribute("transform", `translate(10 ${(m.t + H - m.b) / 2}) rotate(-90)`);
+});
+
+/* ===== story cards ===== */
+document.getElementById("stories").innerHTML = R.stories.map((s, i) => `<div class="card ${s.kind}"><b>${esc(s.name)}</b><div class="k">${esc(s.county)}${s.depop ? " · presumed depopulation " + esc(s.depop) : ""}</div>${s.quotes.map(q => `<blockquote>"${esc(q)}"</blockquote>`).join("")}<button class="go" data-s="${i}">Show on the map</button></div>`).join("");
+document.querySelectorAll("[data-s]").forEach(b => b.onclick = () => { const s = R.stories[+b.dataset.s]; const p = S.find(x => x.name === s.name && x.county === s.county); if (p) flyTo(p); });
+
+/* ===== causes ===== */
+resp(document.getElementById("causes"), (W, nar) => {
+  const rows = [...R.causes].sort((a, b) => b.n - a.n), rowH = nar ? 50 : 36, m = { l: nar ? 0 : 270, r: 70, t: 4, b: 6 }, H = rows.length * rowH + m.t + m.b;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Sites whose description mentions each cause" }, document.getElementById("causes"));
+  const max = Math.max(...rows.map(r => r.n)), X = v => m.l + v / max * (W - m.l - m.r);
+  const col = { enclosure: "--p2", park: "--p4", plague: "--p1", monastic: "--p0", water: "--p3" };
+  rows.forEach((r, i) => { const y = m.t + i * rowH + (nar ? 18 : 6);
+    lbl(svg, nar ? 0 : m.l - 10, nar ? y - 5 : y + 13, r.label, "lab", nar ? "start" : "end");
+    const b = el("rect", { x: m.l, y, width: Math.max(2, X(r.n) - m.l), height: 18, rx: 2, fill: `var(${col[r.key]})` }, svg);
+    hover(b, `<b>${esc(r.label)}</b><br>${fmt(r.n)} of ${fmt(R.desc_n)} described sites (${pc(r.share, 1)})`);
+    lbl(svg, X(r.n) + 6, y + 13, `${r.n} (${pc(r.share)})`, "lab b"); });
+});
+</script>
+</body>
+</html>
